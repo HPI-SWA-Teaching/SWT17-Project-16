@@ -1,4 +1,4 @@
-encode
+encoding
 encodeWithPayload: aPayload
 	^ (aPayload size asByteArrayOfSize: 3),
 	(self type asByteArrayOfSize: 1),

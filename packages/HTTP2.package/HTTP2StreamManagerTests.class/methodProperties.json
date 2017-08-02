@@ -4,8 +4,8 @@
 	"instance" : {
 		"testCloseConnection" : "H. G. 8/2/2017 16:58",
 		"testEstablishConnection" : "H. G. 8/2/2017 16:58",
-		"testFlowControlWindow" : "H. G. 7/16/2017 19:29",
-		"testHeaderLock" : "H. G. 7/18/2017 12:25",
+		"testFlowControlWindow" : "H. G. 8/2/2017 17:13",
+		"testHeaderLock" : "H. G. 8/2/2017 17:13",
 		"testReceiveGoaway" : "H. G. 8/2/2017 16:57",
 		"testReceivePing" : "H. G. 8/2/2017 16:57",
 		"testRequestResponseCommunication" : "H. G. 8/2/2017 16:56",

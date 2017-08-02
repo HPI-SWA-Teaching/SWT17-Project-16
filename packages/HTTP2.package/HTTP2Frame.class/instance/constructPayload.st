@@ -1,3 +1,3 @@
-type
+encoding
 constructPayload
 	^ self subclassResponsibility
