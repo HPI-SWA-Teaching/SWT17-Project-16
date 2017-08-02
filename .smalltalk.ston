@@ -3,7 +3,9 @@ SmalltalkCISpec {
     SCIMetacelloLoadSpec {
       #baseline : 'HTTP',
       #directory : '',
-      #platforms : [ #squeak]
+      #platforms : [ #squeak],
+      #load : [ 'tests' ],
+      #useLatestMetacello : true
     }
   ]
 }
