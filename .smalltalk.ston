@@ -1,8 +1,8 @@
 SmalltalkCISpec {
   #loading : [
     SCIMetacelloLoadSpec {
-      #baseline : 'HTTP2',
-      #directory : 'packages',
+      #baseline : 'HTTP',
+      #directory : '',
       #platforms : [ #squeak]
     }
   ]
