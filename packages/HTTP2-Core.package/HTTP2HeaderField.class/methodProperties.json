@@ -1,0 +1,22 @@
+{
+	"class" : {
+		"decodeIndexed:in:" : "H. G. 6/6/2017 17:53",
+		"decodeInteger:prefix:" : "H. G. 7/19/2017 02:59",
+		"decodeLiteralWithIndexing:in:" : "H. G. 7/19/2017 02:47",
+		"decodeLiteralWithoutIndexing:in:" : "H. G. 7/19/2017 03:01",
+		"decodeString:" : "H. G. 7/19/2017 02:46",
+		"key:value:" : "H. G. 6/18/2017 20:59",
+		"newFrom:in:" : "H. G. 7/18/2017 12:38" },
+	"instance" : {
+		"calculateSolutionFor:index:in:" : "jp 7/30/2017 18:30",
+		"encodeInteger:with:" : "jp 7/30/2017 18:40",
+		"encodeRemaindingInteger:with:" : "jp 7/30/2017 18:41",
+		"encodeString:" : "DS 5/31/2017 23:38",
+		"encodeWithPayload:" : "jp 7/15/2017 13:10",
+		"indexedRepresentation:" : "jp 6/6/2017 11:28",
+		"leadingBits" : "H. G. 6/18/2017 21:06",
+		"leadingBitsLength" : "H. G. 6/18/2017 21:06",
+		"literalRepresentation:prefix:length:" : "DS 6/21/2017 21:08",
+		"literalRepresentationIndexedKey:prefix:length:" : "DS 6/1/2017 16:53",
+		"literalRepresentationNewKey:" : "DS 6/1/2017 16:17",
+		"species" : "DS 6/1/2017 16:42" } }

@@ -1,0 +1,19 @@
+{
+	"class" : {
+		"fromParameters:" : "DS 7/3/2017 16:23",
+		"intToSettingsCollection" : "H. G. 7/17/2017 16:06",
+		"settingsToIntDictionary" : "H. G. 7/17/2017 16:06" },
+	"instance" : {
+		"add:" : "DS 7/3/2017 16:24",
+		"constructPayload" : "H. G. 7/19/2017 17:02",
+		"decode" : "DS 7/3/2017 16:27",
+		"decodeParameterList" : "H. G. 7/19/2017 17:09",
+		"flagAck" : "jp 6/27/2017 21:21",
+		"flagAck:" : "jp 6/19/2017 10:54",
+		"getPayloadFrom:" : "H. G. 7/19/2017 17:09",
+		"initialize" : "H. G. 7/17/2017 15:24",
+		"parameterList" : "DS 7/3/2017 16:23",
+		"parameterList:" : "DS 7/3/2017 16:23",
+		"receiveOnStream:" : "H. G. 7/14/2017 18:32",
+		"streamIdentifier" : "DS 7/3/2017 16:16",
+		"type" : "jp 6/19/2017 11:11" } }

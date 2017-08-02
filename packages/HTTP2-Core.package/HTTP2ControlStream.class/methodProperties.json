@@ -1,0 +1,14 @@
+{
+	"class" : {
+		"newFor:" : "H. G. 7/29/2017 13:43" },
+	"instance" : {
+		"hasFrames" : "H. G. 7/17/2017 16:42",
+		"initialize" : "H. G. 7/29/2017 13:20",
+		"nextFrame:" : "H. G. 7/29/2017 13:21",
+		"outQueue" : "H. G. 7/17/2017 16:42",
+		"outQueue:" : "H. G. 7/17/2017 16:42",
+		"receiveGoawayFrame:" : "H. G. 7/29/2017 13:23",
+		"receivePingFrame:" : "H. G. 7/29/2017 13:39",
+		"receiveSettingsFrame:" : "H. G. 7/29/2017 13:42",
+		"receiveWindowUpdateFrame:" : "H. G. 7/29/2017 13:30",
+		"updateSettings:" : "H. G. 7/29/2017 13:41" } }

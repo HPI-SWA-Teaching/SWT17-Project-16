@@ -1,0 +1,26 @@
+{
+	"class" : {
+		"constructFor:With:" : "jp 7/29/2017 15:17" },
+	"instance" : {
+		"E" : "DS 7/3/2017 15:39",
+		"E:" : "DS 7/3/2017 15:38",
+		"constructPayload" : "jp 7/15/2017 13:27",
+		"encode" : "jp 7/15/2017 13:25",
+		"flagEndHeaders" : "H. G. 7/19/2017 01:36",
+		"flagEndHeaders:" : "H. G. 7/19/2017 01:36",
+		"flagEndStream" : "H. G. 7/19/2017 01:36",
+		"flagEndStream:" : "H. G. 7/19/2017 01:36",
+		"flagPriority" : "DS 7/3/2017 14:42",
+		"flagPriority:" : "jp 6/19/2017 10:48",
+		"getPayloadFrom:" : "jp 7/15/2017 14:15",
+		"getRestPayloadFrom:WithOffset:" : "jp 7/15/2017 14:08",
+		"getStreamDependencyFrom:WithOffset:" : "jp 7/15/2017 14:19",
+		"receiveOnStream:" : "H. G. 7/14/2017 18:31",
+		"setEndFlagsFor:" : "jp 7/29/2017 14:22",
+		"stream" : "jp 6/27/2017 21:23",
+		"stream:" : "jp 6/27/2017 21:23",
+		"streamDependency" : "DS 7/3/2017 14:48",
+		"streamDependency:" : "DS 7/3/2017 15:37",
+		"type" : "jp 6/19/2017 11:02",
+		"weight" : "DS 7/3/2017 14:54",
+		"weight:" : "DS 7/3/2017 14:55" } }

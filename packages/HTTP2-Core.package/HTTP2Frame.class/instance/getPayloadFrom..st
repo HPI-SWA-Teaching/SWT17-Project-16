@@ -1,0 +1,3 @@
+encoding
+getPayloadFrom: aByteArray
+	^ self

@@ -1,0 +1,18 @@
+{
+	"class" : {
+		 },
+	"instance" : {
+		"atEnd" : "H. G. 7/17/2017 20:01",
+		"close" : "H. G. 7/17/2017 15:22",
+		"connectionActive" : "H. G. 7/16/2017 21:07",
+		"connectionActive:" : "H. G. 7/16/2017 21:07",
+		"flush" : "H. G. 7/16/2017 21:18",
+		"inStream" : "H. G. 7/16/2017 19:57",
+		"inStream:" : "H. G. 7/16/2017 19:57",
+		"initialize" : "H. G. 7/17/2017 20:00",
+		"next:" : "H. G. 7/18/2017 21:58",
+		"nextPutAll:" : "H. G. 7/16/2017 21:18",
+		"outStream" : "H. G. 7/16/2017 19:57",
+		"outStream:" : "H. G. 7/16/2017 19:57",
+		"peek:" : "H. G. 7/18/2017 21:58",
+		"reset" : "H. G. 7/17/2017 20:04" } }

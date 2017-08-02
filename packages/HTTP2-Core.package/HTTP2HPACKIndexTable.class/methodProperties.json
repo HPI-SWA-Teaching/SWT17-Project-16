@@ -1,0 +1,23 @@
+{
+	"class" : {
+		"newWith:" : "DS 6/1/2017 16:00",
+		"staticTable" : "DS 6/1/2017 12:01",
+		"staticTable:" : "DS 6/1/2017 12:00" },
+	"instance" : {
+		"add:" : "H. G. 6/18/2017 21:19",
+		"add:with:" : "DS 6/1/2017 13:49",
+		"at:" : "DS 6/1/2017 12:33",
+		"dynamicSize" : "DS 6/1/2017 12:06",
+		"dynamicSize:" : "jp 7/30/2017 17:59",
+		"dynamicTable" : "DS 5/31/2017 21:56",
+		"dynamicTable:" : "jp 7/30/2017 18:00",
+		"evict:" : "jp 7/30/2017 18:08",
+		"indexOf:ifPresent:ifAbsent:" : "DS 6/21/2017 20:56",
+		"indexOfKey:ifPresent:ifAbsent:" : "DS 6/21/2017 20:57",
+		"initialize" : "DS 6/1/2017 12:29",
+		"lastElementKeySize" : "jp 7/30/2017 18:05",
+		"lastElementValueSize" : "jp 7/30/2017 18:05",
+		"maxDynamicSize" : "DS 6/1/2017 12:06",
+		"maxDynamicSize:" : "DS 6/1/2017 13:40",
+		"staticTable" : "DS 6/1/2017 11:44",
+		"updateDynamicSizeWithLastElement" : "jp 7/30/2017 18:08" } }

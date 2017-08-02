@@ -1,0 +1,3 @@
+updatingSettings
+updateHeaderTableSize: anInteger
+	self headerTableOut maxDynamicSize: anInteger

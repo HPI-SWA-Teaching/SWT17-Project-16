@@ -1,0 +1,14 @@
+{
+	"class" : {
+		 },
+	"instance" : {
+		"E" : "DS 7/3/2017 15:59",
+		"E:" : "DS 7/3/2017 15:59",
+		"constructPayload" : "jp 7/15/2017 13:22",
+		"getPayloadFrom:" : "jp 7/30/2017 17:46",
+		"receiveOnStream:" : "H. G. 7/14/2017 18:31",
+		"streamDependency" : "jp 6/27/2017 21:24",
+		"streamDependency:" : "jp 6/27/2017 21:24",
+		"type" : "jp 6/19/2017 11:11",
+		"weight" : "DS 7/3/2017 16:00",
+		"weight:" : "DS 7/3/2017 16:00" } }

@@ -1,0 +1,3 @@
+receiving
+receivePriorityFrame: aFrame
+	self subclassResponsibility
