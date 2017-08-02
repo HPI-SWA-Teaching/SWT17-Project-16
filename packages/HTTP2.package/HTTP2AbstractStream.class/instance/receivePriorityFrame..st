@@ -1,3 +1,3 @@
-as yet unclassified
+receiving
 receivePriorityFrame: aFrame
 	self subclassResponsibility

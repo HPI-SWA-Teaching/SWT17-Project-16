@@ -1,7 +1,7 @@
 as yet unclassified
 testIncomingTraffic
 	| stream headerFrame streamManager header dataFrame headerBlock continuationFrame data |
-	streamManager := HTTP2StreamManager new.
+	streamManager := HTTP2Connection new.
 	stream := HTTP2Stream new: 5 for: HTTP2Request new streamManager: streamManager.
 	header := (HTTP2Header new)
 		add: ':method'->'GET';

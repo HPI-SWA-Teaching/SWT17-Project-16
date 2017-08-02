@@ -2,12 +2,12 @@
 	"class" : {
 		 },
 	"instance" : {
-		"testCloseConnection" : "H. G. 7/18/2017 22:19",
-		"testEstablishConnection" : "H. G. 7/17/2017 20:17",
+		"testCloseConnection" : "H. G. 8/2/2017 16:58",
+		"testEstablishConnection" : "H. G. 8/2/2017 16:58",
 		"testFlowControlWindow" : "H. G. 7/16/2017 19:29",
 		"testHeaderLock" : "H. G. 7/18/2017 12:25",
-		"testReceiveGoaway" : "H. G. 7/18/2017 22:44",
-		"testReceivePing" : "H. G. 7/19/2017 00:44",
-		"testRequestResponseCommunication" : "H. G. 7/31/2017 14:43",
-		"testSocketConnectionClosed" : "H. G. 7/18/2017 22:18",
-		"testUpdatingSettings" : "H. G. 7/31/2017 15:37" } }
+		"testReceiveGoaway" : "H. G. 8/2/2017 16:57",
+		"testReceivePing" : "H. G. 8/2/2017 16:57",
+		"testRequestResponseCommunication" : "H. G. 8/2/2017 16:56",
+		"testSocketConnectionClosed" : "H. G. 8/2/2017 16:57",
+		"testUpdatingSettings" : "H. G. 8/2/2017 16:57" } }

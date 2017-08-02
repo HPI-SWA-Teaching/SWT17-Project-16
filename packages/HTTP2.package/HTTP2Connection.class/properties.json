@@ -1,0 +1,26 @@
+{
+	"category" : "HTTP2",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "",
+	"instvars" : [
+		"controlStream",
+		"nextFreeStreamId",
+		"activeStreams",
+		"socketStream",
+		"connectionActive",
+		"headerTableIn",
+		"headerTableOut",
+		"initialWindowSize",
+		"maxConcurrentStreams",
+		"maxFrameSize",
+		"receivingProcess",
+		"flowControlWindow",
+		"headerLock" ],
+	"name" : "HTTP2Connection",
+	"pools" : [
+		 ],
+	"super" : "Object",
+	"type" : "normal" }

@@ -2,7 +2,7 @@ as yet unclassified
 testReceivePing
 	|mockStream streamManager frame |
 	mockStream := HTTP2MockSocketStream new.
-	streamManager := HTTP2StreamManager new.
+	streamManager := HTTP2Connection new.
 	"dont't use connectTo: method because we need to apply MockSocketStream instead of establishing real Connection"
 	streamManager socketStream: mockStream.
 	streamManager initiateCommunication.

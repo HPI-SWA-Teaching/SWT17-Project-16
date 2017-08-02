@@ -1,3 +1,3 @@
-as yet unclassified
+sending
 hasFrames
 	^ self outQueue isEmpty not

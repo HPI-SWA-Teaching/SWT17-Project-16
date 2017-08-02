@@ -1,4 +1,4 @@
-as yet unclassified
+responding
 headerCompleted
-	self responseHeader:" self headerStreamIn contents" (HTTP2Header newFrom: self byteStreamIn contents in: self streamManager headerTableIn)"<- doesnt work so far".
+	self responseHeader: (HTTP2Header newFrom: self byteStreamIn contents in: self streamManager headerTableIn).
 	self byteStreamIn resetContents

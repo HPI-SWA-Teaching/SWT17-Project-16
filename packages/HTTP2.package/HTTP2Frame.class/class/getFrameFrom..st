@@ -1,4 +1,4 @@
-class initialization
+instance creation
 getFrameFrom: aByteArray
 	| frame |
 	frame := (self typeDictionary at: (aByteArray at: 4)) new.

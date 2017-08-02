@@ -1,4 +1,4 @@
-as yet unclassified
+receiving
 receiveHeaderFrame: aFrame
 	"Todo: handle the incoming Frame"
 	self receiver receiveHeaderFrame: aFrame

@@ -1,3 +1,3 @@
-as yet unclassified
+receiving
 receiveWindowUpdateFrame: aFrame
 	"Todo: Window updates implementieren"

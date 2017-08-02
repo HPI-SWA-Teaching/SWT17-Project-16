@@ -1,4 +1,4 @@
-as yet unclassified
+closing
 closeOnError: errorMessage
 	self streamManager closeStream: self.
 	Project current addDeferredUIMessage: [

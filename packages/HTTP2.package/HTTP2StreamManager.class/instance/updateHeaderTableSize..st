@@ -1,3 +1,0 @@
-accessing
-updateHeaderTableSize: anInteger
-	self headerTableOut maxDynamicSize: anInteger

@@ -1,4 +1,4 @@
-as yet unclassified
+responding
 deliverResponse
 	| response |
 	response := (HTTP2Response new)

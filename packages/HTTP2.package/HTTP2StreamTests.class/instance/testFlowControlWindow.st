@@ -8,7 +8,7 @@ testFlowControlWindow
 			add: 'bla'->'blubblubblub';
 			yourself).
 		request data: 'just put some data here'.
-	http2stream := HTTP2Stream new: 3 for: request streamManager: HTTP2StreamManager new.
+	http2stream := HTTP2Stream new: 3 for: request streamManager: HTTP2Connection new.
 	self assert: http2stream flowControlWindow equals: (2 raisedTo: 16) - 1.
 	http2stream updateWindowSize: ((2 raisedTo: 16) - 1) negated + 20.
 	self assert: http2stream flowControlWindow equals: 20.

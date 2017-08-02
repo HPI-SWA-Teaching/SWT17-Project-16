@@ -1,3 +1,3 @@
-as yet unclassified
+receiving
 receiveRSTStreamFrame: aFrame
 	self subclassResponsibility

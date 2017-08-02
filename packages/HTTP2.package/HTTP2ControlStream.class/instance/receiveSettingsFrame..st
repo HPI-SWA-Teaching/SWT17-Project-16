@@ -1,4 +1,4 @@
-as yet unclassified
+receiving
 receiveSettingsFrame: aFrame
 	aFrame flagAck = 0 ifTrue: [
 	self updateSettings: aFrame parameterList.

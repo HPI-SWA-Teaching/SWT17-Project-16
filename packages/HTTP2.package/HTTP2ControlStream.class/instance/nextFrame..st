@@ -1,4 +1,4 @@
-as yet unclassified
+sending
 nextFrame: anInteger
 	"ingnore flowcontrol"
 	"Todo: flowControl"

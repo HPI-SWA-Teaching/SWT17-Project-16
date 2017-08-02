@@ -1,4 +1,4 @@
-as yet unclassified
+receiving
 receiveDataFrame: aFrame
 	"Todo: handle the incoming Frame"
 	self receiver receiveDataFrame: aFrame.

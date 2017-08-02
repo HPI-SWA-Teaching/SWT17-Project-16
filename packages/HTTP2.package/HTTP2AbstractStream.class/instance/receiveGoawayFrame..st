@@ -1,3 +1,3 @@
-as yet unclassified
+receiving
 receiveGoawayFrame: aFrame
 	self subclassResponsibility

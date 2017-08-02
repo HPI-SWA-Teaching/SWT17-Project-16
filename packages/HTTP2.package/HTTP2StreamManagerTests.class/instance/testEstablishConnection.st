@@ -2,7 +2,7 @@ as yet unclassified
 testEstablishConnection
 	| streamManager mockStream outframe outcontents inframe |
 	mockStream := HTTP2MockSocketStream new.
-	streamManager := HTTP2StreamManager new.
+	streamManager := HTTP2Connection new.
 	"dont't use connectTo: method because we need to apply MockSocketStream instead of establishing real Connection"
 	streamManager socketStream: mockStream.
 	streamManager initiateCommunication.
@@ -11,7 +11,7 @@ testEstablishConnection
 			add: 'EnablePush'->0;
 			add: 'InitialWindowSize'->((2 raisedTo: 31) - 1);
 			yourself.
-	outcontents := HTTP2StreamManager connectionPreface asByteArray, outframe encode.
+	outcontents := HTTP2Connection connectionPreface asByteArray, outframe encode.
 	self assert: mockStream outStream contents equals: outcontents.
 	"wait some time for the http2connection to send an acknowledgement for the received settings"
 	inframe := HTTP2SettingsFrame new

@@ -1,4 +1,4 @@
-as yet unclassified
+receiving
 updateSettings: parameterList
 	parameterList do: [:parameter | 
 		self streamManager perform:

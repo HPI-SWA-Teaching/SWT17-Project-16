@@ -1,3 +1,3 @@
-as yet unclassified
+receiving
 receivePingFrame: aFrame
 	self subclassResponsibility

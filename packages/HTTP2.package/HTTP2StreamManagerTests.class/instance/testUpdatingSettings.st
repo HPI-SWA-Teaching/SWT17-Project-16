@@ -2,7 +2,7 @@ as yet unclassified
 testUpdatingSettings
 	| frame mockStream streamManager |
 	mockStream := HTTP2MockSocketStream new.
-	streamManager := HTTP2StreamManager new.
+	streamManager := HTTP2Connection new.
 	streamManager socketStream: mockStream.
 	streamManager initiateCommunication.
 	mockStream reset.

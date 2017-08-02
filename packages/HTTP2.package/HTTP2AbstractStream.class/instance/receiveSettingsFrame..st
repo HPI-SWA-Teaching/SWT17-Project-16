@@ -1,3 +1,3 @@
-as yet unclassified
+receiving
 receiveSettingsFrame: aFrame
 	self subclassResponsibility

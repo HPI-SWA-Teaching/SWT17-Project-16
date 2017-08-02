@@ -1,4 +1,4 @@
-as yet unclassified
+receiving
 receivePingFrame: aFrame
 	aFrame flagAck: 1.
 	self outQueue add: aFrame

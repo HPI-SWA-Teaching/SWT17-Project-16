@@ -1,4 +1,4 @@
-as yet unclassified
+initializing
 initialize
 	self sender: (HTTP2HeaderFrameSender newFor: self).
 	self byteStreamIn: (WriteStream on: ByteArray new).

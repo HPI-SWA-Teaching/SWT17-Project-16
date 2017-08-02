@@ -1,3 +1,0 @@
-accessing
-updateMaxConcurrentStreams: anInteger
-	self maxConcurrentStreams: anInteger

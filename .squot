@@ -1,5 +1,4 @@
 OrderedDictionary {
 	'packages\/BaselineOfHTTP2.package' : #SquotCypressCodeSerializer,
-	'packages\/HTTP2.package' : #SquotCypressCodeSerializer,
-	'packages\/HTTP2-Tests.package' : #SquotCypressCodeSerializer
+	'packages\/HTTP2.package' : #SquotCypressCodeSerializer
 }
