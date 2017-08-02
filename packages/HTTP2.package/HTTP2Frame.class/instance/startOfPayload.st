@@ -1,3 +1,0 @@
-accessing
-startOfPayload
-	^ 10

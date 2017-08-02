@@ -1,0 +1,14 @@
+{
+	"category" : "HTTP-Core",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "",
+	"instvars" : [
+		"stream" ],
+	"name" : "HTTP2FrameSender",
+	"pools" : [
+		 ],
+	"super" : "Object",
+	"type" : "normal" }

@@ -1,0 +1,15 @@
+{
+	"category" : "HTTP-Core",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "",
+	"instvars" : [
+		"errorCode",
+		"stream" ],
+	"name" : "HTTP2RST_STREAMFrame",
+	"pools" : [
+		 ],
+	"super" : "HTTP2Frame",
+	"type" : "normal" }

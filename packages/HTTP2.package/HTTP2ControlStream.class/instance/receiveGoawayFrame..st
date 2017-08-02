@@ -1,3 +1,0 @@
-receiving
-receiveGoawayFrame: aFrame
-	self streamManager closeConnection

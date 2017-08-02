@@ -1,0 +1,14 @@
+{
+	"category" : "HTTP-Core",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "",
+	"instvars" : [
+		 ],
+	"name" : "HTTP2Response",
+	"pools" : [
+		 ],
+	"super" : "HTTP2Message",
+	"type" : "normal" }

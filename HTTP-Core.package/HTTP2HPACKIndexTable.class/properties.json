@@ -1,0 +1,17 @@
+{
+	"category" : "HTTP-Core",
+	"classinstvars" : [
+		"staticTable" ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "",
+	"instvars" : [
+		"staticTable",
+		"dynamicTable",
+		"maxDynamicSize",
+		"dynamicSize" ],
+	"name" : "HTTP2HPACKIndexTable",
+	"pools" : [
+		 ],
+	"super" : "Object",
+	"type" : "normal" }

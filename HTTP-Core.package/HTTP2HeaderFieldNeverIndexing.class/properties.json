@@ -1,0 +1,14 @@
+{
+	"category" : "HTTP-Core",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "",
+	"instvars" : [
+		 ],
+	"name" : "HTTP2HeaderFieldNeverIndexing",
+	"pools" : [
+		 ],
+	"super" : "HTTP2HeaderField",
+	"type" : "normal" }

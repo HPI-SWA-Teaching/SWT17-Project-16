@@ -1,0 +1,14 @@
+{
+	"category" : "HTTP-Tests",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "",
+	"instvars" : [
+		 ],
+	"name" : "HTTP2HPACKIndexTableTests",
+	"pools" : [
+		 ],
+	"super" : "TestCase",
+	"type" : "normal" }

@@ -1,0 +1,14 @@
+{
+	"category" : "HTTP-Core",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "",
+	"instvars" : [
+		"increment" ],
+	"name" : "HTTP2Window_UpdateFrame",
+	"pools" : [
+		 ],
+	"super" : "HTTP2Frame",
+	"type" : "normal" }

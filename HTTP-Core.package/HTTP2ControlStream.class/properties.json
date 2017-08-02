@@ -1,0 +1,14 @@
+{
+	"category" : "HTTP-Core",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "",
+	"instvars" : [
+		"outQueue" ],
+	"name" : "HTTP2ControlStream",
+	"pools" : [
+		 ],
+	"super" : "HTTP2AbstractStream",
+	"type" : "normal" }

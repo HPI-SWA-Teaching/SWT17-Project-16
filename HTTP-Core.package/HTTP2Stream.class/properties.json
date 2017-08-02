@@ -1,0 +1,22 @@
+{
+	"category" : "HTTP-Core",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "",
+	"instvars" : [
+		"request",
+		"id",
+		"flowControlWindow",
+		"responseHeader",
+		"byteStreamOut",
+		"byteStreamIn",
+		"sender",
+		"receiver",
+		"promise" ],
+	"name" : "HTTP2Stream",
+	"pools" : [
+		 ],
+	"super" : "HTTP2AbstractStream",
+	"type" : "normal" }

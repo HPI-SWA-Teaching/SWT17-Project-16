@@ -1,0 +1,18 @@
+{
+	"category" : "HTTP-Core",
+	"classinstvars" : [
+		"typeDictionary" ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "",
+	"instvars" : [
+		"type",
+		"flags",
+		"streamIdentifier",
+		"payload",
+		"length" ],
+	"name" : "HTTP2Frame",
+	"pools" : [
+		 ],
+	"super" : "Object",
+	"type" : "normal" }

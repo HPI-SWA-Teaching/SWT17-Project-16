@@ -1,8 +1,0 @@
-{
-	"class" : {
-		 },
-	"instance" : {
-		"testDecoding" : "H. G. 6/6/2017 19:42",
-		"testDecodingWithEvictionAndSomeOtherStuff" : "H. G. 6/6/2017 19:57",
-		"testDecodingWithHuffman" : "MK 8/1/2017 15:44",
-		"testEncoding" : "H. G. 7/29/2017 13:09" } }

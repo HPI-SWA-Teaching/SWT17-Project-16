@@ -1,0 +1,14 @@
+{
+	"category" : "HTTP-Core",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "",
+	"instvars" : [
+		 ],
+	"name" : "HTTP2HeaderFrameReceiver",
+	"pools" : [
+		 ],
+	"super" : "HTTP2FrameReceiver",
+	"type" : "normal" }

@@ -1,0 +1,14 @@
+{
+	"category" : "HTTP-Tests",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "",
+	"instvars" : [
+		"port" ],
+	"name" : "HTTP2TestingToolTests",
+	"pools" : [
+		 ],
+	"super" : "TestCase",
+	"type" : "normal" }
