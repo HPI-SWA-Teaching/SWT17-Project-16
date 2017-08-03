@@ -1,3 +1,3 @@
 accessing
 startOfPayload
-	^ 10
+	^ self class headerLength + 1
