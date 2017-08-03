@@ -1,3 +1,3 @@
 accessing
-connection: anObject
-	streamManager := anObject
+connection: aConnection
+	connection := aConnection

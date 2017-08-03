@@ -1,3 +1,3 @@
 accessing
-errorCode: anObject
-	errorCode := anObject
+errorCode: anInteger
+	errorCode := anInteger

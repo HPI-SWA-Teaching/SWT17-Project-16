@@ -10,5 +10,5 @@
 	"name" : "HTTP2HeaderFrameReceiver",
 	"pools" : [
 		 ],
-	"super" : "HTTP2FrameReceiver",
+	"super" : "HTTP2ReceivingState",
 	"type" : "normal" }

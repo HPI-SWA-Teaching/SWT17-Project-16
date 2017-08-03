@@ -1,3 +1,3 @@
 accessing
-streamDependency: anObject
-	self flagPriority ifTrue: [streamDependency := anObject]
+streamDependency: anInteger
+	streamDependency := anInteger

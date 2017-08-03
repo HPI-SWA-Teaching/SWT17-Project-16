@@ -7,8 +7,8 @@
 	"commentStamp" : "",
 	"instvars" : [
 		"streamDependency",
-		"e",
-		"weight" ],
+		"weight",
+		"exclusiveBit" ],
 	"name" : "HTTP2PriorityFrame",
 	"pools" : [
 		 ],

@@ -1,3 +1,0 @@
-decoding
-getPayloadFrom: aByteArray
-	^ self

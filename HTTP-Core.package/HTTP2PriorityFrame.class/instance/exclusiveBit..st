@@ -1,3 +1,3 @@
 accessing
 exclusiveBit: aBit
-	e := aBit
+	exclusiveBit := aBit

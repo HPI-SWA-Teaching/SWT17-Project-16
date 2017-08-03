@@ -1,3 +1,3 @@
 accessing
 flagEndStream
-	^self flags bitAt: 1
+	^ self flags bitAt: 1

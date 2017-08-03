@@ -10,5 +10,5 @@
 	"name" : "HTTP2ContinuationFrameSender",
 	"pools" : [
 		 ],
-	"super" : "HTTP2FrameSender",
+	"super" : "HTTP2SendingState",
 	"type" : "normal" }

@@ -1,3 +1,3 @@
 accessing
 exclusiveBit
-	^ e
+	^ exclusiveBit

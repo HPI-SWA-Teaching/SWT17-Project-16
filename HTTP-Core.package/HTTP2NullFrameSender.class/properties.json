@@ -10,5 +10,5 @@
 	"name" : "HTTP2NullFrameSender",
 	"pools" : [
 		 ],
-	"super" : "HTTP2FrameSender",
+	"super" : "HTTP2SendingState",
 	"type" : "normal" }

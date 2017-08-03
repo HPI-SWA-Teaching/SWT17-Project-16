@@ -1,3 +1,3 @@
 accessing
-lastID: anObject
-	lastID := anObject
+lastID: anInteger
+	lastID := anInteger

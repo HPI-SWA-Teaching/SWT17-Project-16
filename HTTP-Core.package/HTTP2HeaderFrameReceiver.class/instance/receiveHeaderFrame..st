@@ -5,4 +5,4 @@ receiveHeaderFrame: aFrame
 	aFrame flagEndStream = 1 ifTrue: [
 		self stream receiver nextState: HTTP2NullReceiver new].
 	aFrame flagEndHeaders = 1 ifTrue: [
-		self stream receiver transition].
+		self stream receiver transition]

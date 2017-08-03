@@ -1,3 +1,3 @@
 accessing
-weight: anObject
-	weight := anObject
+weight: anInteger
+	weight := anInteger

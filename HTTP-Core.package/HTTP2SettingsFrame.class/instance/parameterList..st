@@ -1,3 +1,3 @@
 accessing
-parameterList: anObject
-	parameterList := anObject
+parameterList: anOrderedCollection
+	parameterList := anOrderedCollection

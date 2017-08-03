@@ -3,11 +3,9 @@
 		"establishConnectionTo:" : "DS 8/3/2017 12:28" },
 	"instance" : {
 		"close" : "DS 8/3/2017 12:27",
-		"connection" : "DS 8/3/2017 12:27",
-		"connection:" : "DS 8/3/2017 12:28",
-		"newRequestFor:" : "jp 8/3/2017 15:46",
+		"connection" : "jp 8/3/2017 17:32",
+		"connection:" : "jp 8/3/2017 17:32",
+		"newRequestFor:" : "jp 8/3/2017 17:32",
 		"send:" : "jp 8/3/2017 15:46",
 		"server" : "H. G. 7/12/2017 00:15",
-		"server:" : "H. G. 7/12/2017 00:15",
-		"stream" : "H. G. 7/12/2017 00:21",
-		"stream:" : "H. G. 7/12/2017 00:21" } }
+		"server:" : "jp 8/3/2017 17:33" } }

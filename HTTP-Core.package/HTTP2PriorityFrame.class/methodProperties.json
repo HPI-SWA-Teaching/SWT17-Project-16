@@ -2,13 +2,14 @@
 	"class" : {
 		 },
 	"instance" : {
-		"constructPayload" : "jp 8/3/2017 15:46",
-		"exclusiveBit" : "DS 8/3/2017 11:37",
-		"exclusiveBit:" : "DS 8/3/2017 11:37",
-		"getPayloadFrom:" : "DS 8/3/2017 11:37",
+		"constructPayload" : "jp 8/3/2017 17:14",
+		"exclusiveBit" : "jp 8/3/2017 16:57",
+		"exclusiveBit:" : "jp 8/3/2017 16:57",
+		"readPayloadFrom:" : "jp 8/3/2017 17:15",
 		"receiveOnStream:" : "H. G. 7/14/2017 18:31",
 		"streamDependency" : "jp 6/27/2017 21:24",
-		"streamDependency:" : "jp 6/27/2017 21:24",
-		"type" : "jp 6/19/2017 11:11",
+		"streamDependency:" : "jp 8/3/2017 17:15",
+		"streamDependencyBytes" : "jp 8/3/2017 17:13",
+		"type" : "jp 8/3/2017 17:15",
 		"weight" : "DS 7/3/2017 16:00",
-		"weight:" : "DS 7/3/2017 16:00" } }
+		"weight:" : "jp 8/3/2017 17:15" } }

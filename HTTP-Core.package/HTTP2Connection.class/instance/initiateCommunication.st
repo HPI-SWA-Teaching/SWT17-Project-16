@@ -4,4 +4,4 @@ initiateCommunication
 	self sendConnectionPreface.
 	self connectionActive: true.
 	[self sendLoop] fork.
-	[self receiveLoop] fork.
+	[self receiveLoop] fork

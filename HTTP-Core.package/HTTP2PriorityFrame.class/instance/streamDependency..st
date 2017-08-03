@@ -1,3 +1,3 @@
 accessing
-streamDependency: anObject
-	streamDependency := anObject
+streamDependency: anInteger
+	streamDependency := anInteger

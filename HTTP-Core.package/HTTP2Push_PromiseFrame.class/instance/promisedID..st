@@ -1,3 +1,3 @@
 accessing
-promisedID: anObject
-	promisedID := anObject
+promisedID: anInteger
+	promisedID := anInteger

@@ -1,3 +1,3 @@
 accessing
-server: anObject
-	server := anObject
+server: aString
+	server := aString

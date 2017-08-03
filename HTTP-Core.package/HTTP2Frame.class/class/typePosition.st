@@ -1,0 +1,3 @@
+accessing
+typePosition
+	^ 4

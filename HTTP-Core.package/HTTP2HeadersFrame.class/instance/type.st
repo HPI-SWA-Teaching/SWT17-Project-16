@@ -1,3 +1,3 @@
 accessing
 type
-	^1
+	^ 1

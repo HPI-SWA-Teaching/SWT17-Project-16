@@ -1,3 +1,3 @@
 accessing
-opaqueData: anObject
-	opaqueData := anObject
+opaqueData: anInteger
+	opaqueData := anInteger
