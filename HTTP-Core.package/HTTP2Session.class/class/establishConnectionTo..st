@@ -1,4 +1,4 @@
-as yet unclassified
+instance creation
 establishConnectionTo: server
 	|session|
 	session := (HTTP2Session new)

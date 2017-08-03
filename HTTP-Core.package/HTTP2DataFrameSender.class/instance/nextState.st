@@ -1,3 +1,3 @@
-as yet unclassified
+state handling
 nextState
 	^ HTTP2NullFrameSender

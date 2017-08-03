@@ -1,4 +1,4 @@
-instance creation
+huffman
 appendToHuffmanResult: anOrderedCollection at: index value: newValue
 	index > anOrderedCollection size ifTrue:  [
 		anOrderedCollection addLast: newValue

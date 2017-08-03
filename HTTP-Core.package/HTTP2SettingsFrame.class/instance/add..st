@@ -1,3 +1,3 @@
-as yet unclassified
+accessing
 add: anAssociation
 	self parameterList add: anAssociation

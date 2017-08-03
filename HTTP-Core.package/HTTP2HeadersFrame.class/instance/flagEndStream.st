@@ -1,3 +1,3 @@
-as yet unclassified
+accessing
 flagEndStream
 	^self flags bitAt: 1

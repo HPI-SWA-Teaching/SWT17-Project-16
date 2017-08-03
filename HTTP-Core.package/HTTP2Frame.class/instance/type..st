@@ -1,3 +1,3 @@
-type
+accessing
 type: aByte
 	type := aByte

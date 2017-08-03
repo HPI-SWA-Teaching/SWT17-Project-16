@@ -1,4 +1,4 @@
-as yet unclassified
+accessing
 settingsToIntDictionary
 	^ Dictionary new
 		add: 'HeaderTableSize'->1;

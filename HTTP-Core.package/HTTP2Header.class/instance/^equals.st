@@ -1,3 +1,3 @@
-as yet unclassified
+comparing
 = aHeader
 	^ self dictionary = aHeader dictionary

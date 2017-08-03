@@ -1,4 +1,4 @@
-instance creation
+huffman
 getHuffmanRFCValueCollectionFirstPart: values
 
 values at: 1 put: 8184;

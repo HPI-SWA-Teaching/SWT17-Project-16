@@ -2,10 +2,10 @@
 	"class" : {
 		 },
 	"instance" : {
-		"E" : "DS 7/3/2017 15:59",
-		"E:" : "DS 7/3/2017 15:59",
-		"constructPayload" : "H. G. 8/3/2017 02:03",
-		"getPayloadFrom:" : "jp 7/30/2017 17:46",
+		"constructPayload" : "DS 8/3/2017 11:37",
+		"exclusiveBit" : "DS 8/3/2017 11:37",
+		"exclusiveBit:" : "DS 8/3/2017 11:37",
+		"getPayloadFrom:" : "DS 8/3/2017 11:37",
 		"receiveOnStream:" : "H. G. 7/14/2017 18:31",
 		"streamDependency" : "jp 6/27/2017 21:24",
 		"streamDependency:" : "jp 6/27/2017 21:24",

@@ -1,3 +1,3 @@
-as yet unclassified
+encoding
 leadingBits
 	^ 64

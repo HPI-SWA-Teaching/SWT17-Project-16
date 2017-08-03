@@ -1,4 +1,4 @@
-as yet unclassified
+accessing
 flagEndHeaders
 	^self flags bitAt: 3
 	

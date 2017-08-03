@@ -1,3 +1,3 @@
-as yet unclassified
+sending
 send: aRequest
 	^ self streamManager openStreamFor: aRequest.

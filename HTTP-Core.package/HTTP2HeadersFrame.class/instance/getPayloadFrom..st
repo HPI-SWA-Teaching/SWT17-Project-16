@@ -1,4 +1,4 @@
-as yet unclassified
+decoding
 getPayloadFrom: aByteArray
 	super getPayloadFrom: aByteArray.
 	self flagPriority 

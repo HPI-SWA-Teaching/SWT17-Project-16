@@ -1,3 +1,3 @@
-encoding
+decoding
 getPayloadFrom: aByteArray
 	^ self

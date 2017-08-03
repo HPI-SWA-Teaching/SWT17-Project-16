@@ -1,4 +1,4 @@
-encoding
+travis
 integer: anInteger asByteArrayOfSize: aSize
 	"copied from Pharo 5"
 	"Answer a ByteArray of aSize with my value, most-significant byte first."

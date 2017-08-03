@@ -1,3 +1,3 @@
-as yet unclassified
+encoding
 receiveOnStream: aHTTP2Stream
 	aHTTP2Stream receivePushPromiseFrame: self

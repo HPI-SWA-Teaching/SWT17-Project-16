@@ -1,3 +1,3 @@
-as yet unclassified
-E: aBit
+accessing
+exclusiveBit: aBit
 	self flagPriority ifTrue: [ e := aBit ] 

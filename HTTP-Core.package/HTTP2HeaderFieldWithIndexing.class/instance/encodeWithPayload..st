@@ -1,4 +1,4 @@
-as yet unclassified
+encoding
 encodeWithPayload: anIndexTable
 	| byteArray |
 	^ anIndexTable indexOf: self

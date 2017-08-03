@@ -1,4 +1,4 @@
-as yet unclassified
+state handling
 transition
 	self stream deliverResponse.
 	super transition.

@@ -1,4 +1,4 @@
-instance creation
+huffman
 encodeHuffman: decodedBlock withValues: code Lengths: length
 	| result resultIndex filledBits actualLength actualPlain shiftCount byteCount |
 

@@ -1,4 +1,4 @@
-as yet unclassified
+accessing
 intToSettingsCollection
 	^ OrderedCollection new
 		add: 'HeaderTableSize';

@@ -1,4 +1,4 @@
-as yet unclassified
+instance creation
 fromData: data andPaddingLength: aPaddingLength
 	| frame |
 	frame := super fromPayload: data.

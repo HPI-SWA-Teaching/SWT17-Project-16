@@ -1,4 +1,4 @@
-instance creation
+huffman
 getHuffmanTree
 | lengths values root |
 

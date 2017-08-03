@@ -1,4 +1,4 @@
-key-value accessing
+instance creation
 key: aKey value: aValue
 	^ self new 
 		key: aKey; 

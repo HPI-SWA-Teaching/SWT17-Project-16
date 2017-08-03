@@ -2,10 +2,10 @@
 	"class" : {
 		"constructFor:With:" : "jp 7/29/2017 15:17" },
 	"instance" : {
-		"E" : "DS 7/3/2017 15:39",
-		"E:" : "DS 7/3/2017 15:38",
-		"constructPayload" : "H. G. 8/3/2017 02:04",
+		"constructPayload" : "DS 8/3/2017 11:37",
 		"encode" : "jp 7/15/2017 13:25",
+		"exclusiveBit" : "DS 8/3/2017 11:37",
+		"exclusiveBit:" : "DS 8/3/2017 11:37",
 		"flagEndHeaders" : "H. G. 7/19/2017 01:36",
 		"flagEndHeaders:" : "H. G. 7/19/2017 01:36",
 		"flagEndStream" : "H. G. 7/19/2017 01:36",
@@ -14,7 +14,7 @@
 		"flagPriority:" : "jp 6/19/2017 10:48",
 		"getPayloadFrom:" : "jp 7/15/2017 14:15",
 		"getRestPayloadFrom:WithOffset:" : "jp 7/15/2017 14:08",
-		"getStreamDependencyFrom:WithOffset:" : "jp 7/15/2017 14:19",
+		"getStreamDependencyFrom:WithOffset:" : "DS 8/3/2017 11:37",
 		"receiveOnStream:" : "H. G. 7/14/2017 18:31",
 		"setEndFlagsFor:" : "jp 7/29/2017 14:22",
 		"stream" : "jp 6/27/2017 21:23",

@@ -1,4 +1,4 @@
-as yet unclassified
+receiving
 receiveHeaderFrame: aFrame
 	self stream byteStreamIn nextPutAll: aFrame payload.
 	self transition.

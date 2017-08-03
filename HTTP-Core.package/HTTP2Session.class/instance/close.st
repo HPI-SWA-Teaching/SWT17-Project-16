@@ -1,3 +1,3 @@
-as yet unclassified
+open/close
 close
 	self streamManager closeConnection.

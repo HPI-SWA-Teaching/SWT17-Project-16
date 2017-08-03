@@ -1,4 +1,5 @@
 encoding
+"TODO: rename"
 calculateSolutionFor: anInteger index: anIndex in: aByteArray
 	(anInteger >= 128) ifTrue: [
 		^ self calculateSolutionFor: (anInteger >> 7) 

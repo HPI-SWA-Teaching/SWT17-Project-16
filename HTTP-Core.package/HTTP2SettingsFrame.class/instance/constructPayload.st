@@ -1,4 +1,4 @@
-as yet unclassified
+encoding
 constructPayload 
 	| payload |
 	payload := #[].

@@ -1,3 +1,3 @@
-as yet unclassified
+encoding
 leadingBitsLength
 	^ 2

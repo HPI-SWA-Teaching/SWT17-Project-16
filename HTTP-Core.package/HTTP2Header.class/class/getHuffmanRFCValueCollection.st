@@ -1,4 +1,4 @@
-instance creation
+huffman
 getHuffmanRFCValueCollection
 | values | 
 

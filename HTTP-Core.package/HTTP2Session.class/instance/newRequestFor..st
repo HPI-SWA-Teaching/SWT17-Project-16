@@ -1,4 +1,4 @@
-as yet unclassified
+sending
 newRequestFor: aPath
 	| request |
 	"TODO umbauen"

@@ -1,4 +1,4 @@
-as yet unclassified
+encoding
 encodeWithPayload: aPayload
 	| payload |
 	payload := aPayload.

@@ -1,4 +1,4 @@
-as yet unclassified
+accessing
 flagEndHeaders: aBit
 	self flags: (self flags bitAt: 3 put: aBit). 
 	

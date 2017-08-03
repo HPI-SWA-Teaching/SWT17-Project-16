@@ -1,4 +1,4 @@
-instance creation
+huffman
 getHuffmanRFCLengthCollection
 | lengths | 
 

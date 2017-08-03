@@ -9,7 +9,7 @@ testHeaderWithPriorityFrame
 		add: ':authority'->'www.example.com'.
 	frame := HTTP2HeadersFrame fromData: (header encode: (HTTP2HPACKIndexTable newWith: 1000)) andPaddingLength: 5.
 	frame flagPriority: 1.
-	frame E: 1.
+	frame exclusiveBit: 1.
 	frame streamDependency: 7.
 	frame streamIdentifier: 13.
 	frame weight: 8.

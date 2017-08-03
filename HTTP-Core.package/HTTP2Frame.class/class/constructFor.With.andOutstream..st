@@ -1,4 +1,4 @@
-class initialization
+instance creation
 constructFor: aStream With: maxPayloadSize andOutstream: anOutstream
 	^ (self new)
 		streamIdentifier: aStream id;

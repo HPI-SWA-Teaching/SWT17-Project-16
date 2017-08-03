@@ -1,4 +1,4 @@
-as yet unclassified
+encoding
 encode
 	^ super encodeWithPayload: self constructPayload 
 		

@@ -1,4 +1,4 @@
-instance creation
+huffman
 decodeHuffman: encodedBlock withRoot: root
 	| result node  bytePosition bitPosition |
 

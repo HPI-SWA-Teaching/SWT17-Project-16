@@ -1,3 +1,3 @@
-as yet unclassified
+streamHandling
 receiveOnStream: aHTTP2Stream
 	aHTTP2Stream receiveContinuationFrame: self

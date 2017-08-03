@@ -1,4 +1,4 @@
-as yet unclassified
+decoding
 decode 
 " alters state of whole connection"
 	

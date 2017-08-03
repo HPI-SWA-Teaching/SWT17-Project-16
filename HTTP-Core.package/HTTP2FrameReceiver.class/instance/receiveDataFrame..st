@@ -1,3 +1,3 @@
-as yet unclassified
+receiving
 receiveDataFrame: aFrame
 	self subclassResponsibility

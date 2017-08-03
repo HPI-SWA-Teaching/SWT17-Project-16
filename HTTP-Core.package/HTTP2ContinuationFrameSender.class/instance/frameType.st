@@ -1,3 +1,3 @@
-as yet unclassified
+accessing
 frameType
 	^ HTTP2ContinuationFrame

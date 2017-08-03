@@ -1,4 +1,4 @@
-as yet unclassified
+instance creation
 constructFor: aStream With: maxPayloadSize
 	| frame | 
 	frame := super constructFor: aStream With: maxPayloadSize andOutstream: aStream headerStreamOut.

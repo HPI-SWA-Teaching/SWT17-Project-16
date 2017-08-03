@@ -1,4 +1,4 @@
-as yet unclassified
+decoding
 decodeParameterList
 	| readStream |
 	self parameterList: OrderedCollection new.

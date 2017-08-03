@@ -1,4 +1,4 @@
-as yet unclassified
+decoding
 getPayloadFrom: aByteArray
 	| paddingLength  |
 	self flagPaddedSet ifTrue:[

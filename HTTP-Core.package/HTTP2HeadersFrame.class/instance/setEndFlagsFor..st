@@ -1,4 +1,4 @@
-as yet unclassified
+stream handling
 setEndFlagsFor: aStream
 	aStream headerStreamOut atEnd ifTrue: [
 		self flagEndHeaders: 1].

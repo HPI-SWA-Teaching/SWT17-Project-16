@@ -1,3 +1,3 @@
-as yet unclassified
+receiving
 receiveHeaderFrame: aFrame
 	self subclassResponsibility

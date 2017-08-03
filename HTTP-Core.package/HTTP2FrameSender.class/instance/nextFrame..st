@@ -1,4 +1,4 @@
-as yet unclassified
+sending
 nextFrame: maxPayloadSize
 	| frame |
 	frame := self frameType new

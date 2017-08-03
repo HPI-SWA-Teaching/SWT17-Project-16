@@ -1,4 +1,4 @@
-instance creation
+huffman
 getHuffmanRFCLengthCollectionSecondPart: lengths
 
 lengths at: 129 put: 20;

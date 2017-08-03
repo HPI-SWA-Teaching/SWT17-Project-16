@@ -1,4 +1,4 @@
-as yet unclassified
+decoding
 getRestPayloadFrom: aByteArray WithOffset: offset
 	self getStreamDependencyFrom: aByteArray WithOffset: offset.
 	self weight: (self getIntegerFrom: aByteArray from: 14+offset to: 14+offset).

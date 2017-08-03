@@ -1,3 +1,3 @@
-as yet unclassified
+state handling
 shouldChangeState
 	^ self stream byteStreamOut atEnd
