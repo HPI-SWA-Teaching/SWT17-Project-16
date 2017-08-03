@@ -1,3 +1,3 @@
 accessing
 getIntegerFrom: aByteArray from: start to: end
-	^ (aByteArray copyFrom: start to: end) asInteger 
+	^ self class byteArrayToInteger: (aByteArray copyFrom: start to: end) 

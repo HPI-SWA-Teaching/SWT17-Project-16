@@ -5,7 +5,7 @@ decodeParameterList
 	readStream := ReadStream on: self payload.
 	[readStream atEnd] whileFalse: [
 		self parameterList add:
-			(HTTP2SettingsFrame intToSettingsCollection at: (readStream next: 2) asInteger)
+			(HTTP2SettingsFrame intToSettingsCollection at: (self class byteArrayToInteger: (readStream next: 2)))
 			->(readStream next: 4) asInteger
 	]
 	
