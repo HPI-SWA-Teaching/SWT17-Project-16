@@ -1,7 +1,7 @@
 receiving
 receive
 |length aFrame|
-	[length := (self socketStream peek: 3) asByteArray asInteger.
+	[length := self byteArrayToInteger: (self socketStream peek: 3) asByteArray.
 	aFrame := HTTP2Frame getFrameFrom: (self socketStream next: length + 9) asByteArray.
 	(aFrame streamIdentifier = 0)
 		ifTrue: [aFrame receiveOnStream: self controlStream]

@@ -6,6 +6,7 @@
 	"instance" : {
 		"activeStreams" : "H. G. 7/13/2017 00:25",
 		"activeStreams:" : "H. G. 7/13/2017 00:25",
+		"byteArrayToInteger:" : "H. G. 8/3/2017 02:42",
 		"closeConnection" : "H. G. 7/18/2017 22:16",
 		"closeStream:" : "H. G. 7/31/2017 14:04",
 		"connectTo:" : "H. G. 7/31/2017 15:23",
@@ -34,7 +35,7 @@
 		"nextFreeStreamId:" : "H. G. 7/13/2017 00:17",
 		"nextFreeStreamIdPostIncrement" : "H. G. 7/13/2017 00:20",
 		"openStreamFor:" : "H. G. 7/31/2017 15:33",
-		"receive" : "H. G. 7/18/2017 22:44",
+		"receive" : "H. G. 8/3/2017 02:43",
 		"receiveLoop" : "H. G. 7/17/2017 19:06",
 		"receiveOnNonActiveStream:" : "H. G. 7/16/2017 14:34",
 		"responseToUnfinishedRequests" : "H. G. 7/31/2017 14:24",
