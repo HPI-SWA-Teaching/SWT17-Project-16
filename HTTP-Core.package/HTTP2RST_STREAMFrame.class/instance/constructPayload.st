@@ -1,3 +1,3 @@
 as yet unclassified
 constructPayload 
-	^ self errorCode asByteArrayOfSize: 4
+	^ self integer: self errorCode asByteArrayOfSize: 4

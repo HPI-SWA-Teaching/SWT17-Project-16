@@ -1,3 +1,3 @@
 as yet unclassified
 constructPayload 
-	^ (self promisedID asByteArrayOfSize: 4), self payload
+	^ (self integer: self promisedID asByteArrayOfSize: 4), self payload

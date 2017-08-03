@@ -9,11 +9,12 @@
 		"newFrom:in:" : "H. G. 7/18/2017 12:38" },
 	"instance" : {
 		"calculateSolutionFor:index:in:" : "jp 7/30/2017 18:30",
-		"encodeInteger:with:" : "jp 7/30/2017 18:40",
+		"encodeInteger:with:" : "H. G. 8/3/2017 02:00",
 		"encodeRemaindingInteger:with:" : "jp 7/30/2017 18:41",
 		"encodeString:" : "DS 5/31/2017 23:38",
 		"encodeWithPayload:" : "jp 7/15/2017 13:10",
 		"indexedRepresentation:" : "jp 6/6/2017 11:28",
+		"integer:asByteArrayOfSize:" : "H. G. 8/3/2017 02:03",
 		"leadingBits" : "H. G. 6/18/2017 21:06",
 		"leadingBitsLength" : "H. G. 6/18/2017 21:06",
 		"literalRepresentation:prefix:length:" : "DS 6/21/2017 21:08",

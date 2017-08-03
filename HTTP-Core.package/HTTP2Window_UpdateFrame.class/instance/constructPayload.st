@@ -1,3 +1,3 @@
 as yet unclassified
 constructPayload 
-	^ self increment asByteArrayOfSize: 4
+	^ self integer: self increment asByteArrayOfSize: 4
