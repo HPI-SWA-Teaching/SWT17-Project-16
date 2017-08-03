@@ -1,3 +1,3 @@
 accessing
 endPoint 
-	^ self length + 9
+	^ self length + self class headerLength
