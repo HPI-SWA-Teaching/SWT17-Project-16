@@ -1,5 +1,5 @@
 receiving
 updateSettings: parameterList
 	parameterList do: [:parameter | 
-		self streamManager perform:
+		self connection perform:
 			('update', parameter key,':') asSymbol withArguments: (Array with: parameter value)]

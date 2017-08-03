@@ -1,3 +1,3 @@
 accessing
-id: anObject
-	id := anObject
+id: anInteger
+	id := anInteger

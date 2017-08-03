@@ -1,3 +1,3 @@
 receiving
 receiveRSTStreamFrame: aFrame
-	self stream streamManager closeStream: self stream
+	self stream connection closeStream: self stream

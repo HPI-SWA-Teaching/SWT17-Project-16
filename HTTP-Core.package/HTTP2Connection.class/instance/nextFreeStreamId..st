@@ -1,3 +1,3 @@
 accessing
-nextFreeStreamId: anObject
-	nextFreeStreamId := anObject
+nextFreeStreamId: anInteger
+	nextFreeStreamId := anInteger

@@ -1,4 +1,4 @@
-as yet unclassified
+travis
 byteArrayToInteger: aByteArray
 	"Convert me to an Integer, network byte order, most significant byte first, big endian"
 	

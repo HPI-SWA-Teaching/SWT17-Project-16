@@ -1,3 +1,3 @@
 accessing
-connectionActive: anObject
-	connectionActive := anObject
+connectionActive: aBoolean
+	connectionActive := aBoolean

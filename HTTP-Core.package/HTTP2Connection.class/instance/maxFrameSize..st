@@ -1,3 +1,3 @@
 accessing
-maxFrameSize: anObject
-	maxFrameSize := anObject
+maxFrameSize: anInteger
+	maxFrameSize := anInteger

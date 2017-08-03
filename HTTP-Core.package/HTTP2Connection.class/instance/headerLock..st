@@ -1,3 +1,3 @@
 accessing
-headerLock: anObject
-	headerLock := anObject
+headerLock: anInteger
+	headerLock := anInteger

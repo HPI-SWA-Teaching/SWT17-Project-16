@@ -1,3 +1,3 @@
 accessing
-promise: anObject
-	promise := anObject
+promise: aPromise
+	promise := aPromise

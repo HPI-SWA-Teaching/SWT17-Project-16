@@ -1,3 +1,3 @@
 accessing
-headerTableOut: anObject
-	headerTableOut := anObject
+headerTableOut: aHTTP2HPACKIndexTable
+	headerTableOut := aHTTP2HPACKIndexTable

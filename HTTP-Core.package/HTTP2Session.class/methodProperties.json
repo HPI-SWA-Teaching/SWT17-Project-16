@@ -1,13 +1,13 @@
 {
 	"class" : {
-		"establishConnectionTo:" : "H. G. 8/2/2017 16:18" },
+		"establishConnectionTo:" : "DS 8/3/2017 12:28" },
 	"instance" : {
-		"close" : "H. G. 7/14/2017 14:30",
+		"close" : "DS 8/3/2017 12:27",
+		"connection" : "DS 8/3/2017 12:27",
+		"connection:" : "DS 8/3/2017 12:28",
 		"newRequestFor:" : "H. G. 7/31/2017 15:24",
-		"send:" : "H. G. 7/31/2017 14:49",
+		"send:" : "DS 8/3/2017 12:27",
 		"server" : "H. G. 7/12/2017 00:15",
 		"server:" : "H. G. 7/12/2017 00:15",
 		"stream" : "H. G. 7/12/2017 00:21",
-		"stream:" : "H. G. 7/12/2017 00:21",
-		"streamManager" : "H. G. 7/12/2017 00:12",
-		"streamManager:" : "H. G. 7/12/2017 00:12" } }
+		"stream:" : "H. G. 7/12/2017 00:21" } }

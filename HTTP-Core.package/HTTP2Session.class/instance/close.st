@@ -1,3 +1,3 @@
 open/close
 close
-	self streamManager closeConnection.
+	self connection closeConnection.

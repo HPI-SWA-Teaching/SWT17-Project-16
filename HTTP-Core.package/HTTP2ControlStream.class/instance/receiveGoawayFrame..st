@@ -1,3 +1,3 @@
 receiving
 receiveGoawayFrame: aFrame
-	self streamManager closeConnection
+	self connection closeConnection

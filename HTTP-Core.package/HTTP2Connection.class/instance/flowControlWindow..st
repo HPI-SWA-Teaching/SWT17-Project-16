@@ -1,3 +1,3 @@
 accessing
-flowControlWindow: anObject
-	flowControlWindow := anObject
+flowControlWindow: anInteger
+	flowControlWindow := anInteger

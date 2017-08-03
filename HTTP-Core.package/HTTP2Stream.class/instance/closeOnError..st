@@ -1,6 +1,6 @@
 closing
 closeOnError: errorMessage
-	self streamManager closeStream: self.
+	self connection closeStream: self.
 	Project current addDeferredUIMessage: [
 		self promise rejectWith: 
 			(HTTP2Error new

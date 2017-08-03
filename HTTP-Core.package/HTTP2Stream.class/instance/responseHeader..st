@@ -1,3 +1,3 @@
 accessing
-responseHeader: anObject
-	responseHeader := anObject
+responseHeader: aHTTP2Header
+	responseHeader := aHTTP2Header

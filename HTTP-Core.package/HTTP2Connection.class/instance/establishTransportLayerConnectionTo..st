@@ -1,3 +1,4 @@
 connecting
 establishTransportLayerConnectionTo: aServer
-	self socketStream: (SocketStream openConnectionToHostNamed: aServer port: 80).
+	self socketStream: 
+		(SocketStream openConnectionToHostNamed: aServer port: self class standardPort).

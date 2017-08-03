@@ -1,4 +1,4 @@
-as yet unclassified
+testing
 testFlowControlWindow
 	| http2stream request frame |
 	request := HTTP2Request new.

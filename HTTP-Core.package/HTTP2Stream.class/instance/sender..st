@@ -1,3 +1,3 @@
 accessing
-sender: anObject
-	sender := anObject
+sender: aSendingState
+	sender := aSendingState

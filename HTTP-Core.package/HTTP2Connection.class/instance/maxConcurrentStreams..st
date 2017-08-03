@@ -1,3 +1,3 @@
 accessing
-maxConcurrentStreams: anObject
-	maxConcurrentStreams := anObject
+maxConcurrentStreams: anInteger
+	maxConcurrentStreams := anInteger

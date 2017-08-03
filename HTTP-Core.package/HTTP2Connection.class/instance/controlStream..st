@@ -1,3 +1,3 @@
 accessing
-controlStream: anObject
-	controlStream := anObject
+controlStream: aHTTP2ControlStream
+	controlStream := aHTTP2ControlStream

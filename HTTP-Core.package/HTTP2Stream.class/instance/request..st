@@ -1,3 +1,3 @@
 accessing
-request: anObject
-	request := anObject
+request: aHTTP2Request
+	request := aHTTP2Request

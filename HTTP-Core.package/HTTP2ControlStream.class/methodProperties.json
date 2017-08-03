@@ -1,14 +1,14 @@
 {
 	"class" : {
-		"newFor:" : "H. G. 7/29/2017 13:43" },
+		"newFor:" : "DS 8/3/2017 12:35" },
 	"instance" : {
-		"hasFrames" : "H. G. 7/17/2017 16:42",
+		"hasFrames" : "DS 8/3/2017 12:29",
 		"initialize" : "H. G. 7/29/2017 13:20",
-		"nextFrame:" : "H. G. 7/29/2017 13:21",
+		"nextFrame:" : "DS 8/3/2017 12:29",
 		"outQueue" : "H. G. 7/17/2017 16:42",
-		"outQueue:" : "H. G. 7/17/2017 16:42",
-		"receiveGoawayFrame:" : "H. G. 7/29/2017 13:23",
+		"outQueue:" : "DS 8/3/2017 12:30",
+		"receiveGoawayFrame:" : "DS 8/3/2017 12:27",
 		"receivePingFrame:" : "H. G. 7/29/2017 13:39",
-		"receiveSettingsFrame:" : "H. G. 7/29/2017 13:42",
+		"receiveSettingsFrame:" : "DS 8/3/2017 12:34",
 		"receiveWindowUpdateFrame:" : "H. G. 8/3/2017 12:37",
-		"updateSettings:" : "H. G. 7/29/2017 13:41" } }
+		"updateSettings:" : "DS 8/3/2017 12:27" } }

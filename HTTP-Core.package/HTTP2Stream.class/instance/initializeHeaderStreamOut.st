@@ -1,3 +1,4 @@
-as yet unclassified
+initializing
 initializeHeaderStreamOut
-	self headerStreamOut: (ReadStream on: (self request header encode: self streamManager headerTableOut)).
+	self headerStreamOut: 
+		(ReadStream on: (self request header encode: self connection headerTableOut)).

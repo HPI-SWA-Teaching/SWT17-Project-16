@@ -1,3 +1,3 @@
 accessing
-byteStreamOut: anObject
-	byteStreamOut := anObject
+byteStreamOut: aByteSteam
+	byteStreamOut := aByteSteam

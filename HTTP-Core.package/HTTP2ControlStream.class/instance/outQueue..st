@@ -1,3 +1,3 @@
 accessing
-outQueue: anObject
-	outQueue := anObject
+outQueue: anOrderedCollection
+	outQueue := anOrderedCollection

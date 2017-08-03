@@ -1,5 +1,5 @@
-as yet unclassified
+instance cretion
 newFor: aStreamManager
-	^self new
-		streamManager: aStreamManager;
+	^ self new
+		connection: aStreamManager;
 		yourself.

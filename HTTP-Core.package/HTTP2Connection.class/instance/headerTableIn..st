@@ -1,3 +1,3 @@
 accessing
-headerTableIn: anObject
-	headerTableIn := anObject
+headerTableIn: aHTTP2HPACKIndexTable
+	headerTableIn := aHTTP2HPACKIndexTable

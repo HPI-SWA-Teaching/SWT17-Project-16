@@ -1,3 +1,3 @@
 testing
 isAbleToSend
-	^ self flowControlWindow > 10 and: self atEnd not.
+	^ self flowControlWindow > self class minimumFlowControlWindowSize and: self atEnd not.

@@ -1,3 +1,3 @@
 accessing
-activeStreams: anObject
-	activeStreams := anObject
+activeStreams: aDictionary
+	activeStreams := aDictionary

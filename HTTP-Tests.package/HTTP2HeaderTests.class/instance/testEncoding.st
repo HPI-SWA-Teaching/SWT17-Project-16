@@ -1,4 +1,4 @@
-as yet unclassified
+testing
 testEncoding
 	| header indexTable |
 	indexTable := HTTP2HPACKIndexTable newWith: 1000."large enough to don't cause any evictions"

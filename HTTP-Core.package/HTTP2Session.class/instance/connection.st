@@ -1,3 +1,3 @@
 accessing
-streamManager
+connection
 	^ streamManager

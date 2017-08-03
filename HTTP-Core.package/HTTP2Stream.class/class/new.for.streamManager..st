@@ -1,8 +1,8 @@
-as yet unclassified
+instance creation
 new: id for: aRequest streamManager: aStreamManager
 	^ (HTTP2Stream new)
 		id: id;
 		request: aRequest;
-		streamManager: aStreamManager;
+		connection: aStreamManager;
 		flowControlWindow: aStreamManager initialWindowSize;
 		yourself.

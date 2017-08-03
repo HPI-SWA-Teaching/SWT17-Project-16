@@ -1,3 +1,3 @@
 accessing
-socketStream: anObject
-	socketStream := anObject
+socketStream: aSocketStream
+	socketStream := aSocketStream

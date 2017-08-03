@@ -1,3 +1,3 @@
 accessing
-byteStreamIn: anObject
-	byteStreamIn := anObject
+byteStreamIn: aByteStream
+	byteStreamIn := aByteStream

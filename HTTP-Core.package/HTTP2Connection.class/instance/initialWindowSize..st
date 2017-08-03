@@ -1,3 +1,3 @@
 accessing
-initialWindowSize: anObject
-	initialWindowSize := anObject
+initialWindowSize: anInteger
+	initialWindowSize := anInteger

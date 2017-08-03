@@ -1,3 +1,3 @@
 sending
 send: aRequest
-	^ self streamManager openStreamFor: aRequest.
+	^ self connection openStreamFor: aRequest.
