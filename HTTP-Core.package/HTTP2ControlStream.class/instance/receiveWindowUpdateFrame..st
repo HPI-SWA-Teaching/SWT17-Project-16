@@ -1,3 +1,3 @@
 receiving
 receiveWindowUpdateFrame: aFrame
-	"Todo: Window updates implementieren"
+	self connection updateWindowSize: aFrame increment
