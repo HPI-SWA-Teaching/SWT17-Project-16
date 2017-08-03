@@ -1,3 +1,3 @@
 huffman
 encodeHuffman: decodedBlock
-	^ self encodeHuffman: decodedBlock withValues: (self getHuffmanRFCValueCollection) Lengths: self getHuffmanRFCLengthCollection.
+	^ self encodeHuffman: decodedBlock withValues: (self getHuffmanRFCValueCollection) Lengths: self getHuffmanRFCLengthCollection

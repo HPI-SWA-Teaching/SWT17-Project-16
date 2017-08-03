@@ -2,9 +2,9 @@
 	"class" : {
 		"appendLeaf:toHuffmanResult:" : "MK 8/1/2017 16:26",
 		"appendToHuffmanResult:at:value:" : "MK 8/1/2017 17:16",
-		"decodeHuffman:" : "MK 8/1/2017 16:03",
+		"decodeHuffman:" : "jp 8/3/2017 15:45",
 		"decodeHuffman:withRoot:" : "MK 8/1/2017 16:54",
-		"encodeHuffman:" : "MK 8/1/2017 16:58",
+		"encodeHuffman:" : "jp 8/3/2017 15:45",
 		"encodeHuffman:withValues:Lengths:" : "MK 8/1/2017 17:33",
 		"getHuffmanRFCLengthCollection" : "MK 7/15/2017 15:59",
 		"getHuffmanRFCLengthCollectionFirstPart:" : "MK 7/15/2017 15:57",
@@ -14,7 +14,7 @@
 		"getHuffmanRFCValueCollectionSecondPart:" : "MK 7/15/2017 16:02",
 		"getHuffmanTree" : "jp 7/19/2017 17:54",
 		"getNthByteOf:at:" : "MK 8/1/2017 17:27",
-		"newFrom:in:" : "H. G. 7/29/2017 12:56",
+		"newFrom:in:" : "jp 8/3/2017 15:45",
 		"newInContext:" : "DS 6/1/2017 18:30" },
 	"instance" : {
 		"=" : "H. G. 7/29/2017 13:18",

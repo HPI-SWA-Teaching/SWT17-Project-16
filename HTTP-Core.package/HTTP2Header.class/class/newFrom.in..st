@@ -5,4 +5,4 @@ newFrom: aHeaderBlock in: aContext
 	header := self new.
 	[stream atEnd] whileFalse: [
 		header add: (HTTP2HeaderField newFrom: stream in: aContext).].
-	^ header.
+	^ header

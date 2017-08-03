@@ -5,4 +5,4 @@ new: id for: aRequest streamManager: aStreamManager
 		request: aRequest;
 		connection: aStreamManager;
 		flowControlWindow: aStreamManager initialWindowSize;
-		yourself.
+		yourself

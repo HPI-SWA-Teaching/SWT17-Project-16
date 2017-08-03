@@ -7,4 +7,4 @@ settingsToIntDictionary
 		add: 'InitialWindowSize'->4;
 		add: 'MaxFrameSize'->5;
 		add: 'MaxHeaderListSize'->6;
-		yourself.
+		yourself

@@ -1,3 +1,3 @@
 accessing
 staticTable
-	^ self class staticTable.
+	^ self class staticTable

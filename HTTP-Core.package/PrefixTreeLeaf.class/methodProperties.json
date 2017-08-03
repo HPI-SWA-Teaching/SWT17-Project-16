@@ -2,9 +2,9 @@
 	"class" : {
 		 },
 	"instance" : {
-		"getValueFor:with:" : "MK 8/1/2017 16:43",
-		"isLeaf" : "MK 8/1/2017 16:43",
-		"isNode" : "MK 8/1/2017 16:43",
+		"getValueFor:with:" : "jp 8/3/2017 15:47",
+		"isLeaf" : "jp 8/3/2017 15:47",
+		"isNode" : "jp 8/3/2017 15:47",
 		"setValue:For:with:" : "MK 8/1/2017 16:43",
 		"value" : "MK 7/16/2017 13:47",
 		"value:" : "MK 7/16/2017 13:47" } }

@@ -63,4 +63,4 @@ staticTable
 		add: 'vary'->'';
 		add: 'via'->'';
 		add: 'www-authenticate'->'';
-		yourself.
+		yourself

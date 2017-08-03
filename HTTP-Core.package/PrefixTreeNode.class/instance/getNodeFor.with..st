@@ -4,4 +4,4 @@ getNodeFor: searchString with: ANDDecisionString
 		self zero 
 		] ifFalse: [
 		self one
-		] ) .
+		] ) 

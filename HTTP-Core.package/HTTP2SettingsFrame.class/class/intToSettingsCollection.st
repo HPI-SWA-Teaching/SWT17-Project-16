@@ -7,4 +7,4 @@ intToSettingsCollection
 		add: 'InitialWindowSize';
 		add: 'MaxFrameSize';
 		add: 'MaxHeaderListSize';
-		yourself.
+		yourself

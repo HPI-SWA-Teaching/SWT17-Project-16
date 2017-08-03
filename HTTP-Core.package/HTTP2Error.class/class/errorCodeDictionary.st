@@ -18,4 +18,4 @@ errorCodeDictionary
 				at: 16rc put: 'INADEQUATE_SECURITY';
 				at: 16rd put: 'HTTP_1_1_REQUIRED';
 				yourself].
-	^ typeDictionary.
+	^ typeDictionary

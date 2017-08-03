@@ -10,4 +10,4 @@ indexOfKey: aKey ifPresent: presentBlock ifAbsent: absentBlock
 		association key ~= aKey 
 			ifTrue: [index := index + 1] 
 			ifFalse: [^ presentBlock value: index]]. 
-	^ absentBlock value.
+	^ absentBlock value

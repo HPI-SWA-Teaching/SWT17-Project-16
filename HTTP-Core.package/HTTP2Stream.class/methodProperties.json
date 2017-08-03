@@ -1,7 +1,7 @@
 {
 	"class" : {
 		"minimumFlowControlWindowSize" : "DS 8/3/2017 13:00",
-		"new:for:streamManager:" : "DS 8/3/2017 12:28" },
+		"new:for:streamManager:" : "jp 8/3/2017 15:47" },
 	"instance" : {
 		"atEnd" : "H. G. 7/29/2017 15:04",
 		"byteStreamIn" : "H. G. 7/30/2017 18:10",
@@ -19,7 +19,7 @@
 		"increaseFlowControlWindow:" : "H. G. 7/15/2017 14:12",
 		"initialize" : "H. G. 7/31/2017 14:28",
 		"initializeHeaderStreamOut" : "DS 8/3/2017 12:56",
-		"isAbleToSend" : "DS 8/3/2017 13:00",
+		"isAbleToSend" : "jp 8/3/2017 15:47",
 		"nextFrame:" : "DS 8/3/2017 13:02",
 		"promise" : "H. G. 7/31/2017 14:19",
 		"promise:" : "DS 8/3/2017 12:49",

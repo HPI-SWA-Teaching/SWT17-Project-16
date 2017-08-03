@@ -1,3 +1,3 @@
 accessing
 isNode
-	^true.
+	^true

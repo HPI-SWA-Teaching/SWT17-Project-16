@@ -1,3 +1,3 @@
 accessing
 flagEndHeaders
-	^self flags bitAt: 3.
+	^self flags bitAt: 3

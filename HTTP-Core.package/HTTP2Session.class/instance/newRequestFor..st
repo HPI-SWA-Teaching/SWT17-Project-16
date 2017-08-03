@@ -9,4 +9,4 @@ newRequestFor: aPath
 		add: ':path' -> aPath;
 		add: ':scheme' -> 'http';
 		add: ':authority' -> self server.
-	^ request.
+	^ request
