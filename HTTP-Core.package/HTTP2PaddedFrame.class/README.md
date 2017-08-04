@@ -1,0 +1,1 @@
+A HTTP2PaddedFrame is a base class for all frames specified in rfc 7540 which use padding.

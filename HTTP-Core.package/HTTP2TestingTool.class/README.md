@@ -1,0 +1,1 @@
+A HTTP2TestingTool is a simple tool for testing wether a server supports the http2-protocol. As https isn't yet implemented for this http2 implementation this only works for unencrypted http2.

@@ -1,0 +1,1 @@
+A HTTP2ContinuationFrame represents a ContinuationFrame specified in rfc 7540. It follows HeadersFrames on a http2connection if the HeadersFrame is to small to contain all header data.

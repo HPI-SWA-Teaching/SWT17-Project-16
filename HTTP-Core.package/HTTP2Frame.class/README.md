@@ -1,0 +1,1 @@
+HTTP2Frame is a base class for the different frames specified in rfc 7540. It is responsible for decoding and encoding and holding the specific frame data.

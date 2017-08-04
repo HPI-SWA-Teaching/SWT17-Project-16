@@ -1,0 +1,1 @@
+A HTTP2WindowUpdateFrame represents a WindowUpdateFrame as specified in rfc 7540. It is used for flowControl and informs the other endpoint about changed flow control windows.

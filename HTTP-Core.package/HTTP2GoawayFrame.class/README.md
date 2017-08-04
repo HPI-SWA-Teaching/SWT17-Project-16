@@ -1,0 +1,1 @@
+A HTTP2GoawayFrame represents a GoawayFrame specified in rfc 7540

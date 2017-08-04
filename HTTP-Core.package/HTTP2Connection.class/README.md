@@ -1,0 +1,1 @@
+An HTTP2Connection represents a whole http2 connection. It is responsible for initiating and closing a connection. During an active connection it multiplexes the incoming data to the corresponding http2 streams and sends the outgoing data from these streams.

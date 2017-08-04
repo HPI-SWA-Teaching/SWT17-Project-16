@@ -1,3 +1,3 @@
 sending
-nextFrame: anInteger
+nextFrame: maxPayloadSize
 	^ self outQueue removeFirst encode

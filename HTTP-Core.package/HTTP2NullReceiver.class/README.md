@@ -1,0 +1,1 @@
+A HTTP2NullReceiver is the terminating receiving state of an HTTP2Stream.

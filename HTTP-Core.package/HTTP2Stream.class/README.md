@@ -1,0 +1,1 @@
+An HTTP2Stream represents a stream specified in rfc 7540. It is responsible for handling a single request/response cycle on the http2 connection.
