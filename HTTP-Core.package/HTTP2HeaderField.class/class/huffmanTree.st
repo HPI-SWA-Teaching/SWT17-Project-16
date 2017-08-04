@@ -1,4 +1,4 @@
-as yet unclassified
+huffman decoding
 huffmanTree
 	^ #(133
 		3

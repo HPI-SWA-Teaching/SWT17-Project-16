@@ -1,4 +1,4 @@
-decode
+decoding
 decodeString: aStream
 	| length huffBit |
 	huffBit := aStream peek bitAt: 8.

@@ -1,4 +1,4 @@
-as yet unclassified
+huffman decoding
 decodeHuffman: encodedBlock to: decodeStream index: index treePosition: position
 	| pos |
 	pos := self huffmanTree at: position + (self nextHuffmanBitFor: encodedBlock at: index).

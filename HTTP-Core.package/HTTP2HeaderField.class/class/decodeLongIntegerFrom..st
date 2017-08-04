@@ -1,4 +1,4 @@
-decode
+decoding
 decodeLongIntegerFrom: aStream
 	| byte |
 	byte := aStream next.

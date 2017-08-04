@@ -1,4 +1,4 @@
-decode
+decoding
 decodeLiteralWithoutIndexing: aStream in: aContext
 	^ self key: 
 		((aStream peek bitAnd: self prefixBitMaskWithoutIndexing) = 0

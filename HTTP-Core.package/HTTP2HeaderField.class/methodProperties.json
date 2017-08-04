@@ -1,9 +1,10 @@
 {
 	"class" : {
-		"decodeHuffman:" : "H. G. 8/4/2017 01:22",
+		"bitMaskFor:" : "H. G. 8/4/2017 19:14",
+		"decodeHuffman:" : "H. G. 8/4/2017 19:00",
 		"decodeHuffman:to:index:treePosition:" : "H. G. 8/4/2017 12:15",
 		"decodeIndexed:in:" : "H. G. 6/6/2017 17:53",
-		"decodeInteger:prefix:" : "H. G. 8/4/2017 13:03",
+		"decodeInteger:prefix:" : "H. G. 8/4/2017 19:16",
 		"decodeLiteralWithIndexing:in:" : "jp 8/4/2017 12:25",
 		"decodeLiteralWithoutIndexing:in:" : "jp 8/4/2017 12:34",
 		"decodeLongIntegerFrom:" : "H. G. 8/4/2017 13:18",
@@ -15,7 +16,7 @@
 		"prefixBitMaskWithIndexing" : "jp 8/4/2017 12:23",
 		"prefixBitMaskWithoutIndexing" : "jp 8/4/2017 12:31" },
 	"instance" : {
-		"encodeInteger:with:" : "jp 8/4/2017 11:42",
+		"encodeInteger:with:" : "H. G. 8/4/2017 19:16",
 		"encodeRemainingInteger:on:" : "jp 8/4/2017 12:00",
 		"encodeRemainingInteger:with:" : "jp 8/4/2017 12:00",
 		"encodeString:" : "jp 8/4/2017 12:01",

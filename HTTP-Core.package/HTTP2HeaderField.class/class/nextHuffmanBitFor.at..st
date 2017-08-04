@@ -1,4 +1,4 @@
-as yet unclassified
+huffman decoding
 nextHuffmanBitFor: encodedBlock at: index
 	| bytePos bitPos |
 	bytePos := index // 8 + 1.

@@ -1,4 +1,4 @@
-decode
+decoding
 decodeLiteralWithIndexing: aStream in: aContext
 	| key headerField |
 	(aStream peek bitAnd: self prefixBitMaskWithIndexing) = 0
