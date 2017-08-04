@@ -6,6 +6,6 @@ testMaxDynamicSize
 	indexTable add: 'test' with: 'value'.
 	self assert: indexTable dynamicTable size equals: 1.
 	indexTable maxDynamicSize: 40.
-	self assert: indexTable dynamicTable size equals: 0.
+	self assert: indexTable dynamicTable isEmpty.
 	indexTable add: 'test' with: 'value'.
-	self assert: indexTable dynamicTable size equals: 0.
+	self assert: indexTable dynamicTable isEmpty
