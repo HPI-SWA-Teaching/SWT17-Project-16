@@ -1,0 +1,25 @@
+{
+	"class" : {
+		"newWith:" : "DS 6/1/2017 16:00",
+		"overheadBuffer" : "DS 8/4/2017 10:28",
+		"standardSize" : "DS 8/3/2017 13:21",
+		"staticTable" : "jp 8/3/2017 15:45",
+		"staticTable:" : "DS 6/1/2017 12:00" },
+	"instance" : {
+		"add:" : "jp 8/3/2017 15:45",
+		"add:with:" : "DS 8/4/2017 10:27",
+		"at:" : "DS 8/4/2017 10:30",
+		"dynamicSize" : "DS 6/1/2017 12:06",
+		"dynamicSize:" : "jp 7/30/2017 17:59",
+		"dynamicTable" : "DS 5/31/2017 21:56",
+		"dynamicTable:" : "DS 8/4/2017 10:31",
+		"evict:" : "jp 8/4/2017 16:21",
+		"indexOf:ifPresent:ifAbsent:" : "DS 8/4/2017 11:22",
+		"indexOfKey:ifPresent:ifAbsent:" : "DS 8/4/2017 16:57",
+		"initialize" : "DS 8/4/2017 14:37",
+		"lastElementKeySize" : "jp 7/30/2017 18:05",
+		"lastElementValueSize" : "jp 8/4/2017 11:30",
+		"maxDynamicSize" : "DS 6/1/2017 12:06",
+		"maxDynamicSize:" : "DS 6/1/2017 13:40",
+		"staticTable" : "jp 8/3/2017 15:45",
+		"updateDynamicSizeWithLastElement" : "jp 7/30/2017 18:08" } }

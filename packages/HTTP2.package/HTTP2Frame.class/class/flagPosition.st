@@ -1,0 +1,3 @@
+accessing
+flagPosition
+	^ 5

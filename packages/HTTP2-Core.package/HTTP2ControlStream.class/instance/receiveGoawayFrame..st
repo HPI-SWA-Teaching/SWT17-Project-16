@@ -1,0 +1,3 @@
+receiving
+receiveGoawayFrame: aFrame
+	self connection closeConnection

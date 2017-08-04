@@ -1,0 +1,3 @@
+updatingSettings
+updateMaxConcurrentStreams: anInteger
+	self maxConcurrentStreams: anInteger

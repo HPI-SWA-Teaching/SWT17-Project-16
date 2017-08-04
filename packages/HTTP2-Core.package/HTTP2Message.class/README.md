@@ -1,0 +1,1 @@
+An HTTP2Message represents a message which is sent over an http2 connection. It consists of a message header and a message body (data). HTTP2Messages are part of the interface of this http2 implementation.

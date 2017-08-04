@@ -1,0 +1,23 @@
+{
+	"class" : {
+		"authorityExampleInByte" : "DS 8/4/2017 19:15",
+		"customHeaderInByte" : "DS 8/4/2017 19:07",
+		"customKeycustomHeaderInByte" : "jp 6/19/2017 10:33",
+		"customKeycustomValueInByte" : "DS 8/4/2017 19:06",
+		"customKeyinByte" : "DS 8/4/2017 19:06",
+		"customValueInByte" : "DS 8/4/2017 19:05",
+		"passwordSecretInByte" : "DS 8/4/2017 19:05",
+		"pathSamplePathInByte" : "DS 8/4/2017 19:05" },
+	"instance" : {
+		"testDecodeAndEncodeInteger" : "DS 8/4/2017 19:20",
+		"testDecodeIndexed" : "DS 8/4/2017 19:19",
+		"testDecodeInteger" : "DS 8/4/2017 19:19",
+		"testDecodeString" : "DS 8/4/2017 19:00",
+		"testDecodeStringWithHuffman" : "DS 8/4/2017 19:19",
+		"testDecodeWithIndexing" : "DS 8/4/2017 19:10",
+		"testDecodeWithoutIndexing" : "DS 8/4/2017 19:07",
+		"testEncodeInteger" : "jp 6/6/2017 11:45",
+		"testEncodeNeverIndexing" : "DS 8/4/2017 18:57",
+		"testEncodeString" : "DS 8/4/2017 18:57",
+		"testEncodeWithIndexing" : "DS 8/4/2017 18:57",
+		"testEncodeWithoutIndexing" : "DS 8/4/2017 18:56" } }

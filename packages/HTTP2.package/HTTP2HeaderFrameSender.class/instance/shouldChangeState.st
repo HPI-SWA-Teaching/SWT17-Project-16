@@ -1,0 +1,3 @@
+state handling
+shouldChangeState
+	^ true

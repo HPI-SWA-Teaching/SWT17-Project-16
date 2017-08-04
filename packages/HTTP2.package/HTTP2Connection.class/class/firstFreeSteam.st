@@ -1,0 +1,3 @@
+constants
+firstFreeSteam
+	^ 3

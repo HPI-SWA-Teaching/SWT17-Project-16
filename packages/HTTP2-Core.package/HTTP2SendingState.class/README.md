@@ -1,0 +1,1 @@
+A HTTP2ReceivingState is an abstract state which shows, in which part of a sending process a specific HTTP2Stream is located.

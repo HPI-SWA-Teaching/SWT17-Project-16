@@ -1,0 +1,11 @@
+{
+	"class" : {
+		 },
+	"instance" : {
+		"constructPayload" : "jp 7/15/2017 13:24",
+		"encode" : "jp 7/15/2017 13:24",
+		"flagEndStream" : "jp 8/3/2017 16:50",
+		"flagEndStream:" : "DS 6/6/2017 19:32",
+		"readPayloadFrom:" : "jp 8/3/2017 16:59",
+		"receiveOnStream:" : "H. G. 7/14/2017 18:30",
+		"type" : "DS 6/6/2017 20:10" } }

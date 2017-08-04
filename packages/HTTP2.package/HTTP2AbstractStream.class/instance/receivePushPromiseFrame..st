@@ -1,0 +1,3 @@
+receiving
+receivePushPromiseFrame: aFrame
+	self subclassResponsibility

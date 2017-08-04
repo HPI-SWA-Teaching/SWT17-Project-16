@@ -1,0 +1,1 @@
+A HTTP2NullFrameSender is the terminating sending state of an HTTP2Stream.

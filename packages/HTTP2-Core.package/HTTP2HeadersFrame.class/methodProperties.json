@@ -1,0 +1,24 @@
+{
+	"class" : {
+		 },
+	"instance" : {
+		"constructPayload" : "jp 8/3/2017 16:55",
+		"encode" : "jp 7/15/2017 13:25",
+		"exclusiveBit" : "jp 8/3/2017 16:56",
+		"exclusiveBit:" : "jp 8/3/2017 16:56",
+		"flagEndHeaders" : "jp 8/3/2017 16:57",
+		"flagEndHeaders:" : "H. G. 7/19/2017 01:36",
+		"flagEndStream" : "jp 8/3/2017 16:57",
+		"flagEndStream:" : "H. G. 7/19/2017 01:36",
+		"flagPriority" : "DS 7/3/2017 14:42",
+		"flagPriority:" : "jp 6/19/2017 10:48",
+		"readPayloadFrom:" : "jp 8/3/2017 17:01",
+		"readRemainingPayloadFrom:withOffset:" : "jp 8/3/2017 17:02",
+		"readStreamDependencyFrom:withOffset:" : "jp 8/3/2017 17:03",
+		"receiveOnStream:" : "H. G. 7/14/2017 18:31",
+		"streamDependency" : "jp 8/3/2017 17:06",
+		"streamDependency:" : "jp 8/3/2017 17:07",
+		"streamDependencyBytes" : "jp 8/3/2017 16:55",
+		"type" : "jp 8/3/2017 17:07",
+		"weight" : "jp 8/3/2017 17:07",
+		"weight:" : "jp 8/3/2017 17:08" } }

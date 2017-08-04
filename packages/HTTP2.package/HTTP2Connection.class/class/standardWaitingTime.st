@@ -1,0 +1,3 @@
+constants
+standardWaitingTime
+	^ 1

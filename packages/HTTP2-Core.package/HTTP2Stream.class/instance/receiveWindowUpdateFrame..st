@@ -1,0 +1,3 @@
+receiving
+receiveWindowUpdateFrame: aFrame
+	self receiver receiveWindowUpdateFrame: aFrame

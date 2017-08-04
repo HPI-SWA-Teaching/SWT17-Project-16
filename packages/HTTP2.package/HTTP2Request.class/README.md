@@ -1,0 +1,1 @@
+A HTTP2Request represents a request for an HTTP2 connection. This subclass should be filled with convenience methods in the future.

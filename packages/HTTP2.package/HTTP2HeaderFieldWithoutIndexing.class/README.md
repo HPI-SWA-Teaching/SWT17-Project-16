@@ -1,0 +1,1 @@
+A HTTP2HeaderFieldWithoutIndexing is a header field with disabled caching in the HPACK index table (see RFC 7541).

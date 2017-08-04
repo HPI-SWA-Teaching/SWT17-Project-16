@@ -1,0 +1,3 @@
+decoding
+readPayloadFrom: aByteArray
+	^ self

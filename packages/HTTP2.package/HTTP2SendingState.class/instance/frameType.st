@@ -1,0 +1,3 @@
+accessing
+frameType
+	self subclassResponsibility

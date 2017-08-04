@@ -1,0 +1,1 @@
+An HTTP2HeadersFrame represents a HeaderFrame specified in RFC 7540. It marks the start of an encoded headerblock and contains the first part of it. Together with HTTP2ContinuationFrames it serves as Container for header data sent on an HTTP2 connection.

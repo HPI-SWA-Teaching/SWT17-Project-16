@@ -1,0 +1,3 @@
+accessing
+streamIdentifier
+	^ 0
