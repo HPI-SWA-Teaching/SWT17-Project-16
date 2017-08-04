@@ -1,1 +1,1 @@
-A HTTP2HPACKIndexTable represents an IndexTable used by the HTTP2HeaderCompression process HPACK (RFC 7541). It is responsible for caching header fields.
+A H2HPACKIndexTable represents an IndexTable used by the HTTP2HeaderCompression process HPACK (RFC 7541). It is responsible for caching header fields.

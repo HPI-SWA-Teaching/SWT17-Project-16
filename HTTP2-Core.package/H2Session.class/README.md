@@ -1,1 +1,1 @@
-A HTTP2Session serves the user interface for an HTTP2Connection. It is responsible for constructing and sending requests on an http2 connection. It should be filled with convenience methods for the http communication in the future.
+A H2Session serves the user interface for an H2Connection. It is responsible for constructing and sending requests on an http2 connection. It should be filled with convenience methods for the http communication in the future.

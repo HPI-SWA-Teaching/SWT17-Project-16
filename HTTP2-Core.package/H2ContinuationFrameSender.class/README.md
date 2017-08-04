@@ -1,1 +1,1 @@
-A HTTP2ContinuationFrameSender is the second sending state a HTTP2Stream is in. This state is responsible for sending additional header information if the first HeadersFrame wasn't sufficient.
+A H2ContinuationFrameSender is the second sending state a H2Stream is in. This state is responsible for sending additional header information if the first HeadersFrame wasn't sufficient.

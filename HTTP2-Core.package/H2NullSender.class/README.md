@@ -1,1 +1,1 @@
-A HTTP2NullFrameSender is the terminating sending state of an HTTP2Stream.
+A H2NullFrameSender is the terminating sending state of an H2Stream.

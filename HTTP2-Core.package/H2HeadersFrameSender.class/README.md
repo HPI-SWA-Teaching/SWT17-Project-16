@@ -1,1 +1,1 @@
-A HTTP2HeaderFrameSender is the first sending state a HTTP2Stream is in. This state is responsible for sending the initial HeadersFrame and for deciding wether to send additional ContinuationFrames or proceed directly with the request data (if there is any).
+A H2HeaderFrameSender is the first sending state a H2Stream is in. This state is responsible for sending the initial HeadersFrame and for deciding wether to send additional ContinuationFrames or proceed directly with the request data (if there is any).

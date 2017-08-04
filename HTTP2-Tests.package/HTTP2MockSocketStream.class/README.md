@@ -1,1 +1,0 @@
-As we don't want to test with real transport layer connections, the HTTP2MockSocketStream replaces the SocketStream during testing. It only provides the minimal interface that is used by the http2 implementation and therefore doesn't inherit from Stream.

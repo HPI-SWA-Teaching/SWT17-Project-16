@@ -1,1 +1,1 @@
-HTTP2Frame is super class for the different frames specified in RFC 7540. It is responsible for decoding and encoding and holding the specific frame data.
+H2Frame is super class for the different frames specified in RFC 7540. It is responsible for decoding and encoding and holding the specific frame data.
