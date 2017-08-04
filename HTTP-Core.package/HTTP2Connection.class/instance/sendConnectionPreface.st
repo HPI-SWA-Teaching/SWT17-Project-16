@@ -1,7 +1,7 @@
 connecting
 sendConnectionPreface
 	| frame |
-	self socketStream nextPutAll: HTTP2Connection connectionPreface.
+	self socketStream nextPutAll: self class connectionPreface.
 	"disable server push"
 	frame := (HTTP2SettingsFrame new)
 			add: 'EnablePush'->0;

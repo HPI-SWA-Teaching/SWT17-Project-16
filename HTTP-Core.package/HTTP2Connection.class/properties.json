@@ -16,7 +16,6 @@
 		"initialWindowSize",
 		"maxConcurrentStreams",
 		"maxFrameSize",
-		"receivingProcess",
 		"flowControlWindow",
 		"headerLock" ],
 	"name" : "HTTP2Connection",

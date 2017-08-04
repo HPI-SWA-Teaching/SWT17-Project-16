@@ -1,4 +1,4 @@
 initializing
 initialize
 	super initialize.
-	self nextState: HTTP2NullReceiver
+	self nextState: self class
