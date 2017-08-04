@@ -1,4 +1,4 @@
-as yet unclassified
+initialization
 exampleRequest
 	^ HTTP2Request new
 		header: (HTTP2Header new);

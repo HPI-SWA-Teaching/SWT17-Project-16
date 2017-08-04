@@ -1,3 +1,3 @@
 accessing
-outStream: anObject
-	outStream := anObject
+outStream: aStream
+	outStream := aStream

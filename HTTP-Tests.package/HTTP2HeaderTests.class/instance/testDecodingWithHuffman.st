@@ -1,15 +1,10 @@
 testing
 testDecodingWithHuffman
-	| header indexTable |
-	
-	indexTable := HTTP2HPACKIndexTable newWith: 256.
-	header := HTTP2Header newFrom: #[16r48 16r82 16r64 16r02 16r58 16r85 16rae 16rc3 16r77 16r1a 16r4b 16r61 16r96 16rd0 16r7a 16rbe 16r94 16r10 16r54 16rd4 16r44 16ra8 16r20 16r05 16r95 16r04 16r0b 16r81 16r66 16re0 16r82 16ra6 16r2d 16r1b 16rff 16r6e 16r91 16r9d 16r29 16rad 16r17 16r18 16r63 16rc7 16r8f 16r0b 16r97 16rc8 16re9 16rae 16r82 16rae 16r43 16rd3] in: indexTable.
-		self assert: (header at: ':status') equals: '302'.
-		self assert: (header at: 'cache-control') equals: 'private'.
-		self assert: (header at: 'date') equals: 'Mon, 21 Oct 2013 20:13:21 GMT'.
-		self assert: (header at: 'location') equals: 'https://www.example.com'.
-	header := HTTP2Header newFrom: #[16r48 16r83 16r64 16r0e 16rff 16rc1 16rc0 16rbf] in: indexTable.
-		self assert: (header at: ':status') equals: '307'.
-		self assert: (header at: 'cache-control') equals: 'private'.
-		self assert: (header at: 'date') equals: 'Mon, 21 Oct 2013 20:13:21 GMT'.
-		self assert: (header at: 'location') equals: 'https://www.example.com'.
+	| header indexTable encodedHeaders testHeaders |
+	indexTable := HTTP2HPACKIndexTable new.
+	encodedHeaders := self class encodedHuffmanTestHeaders.
+	header := HTTP2Header newFrom: encodedHeaders first in: indexTable.
+	testHeaders := self class evictionTestHeaders.
+	self assert: header equals: testHeaders first.
+	header := HTTP2Header newFrom: encodedHeaders second in: indexTable.
+	self assert: header equals: testHeaders second.

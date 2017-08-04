@@ -1,4 +1,4 @@
-as yet unclassified
+testing
 testReceiveGoaway
 	|mockStream connection frame |
 	connection := HTTP2Connection new.
@@ -6,8 +6,8 @@ testReceiveGoaway
 	frame := (HTTP2GoawayFrame new)
 		lastID: 9;
 		errorCode: 0;
-		debugData: 'random infos';
+		debugData: 'random information';
 		yourself.
 	mockStream inStream addAll: frame encode.
 	(Delay forMilliseconds: 10) wait.
-	self assert: connection connectionActive equals: false
+	self deny: connection connectionActive

@@ -1,30 +1,13 @@
 testing
 testIncomingTraffic
-	| stream headerFrame streamManager header dataFrame headerBlock continuationFrame data |
-	streamManager := HTTP2Connection new.
-	stream := HTTP2Stream new: 5 for: HTTP2Request new streamManager: streamManager.
-	header := (HTTP2Header new)
-		add: ':method'->'GET';
-		add: ':scheme'->'http';
-		add: ':path' ->'/';
-		add: 'authority'->'www.example.com';
-		yourself.
-	headerBlock := header encode: (HTTP2HPACKIndexTable newWith: 1000).
-	headerFrame := (HTTP2HeadersFrame new)
-		payload: (headerBlock first: 10);
-		streamIdentifier: 5;
-		yourself.
-	continuationFrame := (HTTP2ContinuationFrame new)
-		payload: (headerBlock copyFrom: 11 to: headerBlock size);
-		streamIdentifier: 5;
-		flagEndHeaders: 1;
-		yourself.
+	| stream headerFrame header dataFrame headerBlock continuationFrame data |
+	stream := HTTP2Stream new: 5 for: HTTP2Request new connection: HTTP2Connection new.
+	header := HTTP2HeaderTests standardHeader.
+	headerBlock := header encode: HTTP2HPACKIndexTable new.
+	headerFrame := HTTP2FrameTests standardHeadersFrameFor: (headerBlock first: 10). 
+	continuationFrame := HTTP2FrameTests standardContinuationFrameFor: (headerBlock copyFrom: 11 to: headerBlock size).
 	data := 'some Data'.
-	dataFrame := (HTTP2DataFrame new)
-		payload: data;
-		streamIdentifier: 5;
-		flagEndStream: 1;
-		yourself.
+	dataFrame := self standardDataFrameFor: data.
 	headerFrame receiveOnStream: stream.
 	continuationFrame receiveOnStream: stream.
 	dataFrame receiveOnStream: stream.

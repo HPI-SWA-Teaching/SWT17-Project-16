@@ -2,7 +2,7 @@
 	"class" : {
 		 },
 	"instance" : {
-		"newServerOnPort:withProtocol:code:response:" : "jp 6/21/2017 20:34",
-		"port" : "jp 6/21/2017 20:34",
-		"testConnectionFalse" : "jp 6/21/2017 20:34",
-		"testConnectionTrue" : "jp 6/21/2017 20:50" } }
+		"newServerOnPort:withProtocol:code:response:" : "DS 8/4/2017 13:06",
+		"port" : "DS 8/4/2017 13:03",
+		"testConnectionFalse" : "DS 8/4/2017 13:03",
+		"testConnectionTrue" : "DS 8/4/2017 13:01" } }

@@ -1,7 +1,7 @@
 testing
 testWindow_UpdateFrame 
 	| frame array |
-	frame := HTTP2Window_UpdateFrame new.
+	frame := HTTP2WindowUpdateFrame new.
 	frame streamIdentifier: 13.
 	frame increment: 42.
 	array :=  #[16r0 16r0 16r04 16r08 16r00 16r0 16r0 16r0 16r0d 16r0 16r0 16r0 16r2a].

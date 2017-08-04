@@ -1,4 +1,4 @@
-as yet unclassified
+testing
 testReceivePing
 	|mockStream frame |
 	mockStream := self establishMockConnectionFor: HTTP2Connection new.

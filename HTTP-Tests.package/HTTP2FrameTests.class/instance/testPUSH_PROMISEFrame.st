@@ -7,7 +7,7 @@ testPUSH_PROMISEFrame
 		add: ':scheme'->'http';
 		add: ':path' ->'/';
 		add: ':authority'->'www.example.com'.
-	frame := HTTP2Push_PromiseFrame fromData: (header encode: (HTTP2HPACKIndexTable newWith: 1000)) andPaddingLength: 5.
+	frame := HTTP2PushPromiseFrame fromData: (header encode: (HTTP2HPACKIndexTable newWith: 1000)) andPaddingLength: 5.
 	frame streamIdentifier: 13.
 	frame promisedID: 7.
 	frame flagEndHeaders: 1.

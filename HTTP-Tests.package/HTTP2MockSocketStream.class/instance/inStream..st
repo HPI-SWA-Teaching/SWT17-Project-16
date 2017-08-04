@@ -1,3 +1,3 @@
 accessing
-inStream: anObject
-	inStream := anObject
+inStream: anOrderedCollection
+	inStream := anOrderedCollection

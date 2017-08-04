@@ -1,4 +1,4 @@
-as yet unclassified
+initialization
 exampleResponse
 	^ HTTP2Response new
 		header: (HTTP2Header new

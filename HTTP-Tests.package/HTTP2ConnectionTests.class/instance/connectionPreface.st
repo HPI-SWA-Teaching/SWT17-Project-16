@@ -1,4 +1,4 @@
-as yet unclassified
+initialization
 connectionPreface
 	| frame |
 	frame := HTTP2SettingsFrame new

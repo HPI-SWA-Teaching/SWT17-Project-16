@@ -1,4 +1,4 @@
-as yet unclassified
+testing
 testSocketConnectionClosed
 	|mockStream connection|
 	connection := HTTP2Connection new.

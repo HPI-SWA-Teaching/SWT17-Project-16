@@ -1,4 +1,4 @@
 accessing
 reset
 	self inStream: OrderedCollection new.
-	self outStream: (ReadWriteStream on: ByteArray new).
+	self outStream: (ReadWriteStream on: ByteArray new)

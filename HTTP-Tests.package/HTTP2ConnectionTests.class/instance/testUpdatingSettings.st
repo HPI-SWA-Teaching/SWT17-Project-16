@@ -1,4 +1,4 @@
-as yet unclassified
+testing
 testUpdatingSettings
 	| frame mockStream connection |
 	connection := HTTP2Connection new.

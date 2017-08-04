@@ -1,4 +1,4 @@
-as yet unclassified
+testing
 testRequestResponseCommunication
 	| connection mockStream frame request response promise |
 	connection := HTTP2Connection new.
@@ -9,7 +9,7 @@ testRequestResponseCommunication
 	promise := connection openStreamFor: request.
 	(Delay forMilliseconds: 10) wait.
 	frame := HTTP2HeadersFrame new
-		payload: (request header encode: (HTTP2HPACKIndexTable newWith: 4096));
+		payload: (request header encode: (HTTP2HPACKIndexTable newWith: HTTP2HPACKIndexTable standardSize));
 		streamIdentifier: 3;
 		flagEndStream: 1;
 		flagEndHeaders: 1;
@@ -17,7 +17,7 @@ testRequestResponseCommunication
 	self assert: mockStream outStream contents equals: frame encode.
 	response := self exampleResponse.
 	frame := HTTP2HeadersFrame new
-		payload: (response header encode:  (HTTP2HPACKIndexTable newWith: 4096));
+		payload: (response header encode:  (HTTP2HPACKIndexTable newWith: HTTP2HPACKIndexTable standardSize));
 		streamIdentifier: 3;
 		flagEndHeaders: 1;
 		yourself.
@@ -31,4 +31,4 @@ testRequestResponseCommunication
 	promise then: [:resp |
 		self assert: resp header equals: response header.
 		self assert: resp data equals: response data asByteArray.
-		self assert: (connection activeStreams size) equals: 0]
+		self assert: connection activeStreams isEmpty]

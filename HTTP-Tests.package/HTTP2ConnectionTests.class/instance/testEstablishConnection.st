@@ -1,7 +1,7 @@
-as yet unclassified
+testing
 testEstablishConnection
 	| mockStream frame inframe |
-	mockStream := self establishMockConnectionFor: HTTP2Connection new..
+	mockStream := self establishMockConnectionFor: HTTP2Connection new.
 	inframe := HTTP2SettingsFrame new
 			add: 'MaxConcurrentStreams'->100;
 			yourself.
