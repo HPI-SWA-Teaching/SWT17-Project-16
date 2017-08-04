@@ -4,7 +4,7 @@ We built a basic HTTP/2 implementation. It covers most of the protocol specifica
 ## Usage
 At first you have to create an http2 session (replace 'localhost' with the server you want to communicate with):
 ```
-session := HTTP2Session establishConnectionTo: 'localhost'
+session := H2Session establishConnectionTo: 'localhost'
 ```
 After that, you can create new requests aiming for specific resources on that server:
 ```
