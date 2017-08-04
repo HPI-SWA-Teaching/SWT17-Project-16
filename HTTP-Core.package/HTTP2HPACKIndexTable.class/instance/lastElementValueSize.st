@@ -1,3 +1,3 @@
 accessing
 lastElementValueSize 
-	^  self dynamicTable last value byteSize +32
+	^  self dynamicTable last value byteSize +self class overheadBuffer

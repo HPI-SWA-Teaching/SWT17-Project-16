@@ -1,7 +1,7 @@
 indexing
 indexOf: anAssociation ifPresent: presentBlock ifAbsent: absentBlock
 	| index |
-	index := self staticTable indexOf: anAssociation.
-	index ~= 0 ifTrue: [^ presentBlock value: index].
-	index := self dynamicTable indexOf: anAssociation.
-	index = 0 ifTrue: [^ absentBlock value]  ifFalse: [ ^ presentBlock value: index + 61] 
+	index := self staticTable indexOf: anAssociation ifAbsent: [
+		index := self dynamicTable indexOf: anAssociation ifAbsent: [^ absentBlock value].  
+		^ presentBlock value: index + self staticTable size].
+	^ presentBlock value: index.

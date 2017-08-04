@@ -1,5 +1,5 @@
 accessing
 at: anIndex
-	anIndex > 61 
-		ifTrue: [^ self dynamicTable at: (anIndex - 61) ]
+	anIndex > self staticTable size
+		ifTrue: [^ self dynamicTable at: (anIndex - self staticTable size) ]
 		ifFalse: [^ self staticTable at: anIndex]

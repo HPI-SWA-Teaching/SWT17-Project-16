@@ -1,6 +1,6 @@
 adding
 evict: aSize
-	(self dynamicSize > aSize and: self dynamicTable size > 0)
+	(self dynamicSize > aSize and: self dynamicTable isEmpty not)
 		ifTrue: [ 
 			self updateDynamicSizeWithLastElement.
 			self dynamicTable removeLast.

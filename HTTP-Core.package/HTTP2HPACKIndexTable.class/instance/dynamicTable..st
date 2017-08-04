@@ -1,3 +1,3 @@
 accessing
-dynamicTable: aTable
-	dynamicTable := aTable
+dynamicTable: anOrderedCollection
+	dynamicTable := anOrderedCollection
