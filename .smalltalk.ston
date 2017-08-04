@@ -1,7 +1,7 @@
 SmalltalkCISpec {
   #loading : [
     SCIMetacelloLoadSpec {
-      #baseline : 'HTTP',
+      #baseline : 'HTTP2',
       #directory : '',
       #platforms : [ #squeak],
       #load : [ 'tests' ],
@@ -10,7 +10,7 @@ SmalltalkCISpec {
   ],
   #testing: {
     #coverage : {
-      #categories : [ 'HTTP-Core' ]
+      #categories : [ 'HTTP2-Core' ]
     }
   }
 }
