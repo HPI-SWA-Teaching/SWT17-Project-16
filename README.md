@@ -5,7 +5,8 @@ We built a basic HTTP/2 implementation.
 At first you have to create an http2 session:
 ```
 HTTP2Session class>>establishConnectionTo:
-```.
+```
+.
 After that, you can create new requests for this session and send it via the session:
 ```
 HTTP2Session>>send:
