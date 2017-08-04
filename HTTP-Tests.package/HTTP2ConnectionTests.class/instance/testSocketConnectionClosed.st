@@ -6,4 +6,4 @@ testSocketConnectionClosed
 	(Delay forMilliseconds: 10) wait.
 	mockStream close.
 	(Delay forMilliseconds: 10) wait.
-	self assert: connection connectionActive equals: false
+	self deny: connection connectionActive

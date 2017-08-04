@@ -8,10 +8,8 @@
 		"exampleResponse" : "H. G. 8/3/2017 13:20",
 		"testCloseConnection" : "DS 8/4/2017 12:50",
 		"testEstablishConnection" : "DS 8/4/2017 12:51",
-		"testFlowControlWindow" : "H. G. 8/2/2017 17:13",
-		"testHeaderLock" : "H. G. 8/2/2017 17:13",
 		"testReceiveGoaway" : "DS 8/4/2017 12:53",
 		"testReceivePing" : "H. G. 8/3/2017 13:07",
 		"testRequestResponseCommunication" : "DS 8/4/2017 13:00",
-		"testSocketConnectionClosed" : "H. G. 8/3/2017 13:27",
+		"testSocketConnectionClosed" : "jp 8/4/2017 20:30",
 		"testUpdatingSettings" : "H. G. 8/3/2017 13:28" } }
