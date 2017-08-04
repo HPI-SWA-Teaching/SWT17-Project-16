@@ -1,1 +1,1 @@
-An HTTP2PingFrame represents a PingFrame specified in rfc 7540. It is use to check wether a connection is still alive and to test the response time of a connection.
+An HTTP2PingFrame represents a PingFrame specified in RFC 7540. It is used to check whether a connection is still alive and to test the response time of a connection.

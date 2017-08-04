@@ -1,1 +1,1 @@
-An HTTP2PriorityFrame represents an PriorityFrame as spcified in rfc 7540. It is used to inform the other endpoint about changed stream priorities.
+An HTTP2PriorityFrame represents a PriorityFrame as specified in RFC 7540. It is used to inform the other endpoint about changed stream priorities.

@@ -4,7 +4,7 @@
 		 ],
 	"classvars" : [
 		 ],
-	"commentStamp" : "H. G. 8/4/2017 15:22",
+	"commentStamp" : "jp 8/4/2017 20:02",
 	"instvars" : [
 		"opaqueData" ],
 	"name" : "HTTP2PingFrame",

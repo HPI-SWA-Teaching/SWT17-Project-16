@@ -1,1 +1,1 @@
-A HTTP2Response represents a response received on an http2 connection. This subclass should be filled with convenience methods in the future.
+A HTTP2Response represents a response received on an HTTP2 connection. This subclass should be filled with convenience methods in the future.
