@@ -1,10 +1,10 @@
 testing
 testUpdatingSettings
 	| frame mockStream connection |
-	connection := HTTP2Connection new.
+	connection := H2Connection new.
 	mockStream := self establishMockConnectionFor: connection.
 	mockStream reset.
-	frame := HTTP2SettingsFrame new
+	frame := H2SettingsFrame new
 			add: 'MaxConcurrentStreams'->110;
 			add: 'HeaderTableSize'->2048;
 			add: 'MaxFrameSize'->(2 raisedTo: 17);
@@ -13,7 +13,7 @@ testUpdatingSettings
 	mockStream inStream addAll: frame encode.
 	
 	(Delay forMilliseconds: 10) wait.
-	frame := HTTP2SettingsFrame new
+	frame := H2SettingsFrame new
 			flagAck: 1;
 			yourself.
 	self assert: mockStream outStream contents equals: frame encode.

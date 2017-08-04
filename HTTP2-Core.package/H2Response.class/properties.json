@@ -1,0 +1,14 @@
+{
+	"category" : "HTTP2-Core",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "jp 8/4/2017 20:05",
+	"instvars" : [
+		 ],
+	"name" : "H2Response",
+	"pools" : [
+		 ],
+	"super" : "H2Message",
+	"type" : "normal" }

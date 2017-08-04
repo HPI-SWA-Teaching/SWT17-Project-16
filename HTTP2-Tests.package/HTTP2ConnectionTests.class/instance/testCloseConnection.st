@@ -1,7 +1,7 @@
 testing
 testCloseConnection
 	|mockStream connection |
-	connection := HTTP2Connection new.
+	connection := H2Connection new.
 	mockStream := self establishMockConnectionFor: connection.
 	(Delay forMilliseconds: 10) wait.
 	connection closeConnection.

@@ -1,0 +1,16 @@
+{
+	"category" : "HTTP2-Core",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "jp 8/4/2017 20:02",
+	"instvars" : [
+		"streamDependency",
+		"weight",
+		"exclusiveBit" ],
+	"name" : "H2PriorityFrame",
+	"pools" : [
+		 ],
+	"super" : "H2Frame",
+	"type" : "normal" }

@@ -1,7 +1,7 @@
 testing
 testDynamicTable
 	| indexTable |
-	indexTable := HTTP2HPACKIndexTable new.
+	indexTable := H2HPACKIndexTable new.
 	indexTable maxDynamicSize: 100.
 	self assert: indexTable dynamicTable isEmpty.
 	self assert: indexTable dynamicTable isEmpty.

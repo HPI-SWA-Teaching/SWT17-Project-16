@@ -2,13 +2,13 @@ testing
 testOutgoingTraffic
 	| header stream request headerBlock data |
 	header := HTTP2HeaderTests standardHeader.
-	headerBlock := header encode: HTTP2HPACKIndexTable new.
+	headerBlock := header encode: H2HPACKIndexTable new.
 	data := 'some data' asByteArray.
-	request := (HTTP2Request new)
+	request := (H2Request new)
 		header: header;
 		data: data;
 		yourself.
-	stream := HTTP2Stream new: 5 for: request connection: HTTP2Connection new.
+	stream := H2Stream new: 5 for: request connection: H2Connection new.
 	self assert: 
 			(stream nextFrame: 10) 
 		equals: 
@@ -21,4 +21,4 @@ testOutgoingTraffic
 			(stream nextFrame: 100)
 		equals:
 			(HTTP2FrameTests standardDataFrameFor: data) encode.
-	self assert: stream sender class equals: HTTP2NullFrameSender
+	self assert: stream sender class equals: H2NullSender

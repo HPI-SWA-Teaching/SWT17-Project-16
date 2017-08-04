@@ -1,7 +1,7 @@
 testing
 testEncoding
 	| header indexTable encodedHeaders |
-	indexTable := HTTP2HPACKIndexTable new.
+	indexTable := H2HPACKIndexTable new.
 	header := HTTP2HeaderTests standardHeader.
 	encodedHeaders := self class encodedTestHeaders.
 	self assert: (header encode: indexTable) equals: encodedHeaders first.

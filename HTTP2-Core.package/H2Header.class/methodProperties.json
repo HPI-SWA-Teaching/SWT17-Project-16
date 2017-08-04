@@ -1,0 +1,15 @@
+{
+	"class" : {
+		"newFrom:in:" : "H. G. 8/4/2017 21:59" },
+	"instance" : {
+		"=" : "H. G. 7/29/2017 13:18",
+		"add:" : "DS 6/1/2017 18:26",
+		"addNeverIndexing:value:" : "H. G. 8/4/2017 22:00",
+		"addWithIndexing:value:" : "H. G. 8/4/2017 22:00",
+		"addWithoutIndexing:value:" : "H. G. 8/4/2017 22:00",
+		"at:" : "H. G. 7/29/2017 13:16",
+		"dictionary" : "H. G. 7/29/2017 13:13",
+		"dictionary:" : "jp 8/4/2017 11:34",
+		"encode:" : "H. G. 7/29/2017 13:15",
+		"initialize" : "H. G. 7/29/2017 13:13",
+		"size" : "H. G. 7/29/2017 13:16" } }

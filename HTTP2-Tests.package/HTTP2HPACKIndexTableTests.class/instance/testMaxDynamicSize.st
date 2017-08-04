@@ -1,7 +1,7 @@
 testing
 testMaxDynamicSize
 	| indexTable |
-	indexTable := HTTP2HPACKIndexTable new.
+	indexTable := H2HPACKIndexTable new.
 	indexTable maxDynamicSize: 41.
 	indexTable add: 'test' with: 'value'.
 	self assert: indexTable dynamicTable size equals: 1.

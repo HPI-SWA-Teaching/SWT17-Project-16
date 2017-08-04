@@ -1,0 +1,11 @@
+{
+	"class" : {
+		"establishConnectionTo:" : "H. G. 8/4/2017 22:04" },
+	"instance" : {
+		"close" : "DS 8/3/2017 12:27",
+		"connection" : "jp 8/3/2017 17:32",
+		"connection:" : "jp 8/3/2017 17:32",
+		"newRequestFor:" : "H. G. 8/4/2017 22:01",
+		"send:" : "jp 8/3/2017 15:46",
+		"server" : "H. G. 7/12/2017 00:15",
+		"server:" : "jp 8/3/2017 17:33" } }

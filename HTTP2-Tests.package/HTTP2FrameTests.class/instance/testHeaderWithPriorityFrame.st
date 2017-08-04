@@ -2,8 +2,8 @@ testing
 testHeaderWithPriorityFrame
 	| header frame array| 
 	header := HTTP2HeaderTests standardHeader.
-	frame := (HTTP2HeadersFrame fromData: 
-		(header encode: HTTP2HPACKIndexTable new) andPaddingLength: 5)
+	frame := (H2HeadersFrame fromData: 
+		(header encode: H2HPACKIndexTable new) andPaddingLength: 5)
 		flagPriority: 1;
 		exclusiveBit: 1;
 		streamDependency: 7;
@@ -12,7 +12,7 @@ testHeaderWithPriorityFrame
 		yourself.
 	array := self class encodedHeadersFrames first.
 	self assert: (frame encode) equals: array.
-	frame := HTTP2Frame getFrameFrom: array.
+	frame := H2Frame getFrameFrom: array.
 	self assert: (frame streamDependency ) equals: 7.
 	self assert: (frame weight) equals: 8.
-	self assert: (HTTP2Header newFrom: (frame payload) in: HTTP2HPACKIndexTable new) 		equals: header
+	self assert: (H2Header newFrom: (frame payload) in: H2HPACKIndexTable new) 		equals: header

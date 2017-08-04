@@ -1,0 +1,16 @@
+{
+	"category" : "HTTP2-Core",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "jp 8/4/2017 19:59",
+	"instvars" : [
+		"lastID",
+		"errorCode",
+		"debugData" ],
+	"name" : "H2GoawayFrame",
+	"pools" : [
+		 ],
+	"super" : "H2Frame",
+	"type" : "normal" }

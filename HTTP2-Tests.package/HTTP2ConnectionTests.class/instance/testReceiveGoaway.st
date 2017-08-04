@@ -1,9 +1,9 @@
 testing
 testReceiveGoaway
 	|mockStream connection frame |
-	connection := HTTP2Connection new.
+	connection := H2Connection new.
 	mockStream := self establishMockConnectionFor: connection.
-	frame := (HTTP2GoawayFrame new)
+	frame := (H2GoawayFrame new)
 		lastID: 9;
 		errorCode: 0;
 		debugData: 'random information';

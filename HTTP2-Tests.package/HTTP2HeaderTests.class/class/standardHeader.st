@@ -1,6 +1,6 @@
 standard values
 standardHeader 
-	^ HTTP2Header new
+	^ H2Header new
 		add: ':method'->'GET';
 		add: ':scheme'->'http';
 		add: ':path' ->'/';

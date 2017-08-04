@@ -1,0 +1,14 @@
+{
+	"category" : "HTTP2-Core",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "H. G. 8/4/2017 15:56",
+	"instvars" : [
+		 ],
+	"name" : "H2HeadersFrameSender",
+	"pools" : [
+		 ],
+	"super" : "H2SendingState",
+	"type" : "normal" }

@@ -1,7 +1,7 @@
 initialization
 exampleResponse
-	^ HTTP2Response new
-		header: (HTTP2Header new
+	^ H2Response new
+		header: (H2Header new
 			add: ':status' -> '200';
 			add: 'content-length' -> '9';
 			add: 'content-type' -> 'text/html';
