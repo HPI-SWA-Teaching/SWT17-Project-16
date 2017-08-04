@@ -8,7 +8,7 @@ session := HTTP2Session establishConnectionTo: 'localhost'
 ```
 After that, you can create new requests aiming for specific resources on that server:
 ```
-request := session newRequestFor: '/dashboard/'
+request := session newRequestFor: '/aDirectory/aResource/'
 ```
 You can now add header fields and data to the request:
 ```
