@@ -1,3 +1,0 @@
-receiving
-receiveHeaderFrame: aFrame
-	self subclassResponsibility

@@ -1,1 +1,0 @@
-This class is responsible for testing all types of HTTP2Frames and their encoding and decoding.

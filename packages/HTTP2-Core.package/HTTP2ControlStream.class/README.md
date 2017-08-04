@@ -1,1 +1,0 @@
-An HTTP2ControlStream is responsible for the communication of an HTTP2 connection which is not send over HTTP2 streams. This communication concerns the whole connection and not only a request/response cycle.

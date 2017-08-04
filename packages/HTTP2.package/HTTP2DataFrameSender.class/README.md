@@ -1,1 +1,0 @@
-A HTTP2DataFrameSender is the third sending state a HTTP2Stream is in. This state is responsible for sending all request data (if there is any).

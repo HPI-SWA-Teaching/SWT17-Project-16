@@ -1,3 +1,0 @@
-receiving
-receiveRSTStreamFrame: aFrame
-	self subclassResponsibility

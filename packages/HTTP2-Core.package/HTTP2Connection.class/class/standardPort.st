@@ -1,3 +1,0 @@
-constants
-standardPort
-	^ 80

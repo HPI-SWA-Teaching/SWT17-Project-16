@@ -1,3 +1,0 @@
-accessing
-flagPosition
-	^ 5

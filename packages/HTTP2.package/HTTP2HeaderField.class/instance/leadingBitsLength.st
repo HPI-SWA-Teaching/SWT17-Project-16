@@ -1,3 +1,0 @@
-encoding
-leadingBitsLength
-	self subclassResponsibility

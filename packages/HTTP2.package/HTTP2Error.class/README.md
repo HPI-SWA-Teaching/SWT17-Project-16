@@ -1,1 +1,0 @@
-An HTTP2Error is an Error which is signaled when something wents wrong with the HTTP2 protocol. As error-handling isn't implemented yet, it is only signaled, when the connection is closed without ending the HTTP2 communication properly. For now, we assume that the corresponding endpoint of an HTTP2 connection implemented the protocol correctly.

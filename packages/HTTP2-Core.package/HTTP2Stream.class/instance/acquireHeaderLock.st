@@ -1,3 +1,0 @@
-sending
-acquireHeaderLock
-	self connection acquireHeaderLockFor: self

@@ -1,1 +1,0 @@
-An HTTP2PushPromiseFrame represents a PushPromise frame as specified in RFC 7540. Those frames can be sent by the server to perform a server push.

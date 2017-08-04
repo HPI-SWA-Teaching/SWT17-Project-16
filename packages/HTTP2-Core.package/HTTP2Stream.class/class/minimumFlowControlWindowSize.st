@@ -1,3 +1,0 @@
-constants
-minimumFlowControlWindowSize
-	^ 10

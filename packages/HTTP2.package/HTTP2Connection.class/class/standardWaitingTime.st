@@ -1,3 +1,0 @@
-constants
-standardWaitingTime
-	^ 1

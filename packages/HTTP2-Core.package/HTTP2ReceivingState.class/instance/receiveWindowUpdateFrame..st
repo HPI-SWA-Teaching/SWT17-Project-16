@@ -1,3 +1,0 @@
-receiving
-receiveWindowUpdateFrame: aFrame
-	self stream increaseFlowControlWindow: aFrame increment

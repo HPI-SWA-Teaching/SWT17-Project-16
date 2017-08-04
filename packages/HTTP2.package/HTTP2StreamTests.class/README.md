@@ -1,1 +1,0 @@
-This class is responsible for testing HTTP2Streams.

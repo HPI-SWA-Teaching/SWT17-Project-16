@@ -1,1 +1,0 @@
-A HTTP2HeaderFieldWithIndexing is a header field with enabled caching in the HPACK index table (see RFC 7541).

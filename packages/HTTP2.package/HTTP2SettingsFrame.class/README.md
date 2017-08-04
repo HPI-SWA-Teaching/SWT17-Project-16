@@ -1,1 +1,0 @@
-An HTTP2SettingsFrame represents a SettingsFrame as specified in RFC 7540. It is used to inform the other endpoint of an HTTP2 connection about changed settings which concerns the HTTP2 connection.

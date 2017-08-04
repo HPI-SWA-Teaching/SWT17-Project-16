@@ -1,3 +1,0 @@
-receiving
-nextFrame: maxPayloadSize
-	self subclassResponsibility

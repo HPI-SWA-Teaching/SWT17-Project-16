@@ -1,3 +1,0 @@
-encoding
-constructPayload 
-	^ self payload 

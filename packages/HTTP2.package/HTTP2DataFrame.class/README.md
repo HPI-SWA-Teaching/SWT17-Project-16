@@ -1,1 +1,0 @@
-An HTTP2DataFrame represents a DataFrame specified in rfc 7540. It is the main conainer for data sent on a HTTP2connection.

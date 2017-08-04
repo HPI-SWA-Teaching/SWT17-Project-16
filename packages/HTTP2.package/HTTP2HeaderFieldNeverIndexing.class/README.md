@@ -1,1 +1,0 @@
-A HTTP2HeaderFieldNeverIndexing is a specific type of headerfields which should never be cached (see RFC 7541). This is used for transmitting passwords and other security relevant data in the HTTP header.

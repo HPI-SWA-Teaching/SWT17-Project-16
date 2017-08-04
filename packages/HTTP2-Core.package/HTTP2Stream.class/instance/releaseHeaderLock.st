@@ -1,3 +1,0 @@
-sending
-releaseHeaderLock
-	self connection releaseHeaderLock

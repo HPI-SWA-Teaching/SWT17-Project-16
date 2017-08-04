@@ -1,3 +1,0 @@
-encoding
-leadingBitsLength
-	^ 4

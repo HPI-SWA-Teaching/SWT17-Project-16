@@ -1,3 +1,0 @@
-receiving
-receiveSettingsFrame: aFrame
-	self subclassResponsibility

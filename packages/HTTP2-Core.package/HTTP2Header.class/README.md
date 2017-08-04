@@ -1,1 +1,0 @@
-A HTTP2Header represents a header of an HTTP2 request or response. It consists mainly of a dictionary of header fields and is responsible for decoding and encoding itself.

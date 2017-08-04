@@ -1,3 +1,0 @@
-receiving
-receiveDataFrame: aFrame
-	self subclassResponsibility

@@ -1,3 +1,0 @@
-accessing
-headerLength
-	^ 9
