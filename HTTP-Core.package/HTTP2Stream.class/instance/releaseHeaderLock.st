@@ -1,0 +1,3 @@
+as yet unclassified
+releaseHeaderLock
+	self connection releaseHeaderLock

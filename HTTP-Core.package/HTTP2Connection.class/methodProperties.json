@@ -10,6 +10,7 @@
 		"standardWaitingTime" : "jp 8/3/2017 16:04",
 		"standardWindowSize" : "DS 8/3/2017 13:24" },
 	"instance" : {
+		"acquireHeaderLockFor:" : "H. G. 8/4/2017 19:24",
 		"activeStreams" : "H. G. 7/13/2017 00:25",
 		"activeStreams:" : "DS 8/3/2017 13:10",
 		"byteArrayToInteger:" : "H. G. 8/3/2017 02:42",
@@ -47,6 +48,7 @@
 		"receive" : "jp 8/3/2017 16:03",
 		"receiveLoop" : "jp 8/4/2017 16:21",
 		"receiveOnNonActiveStream:" : "H. G. 7/16/2017 14:34",
+		"releaseHeaderLock" : "H. G. 8/4/2017 19:29",
 		"responseToUnfinishedRequests" : "H. G. 7/31/2017 14:24",
 		"satisfyHeaderLock" : "H. G. 8/2/2017 16:36",
 		"send" : "H. G. 7/31/2017 15:53",
