@@ -18,5 +18,5 @@
 	"name" : "HTTP2Stream",
 	"pools" : [
 		 ],
-	"super" : "HTTP2AbstractStream",
+	"super" : "H2AbstractStream",
 	"type" : "normal" }
