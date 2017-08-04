@@ -1,5 +1,6 @@
-travis
+compatibility
 integer: anInteger asByteArrayOfSize: aSize
+	"this method is copied from Integer>>asByteArrayOfSize: because Squeak versions 5.1 and older do not support Integer>>asByteArrayOfSize:"
 	"copied from Pharo 5"
 	"Answer a ByteArray of aSize with my value, most-significant byte first."
 	| answer digitPos |

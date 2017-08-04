@@ -1,6 +1,6 @@
 {
 	"class" : {
-		"byteArrayToInteger:" : "H. G. 8/3/2017 02:38",
+		"byteArrayToInteger:" : "H. G. 8/4/2017 16:32",
 		"flagPosition" : "jp 8/3/2017 16:23",
 		"fromPayload:" : "DS 7/3/2017 14:09",
 		"getFrameFrom:" : "jp 8/3/2017 16:59",
@@ -18,7 +18,7 @@
 		"flags:" : "jp 7/15/2017 13:11",
 		"getIntegerFrom:from:to:" : "H. G. 8/3/2017 02:46",
 		"initialize" : "jp 7/15/2017 13:12",
-		"integer:asByteArrayOfSize:" : "H. G. 8/3/2017 01:58",
+		"integer:asByteArrayOfSize:" : "H. G. 8/4/2017 16:30",
 		"length" : "jp 7/8/2017 20:21",
 		"length:" : "jp 7/15/2017 13:13",
 		"payload" : "DS 6/6/2017 18:39",
