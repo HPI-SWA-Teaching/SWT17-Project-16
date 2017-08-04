@@ -6,8 +6,6 @@ testDecodeStringWithHuffman
 	"https://www.example.com"
 	decoded :=  #[104 116 116 112 115 58 47 47 119 119 119 46 101 120 97 109 112 108 101 46 99 111 109].
 
-	self assert: decoded equals: (HTTP2Header decodeHuffman: (HTTP2Header encodeHuffman: decoded)).
-
 	encodedString := #[16r8c 16rf1 16re3 16rc2 16re5 16rf2 16r3a 16r6b 16ra0 16rab 16r90 16rf4 16rff].
 	self assert:(HTTP2HeaderField decodeString: (ReadStream on: encodedString)) equals:  'www.example.com'.
 	
