@@ -1,3 +1,3 @@
 accessing
-dictionary: anObject
-	dictionary := anObject
+dictionary: aDictionary
+	dictionary := aDictionary

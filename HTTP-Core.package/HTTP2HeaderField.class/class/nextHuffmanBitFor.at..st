@@ -1,4 +1,4 @@
-instance creation
+as yet unclassified
 nextHuffmanBitFor: encodedBlock at: index
 	| bytePos bitPos |
 	bytePos := index // 8 + 1.

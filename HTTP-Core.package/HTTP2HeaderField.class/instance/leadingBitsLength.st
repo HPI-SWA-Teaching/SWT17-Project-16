@@ -1,3 +1,3 @@
 encoding
 leadingBitsLength
-	self subclassResponsibility.
+	self subclassResponsibility
