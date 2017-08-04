@@ -1,3 +1,3 @@
-accessing
+testing
 outStreamEnded 
 	^ self byteStreamOut atEnd

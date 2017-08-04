@@ -1,3 +1,3 @@
-accessing
+testing
 atEnd
 	^ true

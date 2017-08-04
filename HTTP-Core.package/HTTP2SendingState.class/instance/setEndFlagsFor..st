@@ -1,3 +1,3 @@
-state handling
+sending
 setEndFlagsFor: aFrame
 	self subclassResponsibility

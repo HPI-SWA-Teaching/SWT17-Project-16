@@ -1,3 +1,3 @@
-encoding
+stream handling
 receiveOnStream: aHTTP2Stream
 	aHTTP2Stream receivePushPromiseFrame: self

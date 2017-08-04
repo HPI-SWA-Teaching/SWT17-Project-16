@@ -1,4 +1,4 @@
-accessing
+sending
 nextFrame: maxPayloadSize
 	| frame |
 	frame := self sender nextFrame: (maxPayloadSize min: self flowControlWindow).

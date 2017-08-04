@@ -1,3 +1,3 @@
-as yet unclassified
+sending
 acquireHeaderLockFor: aStream
 	self headerLock: aStream id

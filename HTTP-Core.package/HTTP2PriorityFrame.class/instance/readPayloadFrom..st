@@ -1,4 +1,4 @@
-accessing
+decoding
 readPayloadFrom: aByteArray
 	self streamDependency: (self getIntegerFrom: aByteArray from: self class startOfPayload to: 13).
 	self exclusiveBit: (self streamDependency bitAt: 32).

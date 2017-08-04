@@ -1,3 +1,3 @@
-as yet unclassified
+sending
 acquireHeaderLock
 	self connection acquireHeaderLockFor: self
