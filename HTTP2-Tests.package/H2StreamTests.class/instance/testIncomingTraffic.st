@@ -6,7 +6,7 @@ testIncomingTraffic
 	headerBlock := header encode: H2HPACKIndexTable new.
 	headerFrame := H2FrameTests standardHeadersFrameFor: (headerBlock first: 10). 
 	continuationFrame := H2FrameTests standardContinuationFrameFor: (headerBlock copyFrom: 11 to: headerBlock size).
-	data := 'some Data'.
+	data := 'some Data' asByteArray.
 	dataFrame := self standardDataFrameFor: data.
 	headerFrame receiveOnStream: stream.
 	continuationFrame receiveOnStream: stream.
