@@ -1,3 +1,3 @@
 receiving
 receiveWindowUpdateFrame: aFrame
-	self stream increaseFlowControlWindow: aFrame increment
+	self stream updateWindowSize: aFrame increment
