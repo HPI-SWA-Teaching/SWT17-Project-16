@@ -1,3 +1,3 @@
 accessing
 exclusiveBit
-	self flagPriority ifTrue: [^ exclusiveBit] 
+	self flagPrioritySet ifTrue: [^ exclusiveBit] 
