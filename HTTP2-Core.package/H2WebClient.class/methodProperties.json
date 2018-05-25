@@ -2,6 +2,11 @@
 	"class" : {
 		 },
 	"instance" : {
+		"getPathFrom:" : "FCH 5/25/2018 14:29",
 		"h2Session" : "FCH 5/25/2018 12:18",
 		"h2Session:" : "FCH 5/25/2018 12:18",
-		"severProtocolDictionary" : "FCH 5/25/2018 12:20" } }
+		"h2cGet:do:" : "FCH 5/25/2018 14:29",
+		"h2cUpgradeRequest:do:" : "FCH 5/25/2018 14:05",
+		"httpGet:do:" : "FCH 5/25/2018 14:20",
+		"requestH2CWithUrl:" : "FCH 5/25/2018 12:36",
+		"serverProtocolDictionary" : "FCH 5/25/2018 12:26" } }
