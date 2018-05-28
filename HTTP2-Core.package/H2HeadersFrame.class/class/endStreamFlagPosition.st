@@ -1,3 +1,0 @@
-constants
-endStreamFlagPosition
-	^ 1

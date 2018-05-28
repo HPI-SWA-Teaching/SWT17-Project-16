@@ -1,8 +1,6 @@
 {
 	"class" : {
-		"endHeadersFlagPosition" : "ms 5/28/2018 14:38",
-		"endStreamFlagPosition" : "ms 5/28/2018 14:38",
-		"priorityFlagPosition" : "ms 5/28/2018 14:38" },
+		 },
 	"instance" : {
 		"constructPayload" : "ms 5/28/2018 14:29",
 		"encode" : "jp 7/15/2017 13:25",

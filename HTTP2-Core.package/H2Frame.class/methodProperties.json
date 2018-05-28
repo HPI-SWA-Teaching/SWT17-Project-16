@@ -1,9 +1,14 @@
 {
 	"class" : {
+		"ackFlagPosition" : "ms 5/28/2018 19:20",
+		"endHeadersFlagPosition" : "ms 5/28/2018 19:19",
+		"endStreamFlagPosition" : "ms 5/28/2018 19:19",
 		"flagPosition" : "jp 8/3/2017 16:23",
 		"fromPayload:" : "ms 5/10/2018 16:45",
 		"getFrameFrom:" : "ms 5/28/2018 13:34",
 		"headerLength" : "jp 8/3/2017 12:51",
+		"paddedFlagPosition" : "ms 5/28/2018 19:19",
+		"priorityFlagPosition" : "ms 5/28/2018 19:19",
 		"standardSize" : "DS 8/3/2017 13:27",
 		"startOfPayload" : "jp 8/3/2017 16:18",
 		"typeDictionary" : "H. G. 8/4/2017 21:54",

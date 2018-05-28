@@ -1,3 +1,0 @@
-constants
-paddedFlagPosition
-	^ 4
