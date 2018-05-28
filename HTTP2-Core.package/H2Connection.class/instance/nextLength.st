@@ -1,3 +1,3 @@
 receiving
 nextLength
-	^ Integer from: (self socketStream peek: 3) asByteArray
+	^ (self socketStream peek: 3) asByteArray asInteger

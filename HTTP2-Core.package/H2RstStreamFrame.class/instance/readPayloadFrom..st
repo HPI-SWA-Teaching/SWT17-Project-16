@@ -1,3 +1,3 @@
 decoding
 readPayloadFrom: aByteArray
-	self errorCode: (Integer from: (aByteArray copyFrom: self class startOfPayload to: self endOfPayload))
+	self errorCode: (aByteArray copyFrom: self class startOfPayload to: self endOfPayload) asInteger
