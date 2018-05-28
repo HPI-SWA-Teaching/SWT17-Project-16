@@ -1,6 +1,6 @@
 decoding
 readPayloadFrom: aByteArray
 	super readPayloadFrom: aByteArray.
-	self promisedID: (aByteArray copyFrom: self startOfPromisedID to: self startOfPromisedID + 3) asInteger.
+	self promisedID: (aByteArray copyFrom: self startOfPromisedID to: self startOfPromisedID + 3) asPositiveBigEndianInteger.
 	self payload: (aByteArray copyFrom: self startOfHeaderFragment to: self endOfPayload)
 		

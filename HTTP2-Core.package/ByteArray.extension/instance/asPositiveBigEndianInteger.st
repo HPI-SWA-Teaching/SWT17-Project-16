@@ -1,5 +1,5 @@
 *HTTP2-Core
-asInteger
+asPositiveBigEndianInteger
 	"Convert me to an Integer using network byte order (most significant byte first, big endian)"
 	
 	| integer |
