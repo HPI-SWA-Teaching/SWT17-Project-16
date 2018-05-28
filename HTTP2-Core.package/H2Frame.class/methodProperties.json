@@ -1,9 +1,8 @@
 {
 	"class" : {
-		"byteArrayToInteger:" : "H. G. 8/4/2017 16:32",
 		"flagPosition" : "jp 8/3/2017 16:23",
 		"fromPayload:" : "ms 5/10/2018 16:45",
-		"getFrameFrom:" : "jp 8/3/2017 16:59",
+		"getFrameFrom:" : "ms 5/28/2018 10:19",
 		"headerLength" : "jp 8/3/2017 12:51",
 		"standardSize" : "DS 8/3/2017 13:27",
 		"startOfPayload" : "jp 8/3/2017 16:18",
@@ -16,7 +15,6 @@
 		"endOfPayload" : "MB 5/24/2018 11:27",
 		"flags" : "DS 5/31/2017 10:54",
 		"flags:" : "jp 7/15/2017 13:11",
-		"getIntegerFrom:from:to:" : "H. G. 8/3/2017 02:46",
 		"initialize" : "jp 7/15/2017 13:12",
 		"length" : "jp 7/8/2017 20:21",
 		"length:" : "jp 7/15/2017 13:13",

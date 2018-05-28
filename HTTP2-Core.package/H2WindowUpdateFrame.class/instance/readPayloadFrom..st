@@ -1,3 +1,3 @@
 decoding
 readPayloadFrom: aByteArray
-	self increment: (self getIntegerFrom: aByteArray from: self class startOfPayload to: self endOfPayload)
+	self increment: (Integer from: (aByteArray copyFrom: self class startOfPayload to: self endOfPayload))

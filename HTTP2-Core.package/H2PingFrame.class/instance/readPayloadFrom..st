@@ -1,4 +1,4 @@
 decoding
 readPayloadFrom: aByteArray
-	self opaqueData: (self getIntegerFrom: aByteArray from: self class startOfPayload to: self endOfPayload)
+	self opaqueData: (Integer from: (aByteArray copyFrom: self class startOfPayload to: self endOfPayload))
 	

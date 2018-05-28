@@ -1,6 +1,6 @@
-compatiblity
-byteArrayToInteger: aByteArray
-	"Convert me to an Integer, network byte order, most significant byte first, big endian"
+*HTTP2-Core
+from: aByteArray
+	"converts aByteArray to an Integer using network byte order (most significant byte first, big endian)"
 	
 	| integer |
 	integer := 0.
