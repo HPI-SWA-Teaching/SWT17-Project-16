@@ -9,6 +9,6 @@ testEstablishConnection
 	(Delay forMilliseconds: 10) wait.
 	"wait some time for the http2connection to send an acknowledgement for the received settings"
 	frame := H2SettingsFrame new
-			flagAck: 1;
+			setAckFlag: true;
 			yourself.
 	self assert: mockStream outStream contents equals: self connectionPreface, frame encode.

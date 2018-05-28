@@ -5,7 +5,7 @@ testHeaderFrame
 	frame := (H2HeadersFrame fromData: 
 		(header encode: H2HPACKIndexTable new) andPaddingLength: 5)
 		streamIdentifier: 13;
-		flagPriority:0;
+		setPriorityFlag: false;
 		yourself.
 	array := self class encodedHeadersFrames third.
 	self assert: (frame encode) equals: array.

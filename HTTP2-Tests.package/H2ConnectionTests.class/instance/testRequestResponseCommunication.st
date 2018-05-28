@@ -11,21 +11,21 @@ testRequestResponseCommunication
 	frame := H2HeadersFrame new
 		payload: (request header encode: H2HPACKIndexTable new);
 		streamIdentifier: 3;
-		flagEndStream: 1;
-		flagEndHeaders: 1;
+		setEndStreamFlag: true;
+		setEndHeadersFlag: true;
 		yourself.
 	self assert: mockStream outStream contents equals: frame encode.
 	response := self exampleResponse.
 	frame := H2HeadersFrame new
 		payload: (response header encode: H2HPACKIndexTable new);
 		streamIdentifier: 3;
-		flagEndHeaders: 1;
+		setEndHeadersFlag: true;
 		yourself.
 	mockStream inStream addAll: frame encode.
 	frame := H2DataFrame new
 		payload: response data;
 		streamIdentifier: 3;
-		flagEndStream: 1;
+		setEndStreamFlag: true;
 		yourself.
 	mockStream inStream addAll: frame encode.
 	promise then: [:resp |

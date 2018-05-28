@@ -14,7 +14,7 @@ testUpdatingSettings
 	
 	(Delay forMilliseconds: 10) wait.
 	frame := H2SettingsFrame new
-			flagAck: 1;
+			setAckFlag: true;
 			yourself.
 	self assert: mockStream outStream contents equals: frame encode.
 	self assert: connection maxConcurrentStreams equals: 110.

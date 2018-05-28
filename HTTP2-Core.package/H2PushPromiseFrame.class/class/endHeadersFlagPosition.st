@@ -1,0 +1,3 @@
+constants
+endHeadersFlagPosition
+	^ 3

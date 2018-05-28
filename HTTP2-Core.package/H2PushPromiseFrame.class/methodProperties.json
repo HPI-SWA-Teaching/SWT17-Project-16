@@ -1,15 +1,15 @@
 {
 	"class" : {
-		 },
+		"endHeadersFlagPosition" : "ms 5/28/2018 18:55" },
 	"instance" : {
 		"constructPayload" : "ms 5/28/2018 09:43",
 		"encode" : "jp 7/15/2017 13:27",
-		"flagEndHeaders" : "jp 8/3/2017 17:08",
-		"flagEndHeaders:" : "jp 6/19/2017 10:53",
+		"hasEndHeadersFlag" : "ms 5/28/2018 18:55",
 		"promisedID" : "jp 6/27/2017 21:28",
 		"promisedID:" : "jp 8/3/2017 17:09",
 		"readPayloadFrom:" : "ms 5/28/2018 13:35",
 		"receiveOnStream:" : "H. G. 7/14/2017 18:31",
+		"setEndHeadersFlag:" : "ms 5/28/2018 18:55",
 		"startOfHeaderFragment" : "MB 5/24/2018 11:19",
-		"startOfPromisedID" : "MB 5/24/2018 11:18",
+		"startOfPromisedID" : "ms 5/28/2018 14:58",
 		"type" : "jp 8/3/2017 17:10" } }

@@ -9,7 +9,7 @@ testSettingsFrame
 	frame streamIdentifier: 13.
 	encodedFrames := self class encodedSettingsFrames.
 	self assert: (frame encode) equals: encodedFrames first.
-	frame flagAck: 1.
+	frame setAckFlag: true.
 	frame add: ('MaxHeaderListSize'->7).
 	self assert: (frame encode) equals: encodedFrames second.
 	frame := H2Frame getFrameFrom: encodedFrames second.

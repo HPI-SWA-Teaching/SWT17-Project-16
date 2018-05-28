@@ -1,4 +1,4 @@
 receiving
 receivePingFrame: aFrame
-	aFrame flagAck: 1.
+	aFrame setAckFlag: true.
 	self outQueue add: aFrame

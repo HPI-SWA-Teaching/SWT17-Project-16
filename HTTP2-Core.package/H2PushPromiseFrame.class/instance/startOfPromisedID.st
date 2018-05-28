@@ -1,3 +1,3 @@
 accessing
 startOfPromisedID
-	^self class startOfPayload + self flagPadded.
+	^ self class startOfPayload + self hasPaddedFlag integerRepesentation

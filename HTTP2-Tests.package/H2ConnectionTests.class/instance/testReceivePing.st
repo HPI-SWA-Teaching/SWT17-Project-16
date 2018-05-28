@@ -7,6 +7,6 @@ testReceivePing
 		opaqueData: 1234567890;
 		yourself.
 	mockStream inStream addAll: frame encode.
-	frame flagAck: 1.
+	frame setAckFlag: true.
 	(Delay forMilliseconds: 10) wait.
 	self assert: mockStream outStream contents equals: frame encode

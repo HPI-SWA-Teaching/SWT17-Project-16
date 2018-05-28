@@ -1,0 +1,3 @@
+*HTTP2-Core
+integerRepesentation
+	self subclassResponsibility

@@ -4,7 +4,7 @@ testHeaderWithPriorityFrame
 	header := H2HeaderTests standardHeader.
 	frame := (H2HeadersFrame fromData: 
 		(header encode: H2HPACKIndexTable new) andPaddingLength: 5)
-		flagPriority: 1;
+		setPriorityFlag: true;
 		exclusiveBit: 1;
 		streamDependency: 7;
 		streamIdentifier: 13;
