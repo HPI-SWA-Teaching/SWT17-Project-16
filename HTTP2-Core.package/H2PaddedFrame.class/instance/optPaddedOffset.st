@@ -1,4 +1,4 @@
 accessing
 optPaddedOffset
-	self hasPaddedFlag ifTrue: [^ self class optPaddedOffset].
+	self hasPaddedFlag ifTrue: [^ self class paddedOffset].
 	^ 0
