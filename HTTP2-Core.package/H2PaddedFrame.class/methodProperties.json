@@ -1,12 +1,15 @@
 {
 	"class" : {
-		"fromData:andPaddingLength:" : "ms 5/28/2018 14:52" },
+		"fromData:andPaddingLength:" : "ms 5/28/2018 14:52",
+		"optPaddedOffset" : "ms 5/29/2018 14:27" },
 	"instance" : {
 		"encodeWithPayload:" : "jp 8/3/2017 16:38",
-		"endOfPayload" : "MB 5/24/2018 11:28",
+		"endOfPayload" : "ms 5/29/2018 14:21",
 		"flagPaddedSet" : "jp 7/15/2017 13:52",
 		"hasPaddedFlag" : "ms 5/28/2018 14:51",
+		"optPaddedOffset" : "ms 5/29/2018 14:26",
 		"padding" : "DS 7/3/2017 14:24",
 		"padding:" : "DS 7/3/2017 14:24",
 		"readPayloadFrom:" : "MB 5/24/2018 12:08",
-		"setPaddedFlag:" : "ms 5/28/2018 14:52" } }
+		"setPaddedFlag:" : "ms 5/28/2018 14:52",
+		"startOfPaddedPayload" : "ms 5/29/2018 14:20" } }

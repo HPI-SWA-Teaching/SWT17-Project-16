@@ -1,0 +1,3 @@
+constants
+optPaddedOffset
+	^ 1
