@@ -1,7 +1,7 @@
 decoding
 readPayloadFrom: aByteArray
 	self streamDependency: (aByteArray copyFrom: self class startOfPayload to: self class startOfPayload + 3) asPositiveBigEndianInteger.
-	self exclusiveBit: (self streamDependency bitAt: 32).
+	self exclusive: (self streamDependency bitAt: 32) = 1.
 	self streamDependency: (self streamDependency bitAt: 32 put: 0).
 	self weight: (aByteArray at: self endOfPayload)
 	
