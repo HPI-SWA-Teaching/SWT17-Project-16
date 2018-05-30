@@ -1,3 +1,3 @@
 testing
 flagIsSet: aBitPosition
-	^ (self flags bitAt: aBitPosition) = 1
+	^ self flags at: aBitPosition

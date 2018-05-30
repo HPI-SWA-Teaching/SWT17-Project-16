@@ -1,3 +1,3 @@
 accessing
 flags: anInteger
-	flags := anInteger
+	flags putAll: anInteger

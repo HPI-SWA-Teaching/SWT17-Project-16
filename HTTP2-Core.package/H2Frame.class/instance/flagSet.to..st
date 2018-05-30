@@ -1,3 +1,3 @@
 accessing
 flagSet: aBitPosition to: aBoolean
-	self flags: (self flags bitAt: aBitPosition put: aBoolean asBit)
+	self flags at: aBitPosition put: aBoolean

@@ -1,0 +1,14 @@
+{
+	"category" : "HTTP2-Core",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "",
+	"instvars" : [
+		"flagStorage" ],
+	"name" : "H2FrameFlags",
+	"pools" : [
+		 ],
+	"super" : "Object",
+	"type" : "normal" }
