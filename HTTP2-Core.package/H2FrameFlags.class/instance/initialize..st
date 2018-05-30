@@ -1,3 +1,6 @@
 initializing
-initialize: aByteSize
-	flagStorage := Bitset new: aByteSize * 8
+initialize: aByte
+	aByte < 256
+		ifFalse: [^ H2Error signal: 'invalid flag size'].
+	
+	flagStorage := aByte

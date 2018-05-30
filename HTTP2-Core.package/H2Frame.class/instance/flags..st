@@ -1,3 +1,3 @@
 accessing
 flags: anInteger
-	flags putAll: anInteger
+	flags := H2FrameFlags new: anInteger

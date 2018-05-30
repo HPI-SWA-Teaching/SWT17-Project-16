@@ -1,3 +1,3 @@
 converting
 asByteArray
-	^ flagStorage bytes
+	^ ByteArray with: flagStorage

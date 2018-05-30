@@ -1,3 +1,3 @@
 accessing
 at: aFlagPosition put: aBoolean
-	flagStorage bitAt: aFlagPosition put: aBoolean integerRepresentation
+	flagStorage := flagStorage bitAt: aFlagPosition put: aBoolean asBit

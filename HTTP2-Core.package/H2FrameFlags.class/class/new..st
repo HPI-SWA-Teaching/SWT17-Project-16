@@ -1,4 +1,4 @@
 instance creation
-new
+new: aByte
 	^ self basicNew
-		initialize: self flagSpace
+		initialize: aByte
