@@ -1,3 +1,3 @@
 *HTTP2-Core
-integerRepesentation
+integerRepresentation
 	self subclassResponsibility
