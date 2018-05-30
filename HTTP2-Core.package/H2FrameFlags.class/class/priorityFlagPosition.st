@@ -1,3 +1,3 @@
-flag position constants
+constants
 priorityFlagPosition
 	^ 6

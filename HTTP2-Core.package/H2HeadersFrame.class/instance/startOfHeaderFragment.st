@@ -1,4 +1,4 @@
 accessing
 startOfHeaderFragment
-	self hasPriorityFlag ifTrue: [^ self startOfWeight + 1].
+	self flags priority ifTrue: [^ self startOfWeight + 1].
 	^ self startOfPaddedPayload

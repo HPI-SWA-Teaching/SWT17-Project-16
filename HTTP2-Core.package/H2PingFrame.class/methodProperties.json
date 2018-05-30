@@ -3,11 +3,9 @@
 		"fromOpaqueData:" : "jp 8/3/2017 15:46" },
 	"instance" : {
 		"constructPayload" : "ms 5/28/2018 09:43",
-		"hasAckFlag" : "ms 5/28/2018 18:57",
 		"opaqueData" : "jp 6/27/2017 21:29",
 		"opaqueData:" : "jp 8/3/2017 17:11",
 		"readPayloadFrom:" : "ms 5/28/2018 13:34",
 		"receiveOnStream:" : "H. G. 7/14/2017 18:31",
-		"setAckFlag:" : "ms 5/28/2018 18:57",
 		"streamIdentifier" : "DS 7/3/2017 17:04",
 		"type" : "jp 8/3/2017 17:11" } }

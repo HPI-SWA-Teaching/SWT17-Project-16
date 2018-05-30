@@ -1,3 +1,3 @@
 sending
 setEndFlagsFor: aFrame
-	self stream outStreamEnded ifTrue: [aFrame setEndStreamFlag: true]
+	self stream outStreamEnded ifTrue: [aFrame flags endStream: true]

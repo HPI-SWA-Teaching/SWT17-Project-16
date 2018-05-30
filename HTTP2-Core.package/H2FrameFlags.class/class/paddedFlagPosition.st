@@ -1,0 +1,3 @@
+constants
+paddedFlagPosition
+	^ 4

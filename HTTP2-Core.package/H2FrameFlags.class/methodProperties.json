@@ -1,9 +1,24 @@
 {
 	"class" : {
-		"new:" : "ms 5/30/2018 18:21" },
+		"ackFlagPosition" : "ms 5/30/2018 18:50",
+		"endHeadersFlagPosition" : "ms 5/30/2018 18:50",
+		"endStreamFlagPosition" : "ms 5/30/2018 18:49",
+		"new:" : "ms 5/30/2018 18:21",
+		"paddedFlagPosition" : "ms 5/30/2018 18:49",
+		"priorityFlagPosition" : "ms 5/30/2018 18:49" },
 	"instance" : {
+		"ack" : "ms 5/30/2018 18:57",
+		"ack:" : "ms 5/30/2018 18:57",
 		"asByteArray" : "ms 5/30/2018 18:01",
 		"at:" : "ms 5/30/2018 15:55",
 		"at:put:" : "ms 5/30/2018 18:17",
+		"endHeaders" : "ms 5/30/2018 18:53",
+		"endHeaders:" : "ms 5/30/2018 18:53",
+		"endStream" : "ms 5/30/2018 18:55",
+		"endStream:" : "ms 5/30/2018 18:55",
 		"initialize" : "ms 5/30/2018 17:58",
-		"initialize:" : "ms 5/30/2018 18:21" } }
+		"initialize:" : "ms 5/30/2018 18:21",
+		"padded" : "ms 5/30/2018 18:53",
+		"padded:" : "ms 5/30/2018 18:54",
+		"priority" : "ms 5/30/2018 18:56",
+		"priority:" : "ms 5/30/2018 18:56" } }
