@@ -1,4 +1,4 @@
 initializing
 initialize
 	super initialize.
-	exclusive := true
+	exclusive := false
