@@ -4,5 +4,6 @@
 	"instance" : {
 		"standardDataFrameFor:" : "H. G. 8/4/2017 21:52",
 		"testFlowControlWindow" : "H. G. 8/4/2017 22:01",
-		"testIncomingTraffic" : "ms 5/8/2018 15:17",
+		"testIncomingTraffic_HC" : "MB 5/31/2018 10:04",
+		"testIncomingTraffic_HCD" : "MB 5/31/2018 09:55",
 		"testOutgoingTraffic" : "H. G. 8/4/2017 22:08" } }
