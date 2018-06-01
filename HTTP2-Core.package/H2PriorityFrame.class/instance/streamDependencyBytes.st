@@ -1,3 +1,3 @@
 encoding
 streamDependencyBytes 
-	^ (self streamDependency bitAt: 32 put: (self exclusiveBit)) asByteArrayOfSize: 4
+	^ (self streamDependency bitAt: 32 put: (self exclusive asBit)) asByteArrayOfSize: 4

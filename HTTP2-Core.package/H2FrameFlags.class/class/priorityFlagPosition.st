@@ -1,0 +1,3 @@
+constants
+priorityFlagPosition
+	^ 6

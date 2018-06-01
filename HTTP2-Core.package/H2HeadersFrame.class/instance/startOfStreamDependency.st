@@ -1,3 +1,3 @@
 accessing
 startOfStreamDependency
-	^ self class startOfPayload + self flagPadded
+	^ self startOfPaddedPayload

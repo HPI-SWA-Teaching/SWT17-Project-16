@@ -3,8 +3,6 @@
 		"fromOpaqueData:" : "jp 8/3/2017 15:46" },
 	"instance" : {
 		"constructPayload" : "ms 5/28/2018 09:43",
-		"flagAck" : "jp 8/3/2017 17:11",
-		"flagAck:" : "jp 6/19/2017 10:53",
 		"opaqueData" : "jp 6/27/2017 21:29",
 		"opaqueData:" : "jp 8/3/2017 17:11",
 		"readPayloadFrom:" : "ms 5/28/2018 13:34",

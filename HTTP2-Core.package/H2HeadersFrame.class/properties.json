@@ -8,7 +8,7 @@
 	"instvars" : [
 		"streamDependency",
 		"weight",
-		"exclusiveBit" ],
+		"exclusive" ],
 	"name" : "H2HeadersFrame",
 	"pools" : [
 		 ],
