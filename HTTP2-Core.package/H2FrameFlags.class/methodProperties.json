@@ -3,7 +3,7 @@
 		"ackFlagPosition" : "ms 5/30/2018 18:50",
 		"endHeadersFlagPosition" : "ms 5/30/2018 18:50",
 		"endStreamFlagPosition" : "ms 5/30/2018 18:49",
-		"new:" : "ms 5/30/2018 18:21",
+		"newFrom:" : "ms 6/1/2018 19:09",
 		"paddedFlagPosition" : "ms 5/30/2018 18:49",
 		"priorityFlagPosition" : "ms 5/30/2018 18:49" },
 	"instance" : {
@@ -17,7 +17,7 @@
 		"endStream" : "ms 5/30/2018 18:55",
 		"endStream:" : "ms 5/30/2018 18:55",
 		"initialize" : "ms 5/30/2018 17:58",
-		"initialize:" : "ms 5/30/2018 18:21",
+		"initializeFrom:" : "ms 6/1/2018 19:09",
 		"padded" : "ms 5/30/2018 18:53",
 		"padded:" : "ms 5/30/2018 18:54",
 		"priority" : "ms 5/30/2018 18:56",
