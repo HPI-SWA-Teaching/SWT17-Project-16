@@ -1,6 +1,6 @@
 instance creation
 newWith: aStream
-	^ self new;
+	^ self new
 		socketStream: aStream;
 		initiateCommunication;
 		yourself
