@@ -1,3 +1,3 @@
 accessing
 startOfPaddedPayload
-	^ self class startOfPayload + self optPaddedOffset
+	^ self class startOfPayload + self optionalPaddedOffset

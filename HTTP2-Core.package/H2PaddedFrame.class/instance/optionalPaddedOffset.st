@@ -1,4 +1,4 @@
 accessing
-optPaddedOffset
+optionalPaddedOffset
 	self flags padded ifTrue: [^ self class paddedOffset].
 	^ 0
