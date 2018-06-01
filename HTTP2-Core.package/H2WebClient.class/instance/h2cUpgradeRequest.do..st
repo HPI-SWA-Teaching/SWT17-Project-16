@@ -8,8 +8,8 @@ h2cUpgradeRequest: anUrlString do: aBlock
 		ifTrue: [
 			self serverProtocolDictionary  at: self server put: #h2c.
 			self h2Session:( H2Session newWithStream: response stream at: self serverName ).
-			^ self h2Session receive ]
+			^ self h2Session newH2WebResponseFor: self h2Session receive ]
 		ifFalse: [
 			self serverProtocolDictionary at: self server put: #http.
-			^ response. ].
+			^ response ].
 			
