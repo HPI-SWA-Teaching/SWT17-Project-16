@@ -2,7 +2,7 @@ encoding
 constructPayload 
 	| payload |
 	payload := self payload.
-	self flagPriority ifTrue: [
+	self flags priority ifTrue: [
 		payload := 
 			self streamDependencyBytes, 
 			(ByteArray with: self weight), 

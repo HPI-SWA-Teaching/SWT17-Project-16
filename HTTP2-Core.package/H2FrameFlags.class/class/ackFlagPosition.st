@@ -1,0 +1,3 @@
+constants
+ackFlagPosition
+	^ 1

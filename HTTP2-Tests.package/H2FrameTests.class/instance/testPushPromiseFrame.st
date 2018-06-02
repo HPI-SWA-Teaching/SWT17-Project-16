@@ -6,8 +6,9 @@ testPushPromiseFrame
 		(header encode: H2HPACKIndexTable new) andPaddingLength: 5)
 		streamIdentifier: 13;
 		promisedID: 7;
-		flagEndHeaders: 1;
 		yourself.
+	frame flags endHeaders: true.
+	
 	array := self class encodedPushPromisFrame.
 	self assert: (frame encode) equals: array.
 	frame := H2Frame getFrameFrom: array.

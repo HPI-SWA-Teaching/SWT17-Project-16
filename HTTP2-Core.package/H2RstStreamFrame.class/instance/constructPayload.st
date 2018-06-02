@@ -1,3 +1,3 @@
 encoding
 constructPayload 
-	^ self integer: self errorCode asByteArrayOfSize: 4
+	^ (self errorCode asByteArrayOfSize: 4)

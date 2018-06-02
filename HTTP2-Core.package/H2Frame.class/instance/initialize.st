@@ -1,3 +1,3 @@
 initializing
 initialize 
-	self flags: 0
+	flags := H2FrameFlags new

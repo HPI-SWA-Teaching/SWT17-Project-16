@@ -2,18 +2,17 @@
 	"class" : {
 		"fromParameters:" : "DS 7/3/2017 16:23",
 		"intToSettingsCollection" : "jp 8/3/2017 15:47",
+		"newAckFlagged" : "ms 5/30/2018 19:29",
 		"settingsToIntDictionary" : "jp 8/3/2017 15:47" },
 	"instance" : {
 		"add:" : "DS 7/3/2017 16:24",
-		"constructPayload" : "jp 8/3/2017 17:17",
+		"constructPayload" : "ms 5/28/2018 09:46",
 		"decodeParameterList" : "jp 8/3/2017 17:19",
-		"flagAck" : "jp 6/27/2017 21:21",
-		"flagAck:" : "jp 6/19/2017 10:54",
 		"initialize" : "H. G. 7/17/2017 15:24",
-		"nextParameterOn:" : "jp 8/3/2017 17:18",
+		"nextParameterOn:" : "ms 5/28/2018 13:35",
 		"parameterList" : "DS 7/3/2017 16:23",
 		"parameterList:" : "jp 8/3/2017 17:20",
-		"readPayloadFrom:" : "jp 8/3/2017 17:20",
+		"readPayloadFrom:" : "MB 5/24/2018 12:16",
 		"receiveOnStream:" : "H. G. 7/14/2017 18:32",
 		"streamIdentifier" : "DS 7/3/2017 16:16",
 		"type" : "jp 8/3/2017 17:20" } }

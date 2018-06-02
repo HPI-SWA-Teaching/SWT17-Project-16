@@ -1,0 +1,3 @@
+accessing
+startOfStreamDependency
+	^ self startOfPaddedPayload
