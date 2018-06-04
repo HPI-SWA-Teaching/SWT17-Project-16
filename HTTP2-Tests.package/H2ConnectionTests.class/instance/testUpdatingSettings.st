@@ -13,9 +13,9 @@ testUpdatingSettings
 	mockStream inStream addAll: frame encode.
 	
 	(Delay forMilliseconds: 10) wait.
-	frame := H2SettingsFrame new
-			flagAck: 1;
-			yourself.
+	frame := H2SettingsFrame new.
+	frame flags ack: true.
+	
 	self assert: mockStream outStream contents equals: frame encode.
 	self assert: connection maxConcurrentStreams equals: 110.
 	self assert: connection headerTableOut maxDynamicSize equals: 2048.

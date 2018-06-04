@@ -1,5 +1,6 @@
 decoding
 readPayloadFrom: aByteArray
-	self lastID: (self getIntegerFrom: aByteArray from: self class startOfPayload to: 13).
-	self errorCode: (self getIntegerFrom: aByteArray from: 14 to: 17).
-	self debugData: ((aByteArray copyFrom: 18 to: self endPoint) asArray).
+	self
+		lastID: (aByteArray copyFrom: self startOfLastStreamID to: self startOfLastStreamID + 3) asPositiveBigEndianInteger;
+		errorCode: (aByteArray copyFrom: self startOfErrorCode to: self startOfErrorCode + 3) asPositiveBigEndianInteger;
+		debugData: ((aByteArray copyFrom: self startOfDebugData to: self endOfPayload) asArray)
