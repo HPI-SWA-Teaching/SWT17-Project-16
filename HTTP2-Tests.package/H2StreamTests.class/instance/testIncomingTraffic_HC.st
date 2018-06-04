@@ -8,7 +8,7 @@ testIncomingTraffic_HC
 	headerBlock := header encode: H2HPACKIndexTable new.
 	
 	headerFrame := H2FrameTests standardHeadersFrameFor: (headerBlock first: 10).
-	headerFrame flagEndStream: 1.
+	headerFrame flags endStream: true.
 	continuationFrame := H2FrameTests standardContinuationFrameFor: (headerBlock copyFrom: 11 to: headerBlock size).
 	
 	headerFrame receiveOnStream: stream.

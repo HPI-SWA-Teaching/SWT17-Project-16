@@ -9,7 +9,7 @@ testIncomingTraffic_HD
 	data := 'some Data' asByteArray.
 	
 	headerFrame := H2FrameTests standardHeadersFrameFor: headerBlock.
-	headerFrame flagEndHeaders: 1.
+	headerFrame flags endHeaders: true.
 	dataFrame := self standardDataFrameFor: data.
 	
 	headerFrame receiveOnStream: stream.
