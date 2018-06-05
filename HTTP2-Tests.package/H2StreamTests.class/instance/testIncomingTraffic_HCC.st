@@ -4,7 +4,7 @@ testIncomingTraffic_HCC
 	
 	stream := H2Stream new: 5 for: H2Request new connection: H2Connection new.
 	
-	header := H2HeaderTests standardHeader.
+	header := H2StreamTests standardResponseHeader.
 	headerBlock := header encode: H2HPACKIndexTable new.
 	
 	headerFrame := H2FrameTests standardHeadersFrameFor: (headerBlock first: 5).
@@ -17,6 +17,6 @@ testIncomingTraffic_HCC
 	continuationFrame1 receiveOnStream: stream.
 	continuationFrame2 receiveOnStream: stream.
 	
-	stream promise then: [:response |
-		self assert: response header equals: header.
-		self assert: stream receiver class equals: H2NullReceiver]
+	[self assert: (stream promise waitTimeoutMSecs: 0) description: 'promise didn''t resolve'.
+	self assert: header equals: stream promise value header.
+	self assert: H2NullReceiver equals: stream receiver class] fork

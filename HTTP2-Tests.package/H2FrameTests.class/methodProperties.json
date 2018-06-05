@@ -12,7 +12,8 @@
 		"standardContinuationFrameFor:" : "ms 5/30/2018 19:30",
 		"standardDataFrameFor:" : "ms 5/30/2018 19:32",
 		"standardHeadersFrameFor:" : "H. G. 8/4/2017 21:52",
-		"standardPriorityFrame" : "ms 5/30/2018 19:52" },
+		"standardPriorityFrame" : "ms 5/30/2018 19:52",
+		"standardPushPromiseFrameFor:" : "MB 6/4/2018 22:00" },
 	"instance" : {
 		"testContinuationFrame" : "ms 5/30/2018 19:38",
 		"testDataFrameFromPayload" : "H. G. 8/4/2017 22:05",
@@ -23,7 +24,7 @@
 		"testHeaderWithPriorityFrame" : "ms 5/30/2018 20:24",
 		"testPingFrame" : "H. G. 8/4/2017 21:53",
 		"testPriorityFrame" : "ms 5/30/2018 19:46",
-		"testPushPromiseFrame" : "ms 5/30/2018 19:35",
+		"testPushPromiseFrame" : "MB 6/4/2018 20:22",
 		"testRstStreamFrame" : "H. G. 8/4/2017 21:54",
 		"testSettingsFrame" : "ms 5/30/2018 19:33",
 		"testWindowUpdateFrame" : "H. G. 8/4/2017 21:54" } }

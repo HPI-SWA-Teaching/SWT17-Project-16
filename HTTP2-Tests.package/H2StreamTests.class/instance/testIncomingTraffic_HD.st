@@ -4,7 +4,7 @@ testIncomingTraffic_HD
 	
 	stream := H2Stream new: 5 for: H2Request new connection: H2Connection new.
 	
-	header := H2HeaderTests standardHeader.
+	header := H2StreamTests standardResponseHeader.
 	headerBlock := header encode: H2HPACKIndexTable new.
 	data := 'some Data' asByteArray.
 	
@@ -15,7 +15,7 @@ testIncomingTraffic_HD
 	headerFrame receiveOnStream: stream.
 	dataFrame receiveOnStream: stream.
 	
-	stream promise then: [:response |
-		self assert: response data equals: data asByteArray.
-		self assert: response header equals: header.
-		self assert: stream receiver class equals: H2NullReceiver]
+	[self assert: (stream promise waitTimeoutMSecs: 0) description: 'promise didn''t resolve'.
+	self assert: data asByteArray equals: stream promise value data.
+	self assert: header equals: stream promise value header.
+	self assert: H2NullReceiver equals: stream receiver class] fork

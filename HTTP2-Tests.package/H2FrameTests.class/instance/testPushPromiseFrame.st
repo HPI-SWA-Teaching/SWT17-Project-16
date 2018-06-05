@@ -13,4 +13,4 @@ testPushPromiseFrame
 	self assert: (frame encode) equals: array.
 	frame := H2Frame getFrameFrom: array.
 	self assert: frame promisedID  equals: 7.
-	self assert: (H2Header newFrom: (frame payload) in: H2HPACKIndexTable new) 		equals: header
+	self assert: (H2Header newFrom: (frame payload) in: H2HPACKIndexTable new) equals: header
