@@ -7,10 +7,8 @@ alpnProtosEncode: aProtocolSet
 	bytes := ByteArray new: length.
 	i := 1.
 	aProtocolSet do: [ :protocol |
-		bytes at: i put: protocol size. 1 to: (protocol size) do:
-			[ :j | | val |
-				val := protocol asByteArray at: j.
-				bytes at: i+j put: val ].
+		bytes at: i put: protocol size.
+		1 to: (protocol size) do: [ :j | bytes at: i+j put: (protocol asByteArray at: j) ].
 		i := i + 1 + protocol size ].
 	
 	^ bytes asString.
