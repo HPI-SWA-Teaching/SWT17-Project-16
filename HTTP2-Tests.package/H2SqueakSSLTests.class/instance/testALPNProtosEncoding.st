@@ -1,7 +1,6 @@
 testing
 testALPNProtosEncoding
-	| protos ssl |
-	protos := Set with: 'HTTP/1.1' with: 'h2'.
+	| ssl |
 	ssl := SqueakSSL new.
-	ssl alpnProtos: protos.
-	self assert: ssl alpnProtos equals: (ssl alpnProtosEncode: protos).
+	ssl alpnProtos: self alpnTestProtocolSet.
+	self assert: ssl alpnProtos equals: (ssl alpnProtosEncode: self alpnTestProtocolSet).

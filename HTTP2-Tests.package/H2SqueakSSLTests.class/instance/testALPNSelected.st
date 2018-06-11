@@ -1,10 +1,11 @@
 testing
 testALPNSelected
-	| protos stream ssl |
-	protos := Set with: 'HTTP/1.1' with: 'h2'.
-	stream := SocketStream openConnectionToHostNamed: 'archlinux.org' port: 443.
+	| stream ssl |
+	self ensureInternetConnectionTo: 'http://', self alpnTestUrl.
+	stream := SocketStream openConnectionToHostNamed: (self alpnTestUrl) port: 443.
 	ssl := SqueakSSL on: stream socket.
+	ssl isAlpnSupported ifFalse: [self error: 'SqueakSSL does not support ALPN'].
 	ssl
-		alpnProtos: protos;
+		alpnProtos: self alpnTestProtocolSet;
 		connect.
-	self assert: (protos includes: ssl alpnSelected).
+	self assert: (self alpnTestProtocolSet includes: ssl alpnSelected).
