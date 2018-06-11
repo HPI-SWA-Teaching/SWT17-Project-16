@@ -4,5 +4,6 @@
 	"instance" : {
 		"alpnTestProtocolSet" : "tm 6/11/2018 17:39",
 		"alpnTestUrl" : "tm 6/11/2018 17:39",
+		"expectedFailures" : "tm 6/11/2018 17:57",
 		"testALPNProtosEncoding" : "tm 6/11/2018 17:42",
-		"testALPNSelected" : "tm 6/11/2018 17:45" } }
+		"testALPNSelected" : "tm 6/11/2018 17:55" } }
