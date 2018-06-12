@@ -2,7 +2,8 @@
 	"class" : {
 		 },
 	"instance" : {
-		"receive:" : "MB 6/10/2018 18:01",
+		"canEndStream" : "MB 6/12/2018 10:33",
+		"process:" : "MB 6/12/2018 10:05",
 		"receiveContinuationFrame:" : "MB 6/10/2018 17:24",
 		"receiveDataFrame:" : "MB 6/10/2018 18:02",
 		"receiveHeaderFrame:" : "MB 6/10/2018 18:03" } }

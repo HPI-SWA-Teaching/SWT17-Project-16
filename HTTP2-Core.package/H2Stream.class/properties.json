@@ -12,6 +12,7 @@
 		"responseHeader",
 		"byteStreamOut",
 		"byteStreamIn",
+		"dataStreamIn",
 		"sender",
 		"receiver",
 		"promise" ],
