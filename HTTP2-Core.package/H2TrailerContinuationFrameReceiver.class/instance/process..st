@@ -1,6 +1,6 @@
 receiving
 process: aFrame
 
-	self stream byteStreamIn nextPutAll: aFrame payload.
+	self stream headerStreamIn nextPutAll: aFrame payload.
 	aFrame flags endHeaders ifTrue: [self stream headerAdded]
 	
