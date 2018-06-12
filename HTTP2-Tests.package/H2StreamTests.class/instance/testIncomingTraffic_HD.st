@@ -4,13 +4,13 @@ testIncomingTraffic_HD
 	
 	stream := H2Stream new: 5 for: H2Request new connection: H2Connection new.
 	
-	header := H2StreamTests standardResponseHeader.
+	header := H2StreamTests standardResponseHeaderSuccess.
 	headerBlock := header encode: H2HPACKIndexTable new.
 	data := 'some Data' asByteArray.
 	
-	headerFrame := H2FrameTests standardHeadersFrameFor: headerBlock.
-	headerFrame flags endHeaders: true.
-	dataFrame := self standardDataFrameFor: data.
+	headerFrame := H2StreamTests lastHeadersFrameFor: headerBlock.
+	dataFrame := H2StreamTests unflaggedDataFrameFor: data.
+	dataFrame flags endStream: true.
 	
 	headerFrame receiveOnStream: stream.
 	dataFrame receiveOnStream: stream.

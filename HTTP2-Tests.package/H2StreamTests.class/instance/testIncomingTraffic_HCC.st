@@ -4,14 +4,13 @@ testIncomingTraffic_HCC
 	
 	stream := H2Stream new: 5 for: H2Request new connection: H2Connection new.
 	
-	header := H2StreamTests standardResponseHeader.
+	header := H2StreamTests standardResponseHeaderError.
 	headerBlock := header encode: H2HPACKIndexTable new.
 	
-	headerFrame := H2FrameTests standardHeadersFrameFor: (headerBlock first: 5).
+	headerFrame := H2StreamTests unflaggedHeadersFrameFor: (headerBlock first: 5).
 	headerFrame flags endStream: true.
-	continuationFrame1 := H2FrameTests standardContinuationFrameFor: (headerBlock copyFrom: 6 to: 10).
-	continuationFrame1 flags endHeaders: false.
-	continuationFrame2 := H2FrameTests standardContinuationFrameFor: (headerBlock copyFrom: 11 to: headerBlock size).
+	continuationFrame1 := H2StreamTests unflaggedContinuationFrameFor: (headerBlock copyFrom: 6 to: 10).
+	continuationFrame2 := H2StreamTests lastContinuationFrameFor: (headerBlock copyFrom: 11 to: headerBlock size).
 	
 	headerFrame receiveOnStream: stream.
 	continuationFrame1 receiveOnStream: stream.
