@@ -1,9 +1,9 @@
 {
 	"class" : {
-		"byteArrayToInteger:" : "H. G. 8/4/2017 16:32",
+		"exclusiveBitPosition" : "ms 6/1/2018 19:05",
 		"flagPosition" : "jp 8/3/2017 16:23",
-		"fromPayload:" : "DS 7/3/2017 14:09",
-		"getFrameFrom:" : "jp 8/3/2017 16:59",
+		"fromPayload:" : "ms 5/10/2018 16:45",
+		"getFrameFrom:" : "ms 5/28/2018 13:34",
 		"headerLength" : "jp 8/3/2017 12:51",
 		"readFrameFrom:sized:" : "ms 5/29/2018 15:32",
 		"standardSize" : "DS 8/3/2017 13:27",
@@ -13,9 +13,8 @@
 	"instance" : {
 		"constructPayload" : "jp 7/15/2017 13:18",
 		"encode" : "jp 7/15/2017 13:33",
-		"encodeWithPayload:" : "jp 8/4/2017 19:36",
-		"endPoint" : "jp 8/3/2017 12:51",
-		"flags" : "DS 5/31/2017 10:54",
+		"encodeWithPayload:" : "ms 5/30/2018 16:23",
+		"endOfPayload" : "MB 5/24/2018 11:27",
 		"flags:" : "jp 7/15/2017 13:11",
 		"getIntegerFrom:from:to:" : "H. G. 8/3/2017 02:46",
 		"hasControlStreamIdentifier" : "ms 5/29/2018 16:59",

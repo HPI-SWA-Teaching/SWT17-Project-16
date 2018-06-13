@@ -1,3 +1,3 @@
 flowControl
 updateWindowSize: anInteger
-	self flowControlWindow: self flowControlWindow + anInteger.
+	self flowControlWindow: self flowControlWindow + anInteger

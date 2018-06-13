@@ -1,8 +1,5 @@
 receiving
 receiveSettingsFrame: aFrame
-	aFrame flagAck = 0 ifTrue: [
+	aFrame flags ack ifFalse: [
 		self updateSettings: aFrame parameterList.
-		self outQueue add:
-			(H2SettingsFrame new
-				flagAck: 1;
-				yourself)]
+		self outQueue add: (H2SettingsFrame newAckFlagged)]
