@@ -23,38 +23,27 @@ sendRequest: request contentBlock: contentBlock
 		"Write the request to the debugLog if present"
 		debugLog ifNotNil:[self writeRequest: request on: debugLog].
 
-		response := (self serverProtocolDictionary includesKey: self serverName)
-			ifFalse: [ self writeRequest: request on: stream.
+		(self serverProtocolDictionary includesKey: self serverName)
+			ifFalse: [
+						request addHeader: 'Connection' value: 'Upgrade,HTTP2-Settings'.
+						request addHeader: 'Upgrade' value: 'h2c'.
+						request addHeader: 'HTTP2-Settings' value: 'AAMAAABkAARAAAAAAAIAAAAA'.	
+						 self writeRequest: request on: stream.
 						contentBlock value: stream.
 
 						response := request newResponse readFrom: stream.
-						response url: (scheme, '://', server, request rawUrl).
 						response code = 101 
 						ifTrue: [
 							self serverProtocolDictionary  at: self serverName put: #h2c.
 							self h2Session:( H2Session newWithStream: response stream at: self serverName ).
-							^ self h2Session newH2WebResponseFor: self h2Session receive ]
+							response :=  self h2Session newH2WebResponseFor: self h2Session receive ]
 						ifFalse: [
-							self serverProtocolDictionary at: self serverName put: #http.
-							^ response ].] 
-			ifTrue: [ ^ (self serverProtocolDictionary at: self serverName) = #h2
-					ifTrue: [
-								^ self h2Session newH2WebResponseFor: (self h2Session send: ( self h2Session newRequestFor: (self getPathFrom: self request url))).]
-					ifFalse: [
-						self writeRequest: request on: stream.
-						contentBlock value: stream.
-
-						response := request newResponse readFrom: stream.]].
-		
-		"
-		if h2 priorKnolege == ture do h2 Session send request
-		else if h2 priorKnolege == false do send request itself
-		else no priorknowlege upgrade
-		
-		"
+							self serverProtocolDictionary at: self serverName put: 'http/1.1' asSymbol ].] 
+			ifTrue: [ response := self sendRequestPriorKnowlege: request  contentBlock: contentBlock ].
 		
 		"Send the request itself"
 		
+		response url: (scheme, '://', server, request rawUrl).
 		debugLog ifNotNil:[
 			response writeOn: debugLog.
 			debugLog flush.

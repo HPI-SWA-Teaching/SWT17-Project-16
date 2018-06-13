@@ -7,8 +7,8 @@ testH2WebClientGetRequestOnLocalhost
 	responses add: (WC httpGet: 'http://localhost' do: block). 
 	responses add: (WC httpGet: 'http://www.google.de' do: block). 
 	responses add: (WC httpGet: 'http://localhost' do: block). 
-	responses add: (WC httpGet: 'http://localhost' do: block). 
-	responses add: (WC httpGet: 'http://www.archlinux.de' do: block). 
+	responses add: (WC httpGet: 'http://localhost' do: block).
+	responses add: (WC httpGet: 'https://www.archlinux.org' do: block). 
 	responses add: (WC httpGet: 'http://www.google.de' do: block). 
 	
 	^ responses
