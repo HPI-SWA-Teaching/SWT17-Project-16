@@ -24,22 +24,8 @@ sendRequest: request contentBlock: contentBlock
 		debugLog ifNotNil:[self writeRequest: request on: debugLog].
 
 		(self serverProtocolDictionary includesKey: self serverName)
-			ifFalse: [
-						request addHeader: 'Connection' value: 'Upgrade,HTTP2-Settings'.
-						request addHeader: 'Upgrade' value: 'h2c'.
-						request addHeader: 'HTTP2-Settings' value: 'AAMAAABkAARAAAAAAAIAAAAA'.	
-						 self writeRequest: request on: stream.
-						contentBlock value: stream.
-
-						response := request newResponse readFrom: stream.
-						response code = 101 
-						ifTrue: [
-							self serverProtocolDictionary  at: self serverName put: #h2c.
-							self h2Session:( H2Session newWithStream: response stream at: self serverName ).
-							response :=  self h2Session newH2WebResponseFor: self h2Session receive ]
-						ifFalse: [
-							self serverProtocolDictionary at: self serverName put: 'http/1.1' asSymbol ].] 
-			ifTrue: [ response := self sendRequestPriorKnowlege: request  contentBlock: contentBlock ].
+			ifFalse: [ response := self sendUpgrade: request  contentBlock: contentBlock ] 
+			ifTrue: [ response := self sendPriorKnowlege: request  contentBlock: contentBlock ].
 		
 		"Send the request itself"
 		

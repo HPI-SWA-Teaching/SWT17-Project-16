@@ -5,11 +5,10 @@ testH2WebClientGetRequestOnLocalhost
 	responses := OrderedCollection new.
 	WC := H2WebClient new.
 	responses add: (WC httpGet: 'http://localhost' do: block). 
-	responses add: (WC httpGet: 'http://www.google.de' do: block). 
+	responses add: (WC httpGet: 'https://www.google.de' do: block). 
 	responses add: (WC httpGet: 'http://localhost' do: block). 
 	responses add: (WC httpGet: 'http://localhost' do: block).
-	responses add: (WC httpGet: 'https://www.archlinux.org' do: block). 
-	responses add: (WC httpGet: 'http://www.google.de' do: block). 
+	responses add: (WC httpGet: 'https://www.google.de' do: block). 
 	
 	^ responses
 	

@@ -6,11 +6,9 @@
 		"getPathFrom:" : "FCH 5/25/2018 14:29",
 		"h2Session" : "FCH 6/13/2018 14:30",
 		"h2Session:" : "FCH 5/25/2018 12:18",
-		"h2cGet:do:" : "FCH 6/1/2018 14:39",
-		"h2cUpgradeRequest:do:" : "FCH 6/1/2018 14:42",
-		"httpGet:do:" : "FCH 6/13/2018 13:53",
-		"requestH2CWithUrl:" : "FCH 5/25/2018 12:36",
-		"sendRequest:contentBlock:" : "FCH 6/13/2018 15:03",
+		"sendPriorKnowlege:contentBlock:" : "FCH 6/14/2018 12:22",
+		"sendRequest:contentBlock:" : "FCH 6/14/2018 12:25",
 		"sendRequestPriorKnowlege:contentBlock:" : "FCH 6/13/2018 15:09",
+		"sendUpgrade:contentBlock:" : "FCH 6/14/2018 12:25",
 		"serverProtocolDictionary" : "FCH 5/25/2018 12:26",
-		"sslConnect:to:" : "FCH 6/13/2018 15:10" } }
+		"sslConnect:to:" : "FCH 6/14/2018 12:28" } }
