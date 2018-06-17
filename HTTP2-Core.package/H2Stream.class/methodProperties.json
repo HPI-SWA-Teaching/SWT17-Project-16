@@ -1,7 +1,8 @@
 {
 	"class" : {
 		"minimumFlowControlWindowSize" : "DS 8/3/2017 13:00",
-		"new:for:connection:" : "H. G. 8/4/2017 21:48" },
+		"new:for:connection:" : "H. G. 8/4/2017 21:48",
+		"new:on:" : "MB 6/17/2018 15:38" },
 	"instance" : {
 		"acquireHeaderLock" : "H. G. 8/4/2017 19:25",
 		"atEnd" : "H. G. 7/29/2017 15:04",
@@ -26,7 +27,7 @@
 		"outStreamEnded" : "jp 8/4/2017 16:25",
 		"promise" : "H. G. 7/31/2017 14:19",
 		"promise:" : "DS 8/3/2017 12:49",
-		"pushPromiseCompleted:" : "MB 6/17/2018 14:20",
+		"pushPromiseCompleted:" : "MB 6/17/2018 15:47",
 		"receiveContinuationFrame:" : "DS 8/3/2017 13:07",
 		"receiveDataFrame:" : "DS 8/3/2017 13:07",
 		"receiveHeaderFrame:" : "DS 8/3/2017 13:07",
