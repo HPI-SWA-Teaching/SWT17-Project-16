@@ -1,3 +1,3 @@
-receiving
+testing
 canEndStream
 	^ true
