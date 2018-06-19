@@ -2,6 +2,7 @@
 	"class" : {
 		"lastContinuationFrameFor:" : "MB 6/12/2018 11:30",
 		"lastHeadersFrameFor:" : "MB 6/12/2018 11:30",
+		"standardDataFrameFor:" : "ms 6/19/2018 14:16",
 		"standardPushPromiseHeader" : "MB 6/5/2018 12:23",
 		"standardResponseHeader" : "MB 6/5/2018 12:15",
 		"standardResponseHeaderError" : "MB 6/12/2018 10:53",
@@ -12,7 +13,6 @@
 		"unflaggedDataFrameFor:" : "MB 6/12/2018 11:37",
 		"unflaggedHeadersFrameFor:" : "MB 6/12/2018 11:30" },
 	"instance" : {
-		"standardDataFrameFor:" : "ms 5/30/2018 19:31",
 		"testFlowControlWindow" : "H. G. 8/4/2017 22:01",
 		"testIncomingTraffic_H" : "MB 6/12/2018 11:32",
 		"testIncomingTraffic_HCC" : "MB 6/12/2018 11:34",
