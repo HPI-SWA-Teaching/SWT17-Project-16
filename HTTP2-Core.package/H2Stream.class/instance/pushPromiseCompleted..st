@@ -7,4 +7,4 @@ pushPromiseCompleted: newStreamId
 	
 	h2Stream := self connection openStreamWithId: newStreamId.
 	h2Stream request: (H2Request new header: receivedRequestHeader).
-	h2Stream sender: (H2NullSender newFor: h2Stream).
+	h2Stream sender: (H2NullSender newFor: h2Stream). "technically this should happen after the first header of the response arrives (RFC 7540 8.2.2)"

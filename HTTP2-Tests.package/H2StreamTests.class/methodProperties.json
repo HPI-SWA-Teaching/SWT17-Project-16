@@ -10,7 +10,8 @@
 		"standardResponseHeaderTrailing" : "MB 6/12/2018 11:15",
 		"unflaggedContinuationFrameFor:" : "MB 6/12/2018 11:31",
 		"unflaggedDataFrameFor:" : "MB 6/12/2018 11:37",
-		"unflaggedHeadersFrameFor:" : "MB 6/12/2018 11:30" },
+		"unflaggedHeadersFrameFor:" : "MB 6/12/2018 11:30",
+		"unflaggedPushPromiseFrameFor:" : "MB 6/19/2018 15:51" },
 	"instance" : {
 		"standardDataFrameFor:" : "ms 5/30/2018 19:31",
 		"testFlowControlWindow" : "H. G. 8/4/2017 22:01",
@@ -19,4 +20,5 @@
 		"testIncomingTraffic_HCCD" : "MB 6/12/2018 11:38",
 		"testIncomingTraffic_HCHHDDH" : "MB 6/12/2018 12:29",
 		"testIncomingTraffic_HD" : "MB 6/12/2018 11:38",
+		"testIncomingTraffic_HP" : "MB 6/19/2018 16:10",
 		"testOutgoingTraffic" : "H. G. 8/4/2017 22:08" } }
