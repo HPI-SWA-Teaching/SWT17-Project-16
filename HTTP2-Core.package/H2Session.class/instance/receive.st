@@ -1,3 +1,3 @@
 sending
 receive 
-	^ self connection receiveOnFirstStream .
+	^ self connection receiveOnFirstStream

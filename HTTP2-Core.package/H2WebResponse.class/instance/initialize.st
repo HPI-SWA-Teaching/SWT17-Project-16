@@ -2,5 +2,5 @@ accessing
 initialize
 	super initialize .
 	self class initialize .
-	protocol := 'HTTP2'.
+	protocol := self class standardProtocol.
 	

@@ -2,7 +2,7 @@ accessing
 sendRequest: request contentBlock: contentBlock
 	"Send an http request"
 
-	|  response repeatRedirect repeatAuth |
+	| response repeatRedirect repeatAuth |
 
 	"XXXX: Fixme. Pre-authenticate the request if we have valid auth credentials"
 
@@ -22,14 +22,16 @@ sendRequest: request contentBlock: contentBlock
 		
 		"Write the request to the debugLog if present"
 		debugLog ifNotNil:[self writeRequest: request on: debugLog].
-
+"----------------------------------------------------------------- H2 Changes  --------------------------------------------------------------------------------------------------"
+		"Send the request itself"
+		
 		(self serverProtocolDictionary includesKey: self serverName)
 			ifFalse: [ response := self sendUpgrade: request  contentBlock: contentBlock ] 
 			ifTrue: [ response := self sendPriorKnowlege: request  contentBlock: contentBlock ].
 		
-		"Send the request itself"
-		
 		response url: (scheme, '://', server, request rawUrl).
+"----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------"
+		
 		debugLog ifNotNil:[
 			response writeOn: debugLog.
 			debugLog flush.

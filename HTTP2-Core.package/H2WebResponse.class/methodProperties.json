@@ -1,9 +1,9 @@
 {
 	"class" : {
-		 },
+		"standardProtocol" : "FCH 6/20/2018 10:32" },
 	"instance" : {
 		"code:" : "FCH 5/30/2018 12:51",
-		"extractDataH2Response:" : "FCH 5/30/2018 13:07",
+		"extractDataH2Response:" : "FCH 6/20/2018 10:18",
 		"extractDataH2Session:" : "FCH 5/30/2018 12:54",
 		"headers:" : "FCH 5/30/2018 10:59",
-		"initialize" : "FCH 5/30/2018 13:07" } }
+		"initialize" : "FCH 6/20/2018 10:31" } }

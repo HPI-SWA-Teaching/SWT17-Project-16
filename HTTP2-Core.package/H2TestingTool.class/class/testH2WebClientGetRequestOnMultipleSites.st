@@ -1,5 +1,5 @@
 testH2WebClient
-testH2WebClientGetRequestOnLocalhost
+testH2WebClientGetRequestOnMultipleSites
 	| WC  responses block |
 	block :=  [:s| Transcript show: s asString].
 	responses := OrderedCollection new.
