@@ -12,6 +12,6 @@ testIncomingTraffic_H
 	
 	headerFrame receiveOnStream: stream.
 	
-	[self assert: (stream promise waitTimeoutMSecs: 0) description: 'promise didn''t resolve'.
+	self assert: (stream promise waitTimeoutMSecs: 0) description: 'promise didn''t resolve'.
 	self assert: header equals: stream promise value header.
-	self assert: H2NullReceiver equals: stream receiver class] fork
+	self assert: H2NullReceiver equals: stream receiver class

@@ -14,9 +14,9 @@
 		"unflaggedHeadersFrameFor:" : "MB 6/12/2018 11:30" },
 	"instance" : {
 		"testFlowControlWindow" : "H. G. 8/4/2017 22:01",
-		"testIncomingTraffic_H" : "MB 6/12/2018 11:32",
-		"testIncomingTraffic_HCC" : "MB 6/12/2018 11:34",
-		"testIncomingTraffic_HCCD" : "MB 6/12/2018 11:38",
-		"testIncomingTraffic_HCHHDDH" : "MB 6/12/2018 12:29",
-		"testIncomingTraffic_HD" : "MB 6/12/2018 11:38",
+		"testIncomingTraffic_H" : "MB 6/23/2018 09:36",
+		"testIncomingTraffic_HCC" : "MB 6/23/2018 09:36",
+		"testIncomingTraffic_HCCD" : "MB 6/23/2018 09:37",
+		"testIncomingTraffic_HCHHDDH" : "MB 6/23/2018 09:37",
+		"testIncomingTraffic_HD" : "MB 6/23/2018 09:37",
 		"testOutgoingTraffic" : "H. G. 8/4/2017 22:08" } }
