@@ -1,0 +1,14 @@
+{
+	"category" : "HTTP2-Tests",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "",
+	"instvars" : [
+		 ],
+	"name" : "HTTP2TestsServiceProvider",
+	"pools" : [
+		 ],
+	"super" : "ServiceProvider",
+	"type" : "normal" }

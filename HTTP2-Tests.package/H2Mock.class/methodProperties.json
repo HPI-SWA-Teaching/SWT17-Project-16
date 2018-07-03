@@ -1,0 +1,20 @@
+{
+	"class" : {
+		"emptySettings" : "jon 7/3/2018 03:00",
+		"mockServerAddress" : "jon 7/3/2018 04:16",
+		"mockServerName" : "jon 7/3/2018 04:17",
+		"standardContent" : "jon 7/3/2018 02:14",
+		"upgradeFailure" : "jon 7/3/2018 04:47",
+		"upgradeSuccessful" : "jon 6/30/2018 09:51" },
+	"instance" : {
+		"atEnd" : "jon 7/3/2018 05:10",
+		"isBinary" : "jon 7/3/2018 03:39",
+		"isConnected" : "jon 7/3/2018 02:21",
+		"lockStreamOf:" : "jon 7/3/2018 04:21",
+		"lockStreamOf:on:" : "jon 7/3/2018 04:05",
+		"next" : "jon 6/30/2018 11:45",
+		"next:" : "jon 6/30/2018 11:49",
+		"nextPutAll:" : "jon 6/30/2018 10:24",
+		"peek:" : "jon 6/30/2018 11:44",
+		"resetInStream" : "jon 6/30/2018 09:49",
+		"resetOutStream" : "jon 7/3/2018 03:28" } }

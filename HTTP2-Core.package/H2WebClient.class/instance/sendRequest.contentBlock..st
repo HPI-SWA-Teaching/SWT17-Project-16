@@ -24,7 +24,7 @@ sendRequest: request contentBlock: contentBlock
 		debugLog ifNotNil:[self writeRequest: request on: debugLog].
 "----------------------------------------------------------------- H2 Changes  --------------------------------------------------------------------------------------------------"
 		"Send the request itself"
-		
+			
 		(self serverProtocolDictionary includesKey: self serverName)
 			ifFalse: [ response := self sendUpgrade: request  contentBlock: contentBlock ] 
 			ifTrue: [ response := self sendPriorKnowlege: request  contentBlock: contentBlock ].
