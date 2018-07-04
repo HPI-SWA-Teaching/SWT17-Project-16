@@ -11,8 +11,8 @@ sendUpgrade: aRequest contentBlock: aContentBlock
 	response := aRequest newResponse readFrom: stream.
 	response code = 101 
 	ifTrue: [
-		self serverProtocolDictionary  at: self serverName put: #h2c.
+		self protocol: #h2c for: self serverName .
 		response :=  self h2Session newH2WebResponseFor: self h2Session receive ]
 	ifFalse: [
-		self serverProtocolDictionary at: self serverName put: 'http/1.1' asSymbol ].	
+		self protocol: 'http/1.1' asSymbol  for: self serverName].	
 	^ response

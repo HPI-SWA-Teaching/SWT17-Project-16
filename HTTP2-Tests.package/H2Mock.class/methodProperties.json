@@ -5,9 +5,10 @@
 		"mockServerAddress" : "jon 7/3/2018 04:16",
 		"mockServerName" : "jon 7/3/2018 04:17",
 		"new" : "FCH 7/3/2018 15:25",
-		"standardContent" : "jon 7/3/2018 02:14",
-		"upgradeFailure" : "jon 7/3/2018 04:47",
-		"upgradeSuccessful" : "jon 6/30/2018 09:51" },
+		"standardContentOn1" : "FCH 7/4/2018 21:10",
+		"standardContentOn3" : "FCH 7/4/2018 20:58",
+		"standardHttpContent" : "FCH 7/4/2018 21:08",
+		"switchingPorotcols" : "FCH 7/4/2018 21:08" },
 	"instance" : {
 		"atEnd" : "jon 7/3/2018 05:10",
 		"connectionActive" : "FCH 7/3/2018 15:22",

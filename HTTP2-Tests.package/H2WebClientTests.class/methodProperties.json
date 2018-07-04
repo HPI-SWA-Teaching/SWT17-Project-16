@@ -1,7 +1,21 @@
 {
 	"class" : {
-		 },
+		"emptyContentBlock" : "FCH 7/4/2018 14:50",
+		"exampleContent" : "FCH 7/4/2018 14:51",
+		"exampleContentBlock" : "FCH 7/4/2018 14:53",
+		"examplePath" : "FCH 7/4/2018 14:13",
+		"exampleScheme" : "FCH 7/4/2018 15:03",
+		"exampleServer" : "FCH 7/4/2018 15:03",
+		"exampleServerName" : "FCH 7/4/2018 15:03",
+		"exampleUrl" : "FCH 7/4/2018 14:14" },
 	"instance" : {
-		"testUpgradeToH2CFailure" : "jon 7/3/2018 05:07",
-		"testUpgradeToH2CSuccess" : "jon 7/3/2018 05:08",
-		"testconvertToH2Request" : "FCH 7/4/2018 12:44" } }
+		"setUp" : "FCH 7/4/2018 14:26",
+		"testIsHttp" : "FCH 7/4/2018 14:56",
+		"testIsHttp2" : "FCH 7/4/2018 14:35",
+		"testPrioKnowlegeH2C" : "FCH 7/4/2018 20:53",
+		"testPrioKnowlegeHttp" : "FCH 7/4/2018 21:09",
+		"testUpgradeToH2CFailure" : "FCH 7/4/2018 21:09",
+		"testUpgradeToH2CSuccess" : "FCH 7/4/2018 21:09",
+		"testconvertToH2Request" : "FCH 7/4/2018 14:52",
+		"testconvertToH2RequestWithContent" : "FCH 7/4/2018 14:55",
+		"testconvertToH2WebResponse" : "FCH 7/4/2018 21:44" } }

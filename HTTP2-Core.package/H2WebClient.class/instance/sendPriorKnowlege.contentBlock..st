@@ -1,11 +1,10 @@
 accessing
 sendPriorKnowlege: aRequest contentBlock: aContentBlock
-	| protocol |
-	protocol := (self serverProtocolDictionary at: self serverName).
-	(protocol = #h2   or: [ protocol = #h2c ]) 
+
+	(self isHttp2: self serverName  )
 		ifTrue: [
-			^  self h2Session newH2WebResponseFor: (self h2Session send: ( self convertToH2Request: aRequest with: aContentBlock)).]
-		ifFalse: [
+			^  self h2Session newH2WebResponseFor: (self h2Session send: ( self convertToH2Request: aRequest with: aContentBlock)).].
+	(self isHttp: self serverName  ) ifTrue: [
 			self writeRequest: aRequest on: stream.
 			aContentBlock value: stream.
-			^ aRequest newResponse readFrom: stream.].
+			^ aRequest newResponse readFrom: stream].
