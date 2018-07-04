@@ -3,4 +3,5 @@
 		 },
 	"instance" : {
 		"testUpgradeToH2CFailure" : "jon 7/3/2018 05:07",
-		"testUpgradeToH2CSuccess" : "jon 7/3/2018 05:08" } }
+		"testUpgradeToH2CSuccess" : "jon 7/3/2018 05:08",
+		"testconvertToH2Request" : "FCH 7/4/2018 12:44" } }

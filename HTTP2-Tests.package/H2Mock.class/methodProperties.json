@@ -1,13 +1,18 @@
 {
 	"class" : {
 		"emptySettings" : "jon 7/3/2018 03:00",
+		"flush" : "FCH 7/3/2018 15:26",
 		"mockServerAddress" : "jon 7/3/2018 04:16",
 		"mockServerName" : "jon 7/3/2018 04:17",
+		"new" : "FCH 7/3/2018 15:25",
 		"standardContent" : "jon 7/3/2018 02:14",
 		"upgradeFailure" : "jon 7/3/2018 04:47",
 		"upgradeSuccessful" : "jon 6/30/2018 09:51" },
 	"instance" : {
 		"atEnd" : "jon 7/3/2018 05:10",
+		"connectionActive" : "FCH 7/3/2018 15:22",
+		"connectionActive:" : "FCH 7/3/2018 15:22",
+		"initialize" : "FCH 7/3/2018 15:23",
 		"isBinary" : "jon 7/3/2018 03:39",
 		"isConnected" : "jon 7/3/2018 02:21",
 		"lockStreamOf:" : "jon 7/3/2018 04:21",
@@ -16,5 +21,6 @@
 		"next:" : "jon 6/30/2018 11:49",
 		"nextPutAll:" : "jon 6/30/2018 10:24",
 		"peek:" : "jon 6/30/2018 11:44",
+		"reset" : "FCH 7/3/2018 15:25",
 		"resetInStream" : "jon 6/30/2018 09:49",
 		"resetOutStream" : "jon 7/3/2018 03:28" } }

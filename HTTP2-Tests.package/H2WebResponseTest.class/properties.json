@@ -6,9 +6,9 @@
 		 ],
 	"commentStamp" : "",
 	"instvars" : [
-		"connectionActive" ],
-	"name" : "H2Mock",
+		 ],
+	"name" : "H2WebResponseTest",
 	"pools" : [
 		 ],
-	"super" : "MockSocketStream",
+	"super" : "TestCase",
 	"type" : "normal" }

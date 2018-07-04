@@ -1,14 +1,11 @@
 accessing
-sendPriorKnowlege: request contentBlock: contentBlock
+sendPriorKnowlege: aRequest contentBlock: aContentBlock
 	| protocol |
 	protocol := (self serverProtocolDictionary at: self serverName).
-	protocol = #h2 ifTrue: [
-			^  self h2Session newH2WebResponseFor: (self h2Session send: ( self h2Session newRequestFor: (self getPathFrom:  request url))).].
-	protocol = #h2c ifTrue: [
-			^  self h2Session newH2WebResponseFor: (self h2Session send: ( self h2Session newRequestFor: (self getPathFrom:  request url))).].
-					
-	protocol = 'http/1.1' asSymbol   ifTrue: [
-						self writeRequest: request on: stream.
-						contentBlock value: stream.
-
-						^ request newResponse readFrom: stream.].
+	(protocol = #h2   or: [ protocol = #h2c ]) 
+		ifTrue: [
+			^  self h2Session newH2WebResponseFor: (self h2Session send: ( self convertToH2Request: aRequest with: aContentBlock)).]
+		ifFalse: [
+			self writeRequest: aRequest on: stream.
+			aContentBlock value: stream.
+			^ aRequest newResponse readFrom: stream.].

@@ -1,73 +1,43 @@
 accessing
-sendRequest: request contentBlock: contentBlock
-	"Send an http request"
-
+sendRequest: aRequest contentBlock: aContentBlock
 	| response repeatRedirect repeatAuth |
-
-	"XXXX: Fixme. Pre-authenticate the request if we have valid auth credentials"
 
 	redirections := Dictionary new.
 	
-	["The outer loop handles redirections"
-	repeatRedirect := false.
-
-	"Always update the host header due to redirect"
-	request headerAt: 'Host' put: server.
-
-		["The inner loop handles authentication"
-		repeatAuth := false.
-
-		"Connect can fail if SSL proxy CONNECT is involved"
-		self connect ifNotNil:[:resp| ^resp].
-		
-		"Write the request to the debugLog if present"
-		debugLog ifNotNil:[self writeRequest: request on: debugLog].
-"----------------------------------------------------------------- H2 Changes  --------------------------------------------------------------------------------------------------"
-		"Send the request itself"
+	[repeatRedirect := false.
+		aRequest headerAt: 'Host' put: server.
+		[
+			repeatAuth := false.
+			self connect ifNotNil:[:resp| ^resp].
+			debugLog ifNotNil:[self writeRequest: aRequest on: debugLog].
+	
+			(self serverProtocolDictionary includesKey: self serverName)
+				ifFalse: [ response := self sendUpgrade: aRequest  contentBlock: aContentBlock ] 
+				ifTrue: [ response := self sendPriorKnowlege: aRequest  contentBlock: aContentBlock ].
 			
-		(self serverProtocolDictionary includesKey: self serverName)
-			ifFalse: [ response := self sendUpgrade: request  contentBlock: contentBlock ] 
-			ifTrue: [ response := self sendPriorKnowlege: request  contentBlock: contentBlock ].
-		
-		response url: (scheme, '://', server, request rawUrl).
-"----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------"
-		
-		debugLog ifNotNil:[
-			response writeOn: debugLog.
-			debugLog flush.
-		].
-		response setCookiesDo:[:cookie| 
-			self acceptCookie: cookie host: self serverUrlName path: request url.
-		].
-		accessLog ifNotNil:[
-			WebUtils logRequest: request response: response on: accessLog
-		].
-		"Handle authentication if needed"
-		(self allowAuth and:[response code = 401 or:[response code = 407]]) ifTrue:[
-			"Eat up the content of the previous response"
+			response url: (scheme, '://', server, aRequest rawUrl).
+			
+			debugLog ifNotNil:[
+				response writeOn: debugLog.
+				debugLog flush.].
+			response setCookiesDo:[:cookie| self acceptCookie: cookie host: self serverUrlName path: aRequest url.].
+			accessLog ifNotNil:[
+				WebUtils logRequest: aRequest response: response on: accessLog].
+			
+			(self allowAuth and:[response code = 401 or:[response code = 407]]) ifTrue:[
+				response content.
+				repeatAuth := self authenticate: aRequest from: response.].
+
+			repeatAuth ] whileTrue.
+	
+		self flushAuthState.
+		(self allowRedirect and:[response isRedirect]) ifTrue:[
 			response content.
-			repeatAuth := self authenticate: request from: response.
-		].
+			repeatRedirect := self redirect: aRequest from: response.].
+			repeatRedirect ] whileTrue:[
+				aRequest removeHeader: 'Authorization'.
+				aRequest removeHeader: 'Proxy-Authorization'.].
 
-		repeatAuth] whileTrue.
-
-	"Flush previous authState.
-	XXXX: Fixme. authState must be preserved for pre-authentication of requests."
-	self flushAuthState.
-
-	"Handle redirect if needed"
-	(self allowRedirect and:[response isRedirect]) ifTrue:[
-		"Eat up the content of the previous response"
-		response content.
-		repeatRedirect := self redirect: request from: response.
-	].
-	repeatRedirect] whileTrue:[
-		"When redirecting, remove authentication headers"
-		request removeHeader: 'Authorization'.
-		request removeHeader: 'Proxy-Authorization'.
-	].
-
-	"If the response is not a success, eat up its content"
 	(response isSuccess or:[response isInformational]) ifFalse:[response content].
 
 	^response

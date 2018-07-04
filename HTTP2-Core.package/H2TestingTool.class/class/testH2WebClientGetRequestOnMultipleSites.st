@@ -7,6 +7,7 @@ testH2WebClientGetRequestOnMultipleSites
 	responses add: (WC httpGet: 'http://localhost' do: block). 
 	responses add: (WC httpGet: 'https://www.google.de' do: block). 
 	responses add: (WC httpGet: 'http://localhost' do: block). 
+	responses add: (WC httpPost:'http://localhost' content: 'textekjafnk' type: 'text'  do:  block). 
 	responses add: (WC httpGet: 'http://localhost' do: block).
 	responses add: (WC httpGet: 'https://www.google.de' do: block). 
 	

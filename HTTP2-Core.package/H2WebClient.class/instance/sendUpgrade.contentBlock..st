@@ -1,19 +1,18 @@
 accessing
-sendUpgrade: request contentBlock: contentBlock
+sendUpgrade: aRequest contentBlock: aContentBlock
 	
 	| response |
 		
-	request addHeader: 'Connection' value: 'Upgrade,HTTP2-Settings'.
-	request addHeader: 'Upgrade' value: 'h2c'.
-	request addHeader: 'HTTP2-Settings' value: 'AAMAAABkAARAAAAAAAIAAAAA'.	
-	self writeRequest: request on: stream.
-	contentBlock value: stream.
-	response := request newResponse readFrom: stream.
+	aRequest addHeader: 'Connection' value: 'Upgrade,HTTP2-Settings'.
+	aRequest addHeader: 'Upgrade' value: 'h2c'.
+	aRequest addHeader: 'HTTP2-Settings' value: 'AAMAAABkAARAAAAAAAIAAAAA'.	
+	self writeRequest: aRequest on: stream.
+	aContentBlock value: stream.
+	response := aRequest newResponse readFrom: stream.
 	response code = 101 
 	ifTrue: [
-	self serverProtocolDictionary  at: self serverName put: #h2c.
+		self serverProtocolDictionary  at: self serverName put: #h2c.
 		response :=  self h2Session newH2WebResponseFor: self h2Session receive ]
 	ifFalse: [
-		self serverProtocolDictionary at: self serverName put: 'http/1.1' asSymbol ].
-	
+		self serverProtocolDictionary at: self serverName put: 'http/1.1' asSymbol ].	
 	^ response
