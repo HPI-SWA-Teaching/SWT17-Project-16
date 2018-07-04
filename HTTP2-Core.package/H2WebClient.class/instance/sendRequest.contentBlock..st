@@ -16,6 +16,7 @@ sendRequest: aRequest contentBlock: aContentBlock
 				ifTrue: [ response := self sendPriorKnowlege: aRequest  contentBlock: aContentBlock ].
 			
 			response url: (scheme, '://', server, aRequest rawUrl).
+			response request: aRequest.
 			
 			debugLog ifNotNil:[
 				response writeOn: debugLog.
