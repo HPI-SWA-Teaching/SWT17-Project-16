@@ -14,6 +14,7 @@
 		"atEnd" : "jon 7/3/2018 05:10",
 		"connectionActive" : "FCH 7/3/2018 15:22",
 		"connectionActive:" : "FCH 7/3/2018 15:22",
+		"inStream" : "jon 7/6/2018 13:43",
 		"initialize" : "FCH 7/3/2018 15:23",
 		"isBinary" : "jon 7/3/2018 03:39",
 		"isConnected" : "jon 7/3/2018 02:21",
@@ -26,4 +27,5 @@
 		"reset" : "FCH 7/3/2018 15:25",
 		"resetInStream" : "jon 6/30/2018 09:49",
 		"resetOutStream" : "jon 7/3/2018 03:28",
-		"streamSpecies" : "ms 7/6/2018 16:14" } }
+		"space" : "jon 7/6/2018 13:40",
+		"streamSpecies" : "jon 7/6/2018 13:40" } }
