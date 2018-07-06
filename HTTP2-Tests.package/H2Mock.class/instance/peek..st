@@ -1,5 +1,6 @@
 as yet unclassified
 peek: anInteger
+	"implemented for Squeak5, not necessary in Sq6"
 	| oldPosition result |
 	oldPosition := self inStream position.
 	result := self inStream next: anInteger.
