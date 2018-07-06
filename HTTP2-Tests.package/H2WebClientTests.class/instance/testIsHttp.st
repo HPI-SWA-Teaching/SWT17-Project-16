@@ -1,4 +1,4 @@
-as yet unclassified
+testing
 testIsHttp
 
 	webclient registerProtocol: #h2c for: self class exampleServer. 

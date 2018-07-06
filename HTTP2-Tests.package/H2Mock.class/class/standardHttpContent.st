@@ -1,6 +1,19 @@
 as yet unclassified
-standardHttpContent 
-	^#[16r00 16r00 16r00 16r00 16r00 16r00 16r00 16r00 16r00 16r00 16r00 16r00 16r08 16r00 16r45 16r00
+standardHttpContent
+	"http/1.1 response"
+
+	"HTTP/1.1 200 OK
+	Date: Tue, 03 Jul 2018 09:31:07 GMT
+	Server: Apache/2.4.25 (Debian)
+	Last-Modified: Sat, 26 May 2018 09:23:44 GMT
+	ETag: ""1a-56d1870ee4a3a""
+	Accept-Ranges: bytes
+	Content-Length: 26
+	Content-Type: text/html
+
+	<html> HELLO WORLD </html>"
+
+	^ #[16r00 16r00 16r00 16r00 16r00 16r00 16r00 16r00 16r00 16r00 16r00 16r00 16r08 16r00 16r45 16r00
 16r01 16r31 16r48 16r2b 16r40 16r00 16r40 16r06 16rf3 16r99 16r7f 16r00 16r00 16r01 16r7f 16r00
 16r00 16r01 16r00 16r50 16rdb 16r2e 16rd9 16r54 16r31 16reb 16rdb 16r5e 16rc3 16r83 16r80 16r18
 16r01 16r5e 16rff 16r25 16r00 16r00 16r01 16r01 16r08 16r0a 16r00 16r21 16r79 16rc1 16r00 16r21

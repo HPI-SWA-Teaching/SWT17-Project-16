@@ -1,9 +1,11 @@
 testing
-testUpgradeToH2CFailure
+testPrioKnowledgeHttp
 	| response |
 	
-	mock inStream nextPutAll: H2Mock standardHttpContent  asString.
-	mock inStream reset.
+	mock inStream nextPutAll: H2Mock standardHttpContent asString.
+	mock inStream reset.	
+	
+	webclient registerProtocol: 'http/1.1' asSymbol  for: self class exampleServerName. 
 	
 	response := webclient httpGet: self class exampleUrl. 
 	
