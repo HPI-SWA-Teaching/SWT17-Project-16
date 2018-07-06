@@ -1,4 +1,4 @@
-as yet unclassified
+SqueakV5additions
 refreshStreams
 	"implemented for Squeak5, not necessary in Sq6"
 	binary = self inStream isBinary ifFalse: [self resetInStream].

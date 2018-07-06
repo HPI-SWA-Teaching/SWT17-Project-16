@@ -11,10 +11,13 @@
 		"standardHttpContent" : "ms 7/6/2018 18:11",
 		"switchingProtocols" : "ms 7/6/2018 18:13" },
 	"instance" : {
+		"ascii" : "jon 7/6/2018 14:40",
 		"atEnd" : "jon 7/3/2018 05:10",
 		"binary" : "jon 7/6/2018 14:07",
 		"connectionActive" : "FCH 7/3/2018 15:22",
 		"connectionActive:" : "FCH 7/3/2018 15:22",
+		"cr" : "jon 7/6/2018 14:40",
+		"crlf" : "jon 7/6/2018 14:40",
 		"inStream" : "jon 7/6/2018 13:43",
 		"initialize" : "jon 7/6/2018 14:13",
 		"isBinary" : "jon 7/3/2018 03:39",

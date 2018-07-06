@@ -1,4 +1,4 @@
-as yet unclassified
+SqueakV5additions
 inStream
 	^inStream
 	
