@@ -1,0 +1,17 @@
+{
+	"class" : {
+		"expireDuration" : "MB 7/3/2018 23:25",
+		"newForRequest:onServer:withPromise:" : "MB 7/3/2018 23:26" },
+	"instance" : {
+		"expires" : "MB 7/3/2018 14:46",
+		"expires:" : "MB 7/3/2018 14:46",
+		"merge:" : "MB 7/3/2018 23:29",
+		"method" : "MB 7/3/2018 11:55",
+		"path" : "MB 7/3/2018 11:54",
+		"promise" : "MB 6/26/2018 11:21",
+		"promise:" : "MB 6/26/2018 11:33",
+		"request" : "MB 6/26/2018 11:20",
+		"request:" : "MB 6/26/2018 11:33",
+		"server" : "MB 6/26/2018 12:21",
+		"server:" : "MB 6/26/2018 12:21",
+		"stillValid" : "MB 7/3/2018 22:22" } }

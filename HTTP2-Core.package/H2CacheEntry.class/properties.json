@@ -1,0 +1,17 @@
+{
+	"category" : "HTTP2-Core",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "",
+	"instvars" : [
+		"server",
+		"request",
+		"promise",
+		"expires" ],
+	"name" : "H2CacheEntry",
+	"pools" : [
+		 ],
+	"super" : "Object",
+	"type" : "normal" }

@@ -1,0 +1,4 @@
+constants
+serverName
+	
+	^ 'test-server'

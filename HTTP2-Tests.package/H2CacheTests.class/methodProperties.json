@@ -1,0 +1,17 @@
+{
+	"class" : {
+		"cacheableRequest" : "MB 7/3/2018 22:45",
+		"serverName" : "MB 7/3/2018 10:56" },
+	"instance" : {
+		"cache" : "MB 7/3/2018 13:39",
+		"cache:" : "MB 7/3/2018 13:39",
+		"promise" : "MB 7/3/2018 13:39",
+		"promise:" : "MB 7/3/2018 13:39",
+		"request" : "MB 7/3/2018 13:39",
+		"request:" : "MB 7/3/2018 13:39",
+		"setUp" : "MB 7/3/2018 13:39",
+		"testAddCacheEntry" : "MB 7/4/2018 00:29",
+		"testCacheHit" : "MB 7/4/2018 00:01",
+		"testCacheMiss" : "MB 7/3/2018 22:43",
+		"testCacheMissUpdate" : "MB 7/3/2018 23:51",
+		"testCreation" : "MB 7/3/2018 13:40" } }
