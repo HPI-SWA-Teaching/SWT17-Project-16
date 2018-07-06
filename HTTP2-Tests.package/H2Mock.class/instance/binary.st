@@ -1,5 +1,5 @@
 as yet unclassified
 binary
-
-	binary := true.
+	"implemented for Squeak5, not necessary in Sq6"
+	binarySQ5 := true.
 	self refreshStreams.

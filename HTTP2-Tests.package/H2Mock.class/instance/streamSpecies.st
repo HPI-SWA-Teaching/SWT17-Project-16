@@ -1,4 +1,4 @@
 initialize-release
 streamSpecies
-
-	^ binary ifTrue: [ByteArray] ifFalse: [ByteString].
+	"implemented for Squeak5, not necessary in Sq6"
+	^ binarySQ5 ifTrue: [ByteArray] ifFalse: [ByteString].

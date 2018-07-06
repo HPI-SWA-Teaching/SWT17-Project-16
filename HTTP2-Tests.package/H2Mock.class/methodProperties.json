@@ -12,7 +12,7 @@
 		"switchingProtocols" : "ms 7/6/2018 18:13" },
 	"instance" : {
 		"atEnd" : "jon 7/3/2018 05:10",
-		"binary" : "jon 7/6/2018 13:49",
+		"binary" : "jon 7/6/2018 14:07",
 		"connectionActive" : "FCH 7/3/2018 15:22",
 		"connectionActive:" : "FCH 7/3/2018 15:22",
 		"inStream" : "jon 7/6/2018 13:43",
@@ -25,8 +25,9 @@
 		"next:" : "jon 6/30/2018 11:49",
 		"nextPutAll:" : "jon 6/30/2018 10:24",
 		"peek:" : "ms 7/6/2018 18:31",
+		"refreshStreams" : "jon 7/6/2018 14:07",
 		"reset" : "FCH 7/3/2018 15:25",
 		"resetInStream" : "jon 6/30/2018 09:49",
 		"resetOutStream" : "jon 7/3/2018 03:28",
 		"space" : "jon 7/6/2018 13:40",
-		"streamSpecies" : "jon 7/6/2018 13:40" } }
+		"streamSpecies" : "jon 7/6/2018 14:07" } }
