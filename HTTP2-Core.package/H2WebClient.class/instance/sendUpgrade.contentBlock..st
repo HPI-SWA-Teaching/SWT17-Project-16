@@ -1,18 +1,17 @@
 sending
 sendUpgrade: aRequest contentBlock: aContentBlock
-	
 	| response |
-		
-	aRequest addHeader: 'Connection' value: 'Upgrade,HTTP2-Settings'.
-	aRequest addHeader: 'Upgrade' value: 'h2c'.
-	aRequest addHeader: 'HTTP2-Settings' value: 'AAMAAABkAARAAAAAAAIAAAAA'.	
+	
+	self class upgradeHeaders do: [:header |
+		aRequest addHeader: header key value: header value].
+	
 	self writeRequest: aRequest on: stream.
 	aContentBlock value: stream.
 	response := aRequest newResponse readFrom: stream.
-	response code = 101 
-	ifTrue: [
-		self protocol: #h2c for: self serverName .
-		response :=  self h2Session newH2WebResponseFor: self h2Session receive ]
-	ifFalse: [
-		self protocol: 'http/1.1' asSymbol  for: self serverName].	
-	^ response
+	
+	"if server sends switchingPorotcols we can upgrade, otherwise it does not understand the upgrade request"
+	(self isSwitchingProtocols: response)
+		ifTrue: [	self registerAsHttp2: self serverName.
+			^ self h2Session newH2WebResponseFor: self h2Session receive]
+		ifFalse: [self registerAsHttp: self serverName.
+			^ response]

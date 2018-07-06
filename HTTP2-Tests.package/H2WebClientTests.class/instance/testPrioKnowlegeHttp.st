@@ -5,7 +5,7 @@ testPrioKnowlegeHttp
 	mock inStream nextPutAll: H2Mock standardHttpContent  asString.
 	mock inStream reset.	
 	
-	webclient protocol: 'http/1.1' asSymbol  for: self class exampleServerName  . 
+	webclient registerProtocol: 'http/1.1' asSymbol  for: self class exampleServerName  . 
 	
 	response:= webclient httpGet: self class exampleUrl. 
 	
