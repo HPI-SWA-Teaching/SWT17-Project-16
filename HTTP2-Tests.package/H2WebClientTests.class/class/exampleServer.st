@@ -1,3 +1,3 @@
 as yet unclassified
 exampleServer
-	^  self exampleScheme , self exampleServerName 
+	^ self exampleScheme, self exampleServerName 
