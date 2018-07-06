@@ -10,8 +10,8 @@
 		"exampleUrl" : "FCH 7/4/2018 14:14" },
 	"instance" : {
 		"setUp" : "FCH 7/4/2018 14:26",
-		"testIsHttp" : "FCH 7/4/2018 14:56",
-		"testIsHttp2" : "FCH 7/4/2018 14:35",
+		"testIsHttp" : "ms 7/6/2018 16:54",
+		"testIsHttp2" : "ms 7/6/2018 17:07",
 		"testPrioKnowlegeH2C" : "FCH 7/4/2018 20:53",
 		"testPrioKnowlegeHttp" : "FCH 7/4/2018 21:09",
 		"testUpgradeToH2CFailure" : "FCH 7/4/2018 21:09",

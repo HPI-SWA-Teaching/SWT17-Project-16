@@ -1,10 +1,8 @@
 sending
 sendPriorKnowlege: aRequest contentBlock: aContentBlock
 
-	(self isHttp2: self serverName  )
-		ifTrue: [
-			^  self h2Session newH2WebResponseFor: (self h2Session send: ( self convertToH2Request: aRequest with: aContentBlock)).].
-	(self isHttp: self serverName  ) ifTrue: [
-			self writeRequest: aRequest on: stream.
-			aContentBlock value: stream.
-			^ aRequest newResponse readFrom: stream].
+	(self knownAsHttp2: self serverName)
+		ifTrue: [^ self privateSendHttp2: aRequest contentBlock: aContentBlock].
+	(self knownAsHttp: self serverName)
+		ifTrue: [^ self privateSendHttp: aRequest contentBlock: aContentBlock].
+	H2Error signal: 'unknown server protocol'
