@@ -1,4 +1,4 @@
-accessing
+sending
 sendUpgrade: aRequest contentBlock: aContentBlock
 	
 	| response |

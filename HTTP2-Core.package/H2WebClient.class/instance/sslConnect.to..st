@@ -1,4 +1,4 @@
-accessing
+initialize
 sslConnect: stream to: lastServer
 	"Do the SSL handshake, use SNI if available"
 	(stream respondsTo: #sslConnectTo:withAlpnProtos: )

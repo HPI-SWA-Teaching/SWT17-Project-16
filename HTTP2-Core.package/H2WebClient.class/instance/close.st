@@ -1,4 +1,4 @@
-accessing
+initialize
 close
 	
 	h2Session ifNotNil: [

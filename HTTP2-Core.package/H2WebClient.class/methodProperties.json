@@ -3,9 +3,12 @@
 		"alpnProtocols" : "FCH 6/20/2018 10:16" },
 	"instance" : {
 		"close" : "FCH 5/25/2018 15:12",
-		"convertToH2Request:with:" : "FCH 7/4/2018 12:42",
+		"contentAsStream:" : "ms 7/6/2018 16:33",
+		"convertToH2Request:with:" : "ms 7/6/2018 16:34",
+		"h2HeaderFor:" : "ms 7/6/2018 16:22",
 		"h2Session" : "FCH 6/13/2018 14:30",
 		"h2Session:" : "FCH 5/25/2018 12:18",
+		"headerAssociationsFrom:" : "ms 7/6/2018 16:21",
 		"isHttp2:" : "FCH 7/4/2018 14:39",
 		"isHttp:" : "FCH 7/4/2018 14:40",
 		"protocol:for:" : "FCH 7/4/2018 14:31",

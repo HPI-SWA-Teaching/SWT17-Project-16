@@ -1,4 +1,4 @@
-accessing
+sending
 sendPriorKnowlege: aRequest contentBlock: aContentBlock
 
 	(self isHttp2: self serverName  )

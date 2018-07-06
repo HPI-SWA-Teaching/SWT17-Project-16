@@ -1,4 +1,4 @@
-accessing
+sending
 sendRequest: aRequest contentBlock: aContentBlock
 	| response repeatRedirect repeatAuth |
 
