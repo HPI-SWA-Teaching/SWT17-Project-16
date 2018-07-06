@@ -1,4 +1,5 @@
 initialize-release
 initialize 
-	super initialize.
+	binarySQ5:= false.
+	super initialize.	
 	self connectionActive: true.
