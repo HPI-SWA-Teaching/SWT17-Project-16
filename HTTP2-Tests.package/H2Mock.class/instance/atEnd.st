@@ -1,3 +1,3 @@
-as yet unclassified
+testing
 atEnd
 	^ self inStream atEnd

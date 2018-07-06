@@ -1,3 +1,3 @@
-as yet unclassified
+stream out
 resetOutStream
 	outStream:= ReadWriteStream on: self streamSpecies new.

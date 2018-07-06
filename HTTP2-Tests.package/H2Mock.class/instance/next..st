@@ -1,3 +1,3 @@
-as yet unclassified
+accessing
 next: anInteger
 	^self inStream next: anInteger.

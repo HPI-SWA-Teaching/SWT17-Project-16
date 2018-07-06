@@ -1,4 +1,4 @@
-as yet unclassified
+stream out
 nextPutAll: aCollection
 	|aFittingCollection|
 	aCollection class = self streamSpecies  ifTrue:
