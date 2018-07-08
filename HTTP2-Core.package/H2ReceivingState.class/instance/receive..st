@@ -6,5 +6,5 @@ receive: aFrame
 	self hadEndStream: (self lastFlags endStream or: self hadEndStream).
 	(self hadEndStream and: self canEndStream) ifTrue: [
 		self transition: H2NullReceiver.
-		self stream deliverResponse.
-		self stream closeStreamIfFinished ]
+		self stream closeStreamIfFinished.
+		self stream deliverResponse ]
