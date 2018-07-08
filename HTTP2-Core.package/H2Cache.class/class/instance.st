@@ -1,4 +1,4 @@
 instance
 instance
 	
-	^ instance ifNil: [ instance := self new ]
+	^ Instance ifNil: [ Instance := self new ]
