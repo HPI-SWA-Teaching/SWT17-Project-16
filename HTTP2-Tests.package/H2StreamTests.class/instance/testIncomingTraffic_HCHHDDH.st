@@ -35,7 +35,7 @@ testIncomingTraffic_HCHHDDH
 	headerFrameT receiveOnStream: stream.
 	
 	headerR dictionary addAll: headerT dictionary.
-	[self assert: (stream promise waitTimeoutMSecs: 0) description: 'promise didn''t resolve'.
+	self assert: (stream promise waitTimeoutMSecs: 0) description: 'promise didn''t resolve'.
 	self assert: headerR equals: stream promise value header.
 	self assert: data equals: stream promise value data.
-	self assert: H2NullReceiver equals: stream receiver class] fork
+	self assert: H2NullReceiver equals: stream receiver class
