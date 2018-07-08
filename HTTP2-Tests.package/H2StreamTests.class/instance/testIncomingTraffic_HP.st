@@ -18,8 +18,8 @@ testIncomingTraffic_HP
 	pushFrame receiveOnStream: stream.
 	headerFrame receiveOnStream: stream.stream.
 	
-	[self assert: (stream promise waitTimeoutMSecs: 10) description: 'promise didn''t resolve'.
+	self assert: (stream promise waitTimeoutMSecs: 10) description: 'promise didn''t resolve'.
 	pushedStream := stream connection activeStreams at: 6. "this raises an error should the stream not exist"
 	self assert: pushHeader equals: pushedStream request header.
 	self assert: header equals: stream promise value header.
-	self assert: H2NullReceiver equals: stream receiver class] fork
+	self assert: H2NullReceiver equals: stream receiver class
