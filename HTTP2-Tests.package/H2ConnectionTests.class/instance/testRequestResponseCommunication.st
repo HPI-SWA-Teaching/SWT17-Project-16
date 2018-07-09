@@ -31,7 +31,7 @@ testRequestResponseCommunication
 	frame flags endStream: true.
 	
 	mockStream inStream addAll: frame encode.
-	self assert: (promise waitTimeoutMSecs: 5) description: 'promise didn''t resolve'.
+	self assert: (promise waitTimeoutMSecs: 20) description: 'promise didn''t resolve'.
 	self assert: promise value header equals: response header.
 	self assert: promise value data equals: response data asByteArray.
 	self assert: connection activeStreams isEmpty
