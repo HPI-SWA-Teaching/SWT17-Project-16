@@ -1,0 +1,14 @@
+{
+	"category" : "HTTP2-Core",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "",
+	"instvars" : [
+		 ],
+	"name" : "H2TrailerHeaderFrameReceiver",
+	"pools" : [
+		 ],
+	"super" : "H2ReceivingState",
+	"type" : "normal" }

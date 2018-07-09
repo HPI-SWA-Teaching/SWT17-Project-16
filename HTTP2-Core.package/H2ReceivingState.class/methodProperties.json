@@ -1,17 +1,24 @@
 {
 	"class" : {
-		"newFor:" : "jp 8/3/2017 17:24" },
+		"newFor:" : "jp 8/3/2017 17:24",
+		"newFor:from:" : "MB 6/12/2018 10:44" },
 	"instance" : {
 		"atEnd" : "H. G. 7/31/2017 14:00",
-		"nextState" : "H. G. 7/30/2017 18:03",
-		"nextState:" : "jp 8/3/2017 17:23",
-		"receiveContinuationFrame:" : "H. G. 7/30/2017 18:02",
-		"receiveDataFrame:" : "H. G. 7/30/2017 18:02",
-		"receiveHeaderFrame:" : "H. G. 7/30/2017 18:02",
+		"canEndStream" : "MB 6/12/2018 10:31",
+		"hadEndStream" : "MB 6/12/2018 10:24",
+		"hadEndStream:" : "MB 6/12/2018 10:25",
+		"initialize" : "MB 6/12/2018 10:37",
+		"lastFlags" : "MB 6/12/2018 10:24",
+		"lastFlags:" : "MB 6/12/2018 10:25",
+		"process:" : "MB 6/12/2018 09:58",
+		"receive:" : "MB 6/23/2018 09:38",
+		"receiveContinuationFrame:" : "MB 6/10/2018 17:55",
+		"receiveDataFrame:" : "MB 6/10/2018 17:56",
+		"receiveHeaderFrame:" : "MB 6/10/2018 17:56",
 		"receivePriorityFrame:" : "H. G. 7/30/2017 18:08",
 		"receivePushPromiseFrame:" : "H. G. 7/30/2017 18:01",
 		"receiveRSTStreamFrame:" : "H. G. 7/31/2017 14:23",
 		"receiveWindowUpdateFrame:" : "ms 5/21/2018 18:08",
 		"stream" : "H. G. 7/30/2017 18:03",
 		"stream:" : "jp 8/3/2017 17:24",
-		"transition" : "H. G. 7/30/2017 18:35" } }
+		"transition:" : "MB 6/12/2018 10:45" } }
