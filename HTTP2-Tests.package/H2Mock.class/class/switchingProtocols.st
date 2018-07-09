@@ -1,0 +1,15 @@
+as yet unclassified
+switchingProtocols
+	"switching protocols header"
+
+	"HTTP/1.1 101 Switching Protocols
+	Upgrade: h2c
+	Connection: Upgrade
+
+	"
+
+	^ #[16r48 16r54 16r54 16r50 16r2f 16r31 16r2e 16r31 16r20 16r31 16r30 16r31 16r20 16r53
+16r77 16r69 16r74 16r63 16r68 16r69 16r6e 16r67 16r20 16r50 16r72 16r6f 16r74 16r6f 16r63 16r6f
+16r6c 16r73 16r0d 16r0a 16r55 16r70 16r67 16r72 16r61 16r64 16r65 16r3a 16r20 16r68 16r32 16r63
+16r0d 16r0a 16r43 16r6f 16r6e 16r6e 16r65 16r63 16r74 16r69 16r6f 16r6e 16r3a 16r20 16r55 16r70
+16r67 16r72 16r61 16r64 16r65 16r0d 16r0a 16r0d 16r0a]

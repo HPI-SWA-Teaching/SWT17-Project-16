@@ -31,7 +31,7 @@ testRequestResponseCommunication
 	frame flags endStream: true.
 	
 	mockStream inStream addAll: frame encode.
-	promise then: [:resp |
+	(promise waitTimeoutSeconds: 1) ifTrue: [[:resp |
 		self assert: resp header equals: response header.
 		self assert: resp data equals: response data asByteArray.
-		self assert: connection activeStreams isEmpty]
+		self assert: connection activeStreams isEmpty]]

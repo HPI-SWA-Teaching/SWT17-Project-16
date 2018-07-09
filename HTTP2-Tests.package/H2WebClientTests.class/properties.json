@@ -1,0 +1,15 @@
+{
+	"category" : "HTTP2-Tests",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "",
+	"instvars" : [
+		"webclient",
+		"mock" ],
+	"name" : "H2WebClientTests",
+	"pools" : [
+		 ],
+	"super" : "TestCase",
+	"type" : "normal" }
