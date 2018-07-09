@@ -1,9 +1,6 @@
-standard values
+frame generation
 lastContinuationFrameFor: aHeaderBlock
 	| frame |
-	frame := (H2ContinuationFrame new)
-		payload: aHeaderBlock;
-		streamIdentifier: 5;
-		yourself.
+	frame := self unflaggedContinuationFrameFor: aHeaderBlock.
 	frame flags endHeaders: true.
 	^ frame

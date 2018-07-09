@@ -1,4 +1,4 @@
-standard values
+frame generation
 standardDataFrameFor: aHeaderBlock
 	| frame |
 	frame := (H2DataFrame new)
