@@ -1,4 +1,4 @@
-standard values
+frame generation
 unflaggedPushPromiseFrameFor: aHeaderBlock
 	^ (H2PushPromiseFrame new)
 		promisedID: 6;
