@@ -1,0 +1,21 @@
+{
+	"class" : {
+		"emptyContentBlock" : "FCH 7/4/2018 14:50",
+		"exampleContent" : "FCH 7/4/2018 14:51",
+		"exampleContentBlock" : "ms 7/6/2018 18:36",
+		"examplePath" : "FCH 7/4/2018 14:13",
+		"exampleScheme" : "ms 7/6/2018 18:36",
+		"exampleServer" : "ms 7/6/2018 18:35",
+		"exampleServerName" : "ms 7/6/2018 18:35",
+		"exampleUrl" : "ms 7/6/2018 18:35" },
+	"instance" : {
+		"setUp" : "FCH 7/4/2018 14:26",
+		"testConvertToH2Request" : "ms 7/6/2018 18:27",
+		"testConvertToH2RequestWithContent" : "ms 7/6/2018 18:27",
+		"testConvertToH2WebResponse" : "ms 7/6/2018 18:26",
+		"testIsHttp" : "ms 7/6/2018 17:29",
+		"testIsHttp2" : "ms 7/6/2018 17:30",
+		"testPrioKnowledgeH2C" : "ms 7/6/2018 18:20",
+		"testPrioKnowledgeHttp" : "ms 7/6/2018 18:20",
+		"testUpgradeToH2CFailure" : "ms 7/6/2018 18:25",
+		"testUpgradeToH2CSuccess" : "ms 7/6/2018 18:25" } }

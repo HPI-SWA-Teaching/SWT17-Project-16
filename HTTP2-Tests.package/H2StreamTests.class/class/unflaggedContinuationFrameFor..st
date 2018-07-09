@@ -1,4 +1,4 @@
-standard values
+frame generation
 unflaggedContinuationFrameFor: aHeaderBlock
 	^ (H2ContinuationFrame new)
 		payload: aHeaderBlock;

@@ -1,4 +1,4 @@
-standard values
+frame generation
 unflaggedDataFrameFor: aHeaderBlock
 	^ (H2DataFrame new)
 		payload: aHeaderBlock;

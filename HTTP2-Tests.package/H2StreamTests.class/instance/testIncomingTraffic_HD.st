@@ -1,19 +1,12 @@
 testing
 testIncomingTraffic_HD
-	| stream headerFrame header dataFrame headerBlock data |
-	
-	stream := H2Stream new: 5 for: H2Request new connection: H2Connection new.
+	| header data |
 	
 	header := H2StreamTests standardResponseHeaderSuccess.
-	headerBlock := header encode: H2HPACKIndexTable new.
 	data := 'some Data' asByteArray.
 	
-	headerFrame := H2StreamTests lastHeadersFrameFor: headerBlock.
-	dataFrame := H2StreamTests unflaggedDataFrameFor: data.
-	dataFrame flags endStream: true.
-	
-	headerFrame receiveOnStream: stream.
-	dataFrame receiveOnStream: stream.
+	self receiveHeader: header inParts: 1.
+	self receiveClosingData: data inParts: 1.
 	
 	self assert: (stream promise waitTimeoutMSecs: 0) description: 'promise didn''t resolve'.
 	self assert: data asByteArray equals: stream promise value data.

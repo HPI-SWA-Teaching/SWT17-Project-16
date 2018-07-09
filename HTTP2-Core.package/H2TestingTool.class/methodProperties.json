@@ -2,6 +2,7 @@
 	"class" : {
 		"testConnection" : "H. G. 7/31/2017 14:52",
 		"testConnection:" : "H. G. 7/31/2017 14:52",
-		"testConnection:port:" : "H. G. 7/31/2017 14:52" },
+		"testConnection:port:" : "H. G. 7/31/2017 14:52",
+		"testH2WebClientGetRequestOnMultipleSites" : "FCH 7/4/2018 12:43" },
 	"instance" : {
 		 } }
