@@ -2,8 +2,11 @@
 	"class" : {
 		 },
 	"instance" : {
+		"asString" : "FCH 6/13/2018 11:16",
 		"data" : "H. G. 7/15/2017 14:42",
 		"data:" : "H. G. 7/15/2017 14:42",
 		"header" : "H. G. 7/15/2017 14:42",
 		"header:" : "H. G. 7/15/2017 14:42",
-		"initialize" : "H. G. 7/15/2017 14:43" } }
+		"initialize" : "H. G. 7/15/2017 14:43",
+		"writeHeadersOn:" : "FCH 6/13/2018 11:17",
+		"writeOn:" : "FCH 6/13/2018 11:12" } }

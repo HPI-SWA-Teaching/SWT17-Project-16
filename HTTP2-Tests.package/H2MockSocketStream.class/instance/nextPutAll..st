@@ -1,3 +1,3 @@
 accessing
 nextPutAll: aByteString
-	self outStream nextPutAll: aByteString
+	self outStream nextPutAll: (aByteString asByteArray )
