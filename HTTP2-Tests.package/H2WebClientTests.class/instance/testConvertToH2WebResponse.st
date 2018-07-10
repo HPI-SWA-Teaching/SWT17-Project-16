@@ -5,6 +5,7 @@ testConvertToH2WebResponse
 	mock inStream nextPutAll: H2Mock standardContentOnStream3 asString.	
 	mock inStream reset.	
 	
+	webclient h2Session cache: H2Cache new.
 	promise := webclient h2Session send: (webclient h2Session newRequestFor: self class examplePath).
 	webresponse := webclient h2Session newH2WebResponseFor: promise.
 	promise := promise value.
