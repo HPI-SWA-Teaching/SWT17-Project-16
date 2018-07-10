@@ -15,4 +15,5 @@
 		"testCacheMiss" : "MB 7/3/2018 22:43",
 		"testCacheMissUpdate" : "MB 7/3/2018 23:51",
 		"testCreation" : "MB 7/3/2018 13:40",
-		"testFillAndEmpty" : "MB 7/10/2018 14:19" } }
+		"testFillAndEmpty" : "MB 7/10/2018 14:19",
+		"testSessionIntegration" : "MB 7/10/2018 16:21" } }

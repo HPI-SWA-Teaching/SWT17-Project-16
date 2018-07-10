@@ -6,7 +6,8 @@
 		 ],
 	"commentStamp" : "",
 	"instvars" : [
-		 ],
+		"reentryState",
+		"promisedStreamID" ],
 	"name" : "H2PushPromiseContinuationFrameReceiver",
 	"pools" : [
 		 ],
