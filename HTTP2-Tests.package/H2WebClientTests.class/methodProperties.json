@@ -10,12 +10,12 @@
 		"exampleUrl" : "ms 7/6/2018 18:35" },
 	"instance" : {
 		"setUp" : "FCH 7/4/2018 14:26",
-		"testConvertToH2Request" : "ms 7/6/2018 18:27",
-		"testConvertToH2RequestWithContent" : "ms 7/6/2018 18:27",
+		"testConvertToH2Request" : "FCH 7/16/2018 18:13",
+		"testConvertToH2RequestWithContent" : "FCH 7/16/2018 18:13",
 		"testConvertToH2WebResponse" : "ms 7/6/2018 18:26",
 		"testIsHttp" : "ms 7/6/2018 17:29",
 		"testIsHttp2" : "ms 7/6/2018 17:30",
-		"testPrioKnowledgeH2C" : "ms 7/6/2018 18:20",
+		"testPrioKnowledgeH2C" : "FCH 7/16/2018 18:10",
 		"testPrioKnowledgeHttp" : "ms 7/6/2018 18:20",
 		"testUpgradeToH2CFailure" : "ms 7/6/2018 18:25",
 		"testUpgradeToH2CSuccess" : "ms 7/6/2018 18:25" } }
