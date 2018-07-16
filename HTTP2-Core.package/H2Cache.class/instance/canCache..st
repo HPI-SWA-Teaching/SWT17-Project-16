@@ -1,6 +1,6 @@
 testing
 canCache: aRequest
 
-	(self hasCacheableMethod: aRequest) ifFalse: [ ^false ].
+	(self hasCacheableMethod: aRequest) ifFalse: [^ false].
 
-	^true.
+	^ true

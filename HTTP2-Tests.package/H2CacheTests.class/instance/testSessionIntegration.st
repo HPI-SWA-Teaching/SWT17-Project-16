@@ -1,6 +1,5 @@
 testing
 testSessionIntegration
-	
 	| session mock request promise1 promise2 |
 	
 	mock := H2Mock on: String new.
@@ -8,10 +7,10 @@ testSessionIntegration
 	mock inStream reset.
 	
 	session := H2Session new
-					server: 'pseudoserver.name';
-					connection: (H2Connection newWith: mock);
-					cache: H2Cache new;
-					yourself.
+		server: 'pseudoserver.name';
+		connection: (H2Connection newWith: mock);
+		cache: H2Cache new;
+		yourself.
 	request := session newRequestFor: '/'.
 	
 	promise1 := session send: request.
