@@ -13,7 +13,7 @@ sendRequest: aRequest contentBlock: aContentBlock
 	
 			(self serverProtocolDictionary includesKey: self serverName)
 				ifFalse: [ response := self sendUpgrade: aRequest  contentBlock: aContentBlock ] 
-				ifTrue: [ response := self sendPriorKnowlege: aRequest  contentBlock: aContentBlock ].
+				ifTrue: [ response := self sendPriorKnowledge: aRequest  contentBlock: aContentBlock ].
 			
 			response url: (scheme, '://', server, aRequest rawUrl).
 			response request: aRequest.
