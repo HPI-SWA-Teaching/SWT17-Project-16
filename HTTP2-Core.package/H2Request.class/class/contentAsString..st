@@ -1,4 +1,4 @@
-as yet unclassified
+extracting
 contentAsString: contentBlock
 	| helperStream |
 	helperStream := ReadWriteStream on: ByteString new.

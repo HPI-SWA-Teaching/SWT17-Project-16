@@ -4,7 +4,7 @@
 		 ],
 	"classvars" : [
 		 ],
-	"commentStamp" : "FCH 7/16/2018 20:57",
+	"commentStamp" : "FCH 7/17/2018 09:24",
 	"instvars" : [
 		"h2Session",
 		"serverProtocolDictionary" ],
