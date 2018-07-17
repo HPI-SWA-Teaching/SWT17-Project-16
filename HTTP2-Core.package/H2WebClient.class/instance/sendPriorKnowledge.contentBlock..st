@@ -1,5 +1,5 @@
 sending
-sendPriorKnowlege: aRequest contentBlock: aContentBlock
+sendPriorKnowledge: aRequest contentBlock: aContentBlock
 
 	(self knownAsHttp2: self serverName)
 		ifTrue: [^ self sendHttp2: aRequest contentBlock: aContentBlock].

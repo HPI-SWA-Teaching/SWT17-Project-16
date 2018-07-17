@@ -17,8 +17,8 @@
 		"registerProtocol:for:" : "ms 7/6/2018 17:29",
 		"sendHttp2:contentBlock:" : "FCH 7/16/2018 18:06",
 		"sendHttp:contentBlock:" : "FCH 7/16/2018 18:06",
-		"sendPriorKnowlege:contentBlock:" : "FCH 7/16/2018 18:06",
-		"sendRequest:contentBlock:" : "FCH 7/4/2018 15:02",
+		"sendPriorKnowledge:contentBlock:" : "FCH 7/17/2018 06:27",
+		"sendRequest:contentBlock:" : "FCH 7/17/2018 06:27",
 		"sendUpgrade:contentBlock:" : "ms 7/6/2018 17:34",
 		"serverProtocolDictionary" : "FCH 6/20/2018 10:13",
 		"sslConnect:to:" : "ms 7/6/2018 17:38" } }
