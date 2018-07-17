@@ -1,0 +1,14 @@
+{
+	"category" : "HTTP2-Core",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		"Instance" ],
+	"commentStamp" : "MB 7/17/2018 16:25",
+	"instvars" : [
+		"cache" ],
+	"name" : "H2Cache",
+	"pools" : [
+		 ],
+	"super" : "Object",
+	"type" : "normal" }

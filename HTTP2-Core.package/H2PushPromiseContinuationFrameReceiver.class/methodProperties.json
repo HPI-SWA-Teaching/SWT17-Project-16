@@ -1,0 +1,11 @@
+{
+	"class" : {
+		"newFor:from:" : "MB 7/10/2018 15:29" },
+	"instance" : {
+		"process:" : "MB 6/17/2018 13:55",
+		"promisedStreamID" : "MB 7/10/2018 15:27",
+		"promisedStreamID:" : "MB 7/10/2018 15:27",
+		"receive:" : "MB 7/17/2018 11:46",
+		"receiveContinuationFrame:" : "MB 6/17/2018 14:08",
+		"reentryState" : "MB 7/10/2018 15:27",
+		"reentryState:" : "MB 7/10/2018 15:28" } }

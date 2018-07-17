@@ -1,0 +1,17 @@
+{
+	"class" : {
+		"cacheableMethods" : "MB 7/17/2018 11:41",
+		"instance" : "MB 7/8/2018 20:43" },
+	"instance" : {
+		"add:at:" : "MB 7/4/2018 00:03",
+		"addOrMerge:at:" : "MB 7/4/2018 00:10",
+		"addOrMergeEntryFor:on:with:" : "MB 7/4/2018 00:27",
+		"cache" : "MB 7/3/2018 11:02",
+		"cache:" : "MB 7/3/2018 11:02",
+		"canCache:" : "ms 7/16/2018 17:19",
+		"clear" : "MB 7/17/2018 11:09",
+		"getEntryFor:on:ifAbsent:" : "MB 7/4/2018 00:32",
+		"getIndexFor:on:" : "MB 7/4/2018 00:30",
+		"hasCacheableMethod:" : "MB 6/26/2018 11:39",
+		"hasValidEntryFor:on:" : "MB 7/4/2018 00:28",
+		"merge:at:" : "MB 7/4/2018 00:03" } }

@@ -7,7 +7,8 @@
 	"commentStamp" : "H. G. 8/4/2017 22:13",
 	"instvars" : [
 		"server",
-		"connection" ],
+		"connection",
+		"cache" ],
 	"name" : "H2Session",
 	"pools" : [
 		 ],

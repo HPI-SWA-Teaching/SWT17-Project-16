@@ -1,0 +1,1 @@
+In this state the potential trailing headers can be processed, however after this header no more frames are allowed, therefore this has it's own state.

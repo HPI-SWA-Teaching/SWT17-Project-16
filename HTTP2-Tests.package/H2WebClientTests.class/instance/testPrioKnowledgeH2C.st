@@ -7,6 +7,7 @@ testPrioKnowledgeH2C
 	
 	webclient registerProtocol: #h2c for: self class exampleServerName. 
 	
+	webclient h2Session cache: H2Cache new.
 	response := webclient httpGet: self class exampleUrl. 
 	
 	self
