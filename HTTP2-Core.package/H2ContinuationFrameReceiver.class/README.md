@@ -1,1 +1,1 @@
-A H2ContinuationFrameReceiver is the second receiving state a H2Stream is in. In this state, the stream waits for more header data if the first headers frame was to small. If the first headers frame was sufficient, the stream goes directly into the H2DataFrameReceiver state.
+In this state, the stream waits for more header data if the headers frame was to small.

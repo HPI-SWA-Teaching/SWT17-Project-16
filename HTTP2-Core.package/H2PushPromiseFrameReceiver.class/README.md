@@ -1,0 +1,1 @@
+In this state incoming PushPromise frames are processed. The preceding state and its flags are preserved as the PushPromise frames can come anytime during the response and do not change the state of the state maschine except for the receiving of receiving the pushpromise frame and it's continuation frames itself.

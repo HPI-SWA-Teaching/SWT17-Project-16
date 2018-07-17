@@ -1,0 +1,1 @@
+This state processes the continuation frames corresponding to a trailer header.
