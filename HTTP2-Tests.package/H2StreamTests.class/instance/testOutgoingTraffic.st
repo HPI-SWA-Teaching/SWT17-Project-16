@@ -1,7 +1,7 @@
 testing
 testOutgoingTraffic
 	| header stream request headerBlock data |
-	header := H2HeaderTests standardHeader.
+	header := H2StreamTests standardRequestHeader.
 	headerBlock := header encode: H2HPACKIndexTable new.
 	data := 'some data' asByteArray.
 	request := (H2Request new)
@@ -12,13 +12,13 @@ testOutgoingTraffic
 	self assert: 
 			(stream nextFrame: 10) 
 		equals: 
-			(H2FrameTests standardHeadersFrameFor: (headerBlock first: 10)) encode.
+			(H2StreamTests unflaggedHeaderFrameFor: (headerBlock first: 10)) encode.
 	self assert:
 			(stream nextFrame: 100)
 		equals:
-			(H2FrameTests standardContinuationFrameFor: (headerBlock copyFrom: 11 to: headerBlock size)) encode.
+			(H2StreamTests lastContinuationFrameFor: (headerBlock copyFrom: 11 to: headerBlock size)) encode.
 	self assert:
 			(stream nextFrame: 100)
 		equals:
-			(H2FrameTests standardDataFrameFor: data) encode.
+			(H2StreamTests veryLastDataFrameFor: data) encode.
 	self assert: stream sender class equals: H2NullSender

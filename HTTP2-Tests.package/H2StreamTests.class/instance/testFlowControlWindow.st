@@ -1,23 +1,22 @@
 testing
 testFlowControlWindow
-	| http2stream request frame |
-	request := H2Request new.
-		request header: (H2Header new
-			add: ':method'->'GET';
-			add: ':authoritiy'->'www.example.com';
-			add: 'bla'->'blubblubblub';
-			yourself).
-		request data: 'just put some data here'.
-	http2stream := H2Stream new: 3 for: request connection: H2Connection new.
-	self assert: http2stream flowControlWindow equals: H2Connection standardWindowSize.
-	http2stream updateWindowSize: (H2Connection standardWindowSize) negated + 20.
-	self assert: http2stream flowControlWindow equals: 20.
-	frame := http2stream nextFrame: 10000.
-	self deny: http2stream isAbleToSend.
-	self assert: http2stream flowControlWindow equals: 0.
-	frame := H2WindowUpdateFrame new increment: 200;
-		streamIdentifier: 3;
-		yourself.
-	frame receiveOnStream: http2stream.
-	self assert: http2stream isAbleToSend.
-	self assert: http2stream flowControlWindow equals: 200.
+
+	stream request: (H2Request new
+		header: H2StreamTests standardRequestHeader;
+		data: 'some data so the stream is able to send after the header frames';
+		yourself).
+	self assert: stream flowControlWindow equals: H2Connection standardWindowSize.
+	
+	stream updateWindowSize: (H2Connection standardWindowSize) negated + 20.
+	self assert: stream flowControlWindow equals: 20.
+	
+	stream nextFrame: 10000.
+	self assert: stream flowControlWindow equals: 0.
+	self deny: stream isAbleToSend.
+	
+	(H2WindowUpdateFrame new
+		streamIdentifier: 5;
+		increment: 200;
+		yourself) receiveOnStream: stream.
+	self assert: stream flowControlWindow equals: 200.
+	self assert: stream isAbleToSend.
