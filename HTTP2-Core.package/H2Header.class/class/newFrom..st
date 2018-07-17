@@ -1,9 +1,9 @@
-private
-h2HeaderFor: aWebRequest
+instance creation
+newFrom: aWebRequest 
 	^ H2Header new
 		add: ':method'   -> aWebRequest method;
 		add: ':path'        -> aWebRequest rawUrl;
 		add: ':scheme'   -> 'http';
-		add: ':authority' -> self server;
-		addAll: (self headerAssociationsFrom: aWebRequest);
+		add: ':authority' -> (aWebRequest headerAt: 'Host');
+		addAll: (self extractHeaderFrom: aWebRequest);
 		yourself.

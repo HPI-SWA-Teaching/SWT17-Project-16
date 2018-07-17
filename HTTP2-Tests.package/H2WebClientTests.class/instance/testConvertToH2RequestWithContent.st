@@ -6,8 +6,9 @@ testConvertToH2RequestWithContent
 	request := WebRequest new 
 		initializeFromUrl: self class exampleUrl;
 		method: 'GET';
+		headerAt: 'Host' put: self class exampleServer;
 		yourself.
-	H2request := webclient convertToH2Request: request with: self class exampleContentBlock. 
+	H2request := H2Request newFrom: request with: self class exampleContentBlock. 
 	
 	self
 		assert: (H2request header at: ':method') = 'GET';
