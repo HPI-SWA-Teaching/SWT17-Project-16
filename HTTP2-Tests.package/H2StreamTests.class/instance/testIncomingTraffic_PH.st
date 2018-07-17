@@ -9,7 +9,7 @@ testIncomingTraffic_PH
 	self receiveClosingHeader: header inParts: 1.
 	
 	self assert: (stream promise waitTimeoutMSecs: 10) description: 'promise didn''t resolve'.
-	pushedStream := stream connection activeStreams at: 6. "this raises an error should the stream not exist"
+	self shouldnt: [ pushedStream := stream connection activeStreams at: 6. ] raise: Exception.
 	self assert: pushHeader equals: pushedStream request header.
 	self assert: H2HeadersFrameReceiver equals: pushedStream receiver class.
 	self assert: header equals: stream promise value header.

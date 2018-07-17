@@ -1,4 +1,4 @@
 interface
-empty
+clear
 
 	self cache removeAll

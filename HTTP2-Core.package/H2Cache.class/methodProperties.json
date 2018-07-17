@@ -1,6 +1,6 @@
 {
 	"class" : {
-		"cacheableMethods" : "MB 6/26/2018 11:12",
+		"cacheableMethods" : "MB 7/17/2018 11:41",
 		"instance" : "MB 7/8/2018 20:43" },
 	"instance" : {
 		"add:at:" : "MB 7/4/2018 00:03",
@@ -9,7 +9,7 @@
 		"cache" : "MB 7/3/2018 11:02",
 		"cache:" : "MB 7/3/2018 11:02",
 		"canCache:" : "ms 7/16/2018 17:19",
-		"empty" : "MB 7/10/2018 11:35",
+		"clear" : "MB 7/17/2018 11:09",
 		"getEntryFor:on:ifAbsent:" : "MB 7/4/2018 00:32",
 		"getIndexFor:on:" : "MB 7/4/2018 00:30",
 		"hasCacheableMethod:" : "MB 6/26/2018 11:39",

@@ -1,6 +1,6 @@
 testing
-testFillAndEmpty
+testFillAndClear
 
 	self testAddCacheEntry.
-	self cache empty.
+	self cache clear.
 	self assert: self cache cache equals: Dictionary new.

@@ -1,7 +1,7 @@
 {
 	"class" : {
-		"expireDuration" : "MB 7/3/2018 23:25",
-		"newForRequest:onServer:withPromise:" : "MB 7/3/2018 23:26" },
+		"newForRequest:onServer:withPromise:" : "MB 7/17/2018 11:36",
+		"timeToExpire" : "MB 7/17/2018 11:35" },
 	"instance" : {
 		"expires" : "MB 7/3/2018 14:46",
 		"expires:" : "MB 7/3/2018 14:46",

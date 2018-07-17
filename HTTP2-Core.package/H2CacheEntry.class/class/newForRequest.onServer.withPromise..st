@@ -5,5 +5,5 @@ newForRequest: aRequest onServer: server withPromise: aPromise
 		server: server;
 		request: aRequest;
 		promise: aPromise;
-		expires: (TimeStamp now + self expireDuration);
+		expires: (TimeStamp now + self timeToExpire);
 		yourself

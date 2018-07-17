@@ -1,4 +1,4 @@
 constants
-expireDuration
+timeToExpire
 
 	^ 1 day
