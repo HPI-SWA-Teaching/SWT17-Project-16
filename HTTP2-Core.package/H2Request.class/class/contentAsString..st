@@ -5,4 +5,4 @@ contentAsString: contentBlock
 	contentBlock value: helperStream.
 	^ helperStream
 		reset;
-		upToEnd.
+		upToEnd
