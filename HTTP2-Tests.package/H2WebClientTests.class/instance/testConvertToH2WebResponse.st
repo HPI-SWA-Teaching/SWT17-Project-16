@@ -3,8 +3,8 @@ testConvertToH2WebResponse
 	| promise webresponse |
 	
 	mock inStream nextPutAll: H2Mock standardContentOnStream3 asString.	
-	mock inStream reset.	
-	
+	mock inStream reset.
+	Delay waitTimeoutMSecs: 20.
 	promise := webclient h2Session send: (webclient h2Session newRequestFor: self class examplePath).
 	webresponse := webclient h2Session newH2WebResponseFor: promise.
 	promise := promise value.
