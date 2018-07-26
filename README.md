@@ -21,3 +21,16 @@ After customizing your request you can send it asynchronously via the session, w
 ```
 promise := session send: request
 ```
+#### H2WebClient
+
+Or you use an `H2WebClient`, which have the same behavior like `WebClient`
+At first you have to create an instance of them:
+```
+webclient := H2WebClient new.
+```
+After then you can create an Request as with `WebClient`.
+For example:
+```
+webclient httpGet 'https://www.google.com'
+```
+If the server support http2, the response is an instance of `H2WebResponse` else `WebReponse`
