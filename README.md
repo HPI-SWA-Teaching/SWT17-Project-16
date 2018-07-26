@@ -23,14 +23,14 @@ promise := session send: request
 ```
 #### H2WebClient
 
-Or you use an `H2WebClient`, which have the same behavior like `WebClient`
-At first you have to create an instance of them:
+Or you use a `H2WebClient`, which has the same behavior like `WebClient`
+At first you have to create an instance of it:
 ```
 webclient := H2WebClient new.
 ```
-After then you can create an Request as with `WebClient`.
+After that you can create a Request (equivalent to `WebClient`).
 For example:
 ```
 webclient httpGet 'https://www.google.com'
 ```
-If the server support http2, the response is an instance of `H2WebResponse` else `WebReponse`
+If the server supports http2, the response is an instance of `H2WebResponse` else `WebReponse`.
