@@ -1,4 +1,4 @@
-# HTTP/2 [![Build Status](https://travis-ci.org/hpi-swa-teaching/HTTP-2.svg?branch=developer)](https://travis-ci.org/hpi-swa-teaching/HTTP-2) [![Coverage Status](https://coveralls.io/repos/github/hpi-swa-teaching/HTTP-2/badge.svg?branch=developer)](https://coveralls.io/github/hpi-swa-teaching/HTTP-2?branch=developer)
+# HTTP/2 [![Build Status](https://travis-ci.org/hpi-swa-teaching/HTTP-2.svg?branch=master)](https://travis-ci.org/hpi-swa-teaching/HTTP-2) [![Coverage Status](https://coveralls.io/repos/github/hpi-swa-teaching/HTTP-2/badge.svg?branch=master)](https://coveralls.io/github/hpi-swa-teaching/HTTP-2?branch=master
 
 ## This project
 The goal is to build a basic HTTP/2 implementation. It should cover most of the protocol specifications from [RFC 7540 (HTTP/2)](https://tools.ietf.org/html/rfc7540) and [RFC 7541 (HPACK)](https://tools.ietf.org/html/rfc7541).
