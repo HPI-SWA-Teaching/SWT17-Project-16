@@ -1,13 +1,19 @@
 {
 	"class" : {
+		"extractHeaderFrom:" : "tm 7/17/2018 15:27",
+		"newFrom:" : "tm 7/17/2018 15:29",
 		"newFrom:in:" : "H. G. 8/4/2017 21:59" },
 	"instance" : {
 		"=" : "H. G. 7/29/2017 13:18",
 		"add:" : "DS 6/1/2017 18:26",
+		"addAll:" : "ms 7/6/2018 16:00",
 		"addNeverIndexing:value:" : "H. G. 8/4/2017 22:00",
 		"addWithIndexing:value:" : "H. G. 8/4/2017 22:00",
 		"addWithoutIndexing:value:" : "H. G. 8/4/2017 22:00",
+		"asOrderedCollection" : "FCH 5/30/2018 12:33",
 		"at:" : "H. G. 7/29/2017 13:16",
+		"at:ifAbsent:" : "MB 7/9/2018 16:22",
+		"at:ifPresent:" : "MB 7/9/2018 16:23",
 		"dictionary" : "H. G. 7/29/2017 13:13",
 		"dictionary:" : "jp 8/4/2017 11:34",
 		"encode:" : "H. G. 7/29/2017 13:15",

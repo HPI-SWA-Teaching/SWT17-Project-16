@@ -1,0 +1,4 @@
+accessing
+connectionActive
+	
+	^ connectionActive

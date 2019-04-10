@@ -1,0 +1,19 @@
+{
+	"class" : {
+		"cacheableRequest" : "ms 7/16/2018 17:23",
+		"serverName" : "MB 7/3/2018 10:56" },
+	"instance" : {
+		"cache" : "MB 7/3/2018 13:39",
+		"cache:" : "MB 7/3/2018 13:39",
+		"promise" : "MB 7/3/2018 13:39",
+		"promise:" : "MB 7/3/2018 13:39",
+		"request" : "MB 7/3/2018 13:39",
+		"request:" : "MB 7/3/2018 13:39",
+		"setUp" : "MB 7/3/2018 13:39",
+		"testAddCacheEntry" : "ms 7/16/2018 17:26",
+		"testCacheHit" : "ms 7/16/2018 17:25",
+		"testCacheMiss" : "ms 7/16/2018 17:25",
+		"testCacheMissUpdate" : "ms 7/16/2018 17:26",
+		"testCreation" : "MB 7/3/2018 13:40",
+		"testFillAndClear" : "MB 7/17/2018 11:10",
+		"testSessionIntegration" : "ms 7/16/2018 17:27" } }

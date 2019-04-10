@@ -11,24 +11,27 @@ testRequestResponseCommunication
 	frame := H2HeadersFrame new
 		payload: (request header encode: H2HPACKIndexTable new);
 		streamIdentifier: 3;
-		flagEndStream: 1;
-		flagEndHeaders: 1;
 		yourself.
+	frame flags
+		endStream: true;
+		endHeaders: true.
 	self assert: mockStream outStream contents equals: frame encode.
 	response := self exampleResponse.
 	frame := H2HeadersFrame new
 		payload: (response header encode: H2HPACKIndexTable new);
 		streamIdentifier: 3;
-		flagEndHeaders: 1;
 		yourself.
+	frame flags endHeaders: true.
+	
 	mockStream inStream addAll: frame encode.
 	frame := H2DataFrame new
 		payload: response data;
 		streamIdentifier: 3;
-		flagEndStream: 1;
 		yourself.
+	frame flags endStream: true.
+	
 	mockStream inStream addAll: frame encode.
-	promise then: [:resp |
-		self assert: resp header equals: response header.
-		self assert: resp data equals: response data asByteArray.
-		self assert: connection activeStreams isEmpty]
+	self assert: (promise waitTimeoutMSecs: 20) description: 'promise didn''t resolve'.
+	self assert: promise value header equals: response header.
+	self assert: promise value data equals: response data asByteArray.
+	self assert: connection activeStreams isEmpty

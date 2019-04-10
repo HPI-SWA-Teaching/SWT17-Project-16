@@ -1,0 +1,7 @@
+constants
+upgradeHeaders
+	^ {
+		'Connection' -> 'Upgrade,HTTP2-Settings'.
+		'Upgrade' -> 'h2c'.
+		'HTTP2-Settings' -> 'AAMAAABkAARAAAAAAAIAAAAA'
+	} asOrderedCollection

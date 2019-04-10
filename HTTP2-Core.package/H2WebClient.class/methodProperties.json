@@ -1,0 +1,24 @@
+{
+	"class" : {
+		"alpnProtocols" : "ms 7/6/2018 16:42",
+		"http2Protocols" : "ms 7/6/2018 16:41",
+		"httpProtocols" : "ms 7/6/2018 16:41",
+		"upgradeHeaders" : "ms 7/6/2018 17:18" },
+	"instance" : {
+		"close" : "FCH 5/25/2018 15:12",
+		"h2Session" : "FCH 6/13/2018 14:30",
+		"h2Session:" : "FCH 5/25/2018 12:18",
+		"isServer:registeredWithProtocolIn:" : "ms 7/6/2018 16:47",
+		"isSwitchingProtocols:" : "ms 7/6/2018 17:25",
+		"knownAsHttp2:" : "ms 7/6/2018 16:51",
+		"knownAsHttp:" : "ms 7/6/2018 16:51",
+		"registerAsHttp2:" : "ms 7/6/2018 17:34",
+		"registerAsHttp:" : "ms 7/6/2018 17:33",
+		"registerProtocol:for:" : "ms 7/6/2018 17:29",
+		"sendHttp2:contentBlock:" : "FCH 7/16/2018 18:06",
+		"sendHttp:contentBlock:" : "FCH 7/16/2018 18:06",
+		"sendPriorKnowledge:contentBlock:" : "FCH 7/17/2018 06:27",
+		"sendRequest:contentBlock:" : "tm 7/17/2018 15:31",
+		"sendUpgrade:contentBlock:" : "ms 7/6/2018 17:34",
+		"serverProtocolDictionary" : "FCH 6/20/2018 10:13",
+		"sslConnect:to:" : "ms 7/6/2018 17:38" } }

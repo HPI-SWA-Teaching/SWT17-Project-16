@@ -1,0 +1,3 @@
+constants
+endStreamFlagPosition
+	^ 1

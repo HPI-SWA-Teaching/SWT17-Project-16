@@ -7,9 +7,9 @@
 		"exampleRequest" : "H. G. 8/4/2017 22:01",
 		"exampleResponse" : "H. G. 8/4/2017 22:01",
 		"testCloseConnection" : "H. G. 8/4/2017 21:49",
-		"testEstablishConnection" : "H. G. 8/4/2017 21:54",
+		"testEstablishConnection" : "ms 5/30/2018 19:28",
 		"testReceiveGoaway" : "H. G. 8/4/2017 21:51",
-		"testReceivePing" : "H. G. 8/4/2017 21:53",
-		"testRequestResponseCommunication" : "H. G. 8/4/2017 21:55",
+		"testReceivePing" : "ms 5/30/2018 19:24",
+		"testRequestResponseCommunication" : "MB 7/9/2018 15:57",
 		"testSocketConnectionClosed" : "H. G. 8/4/2017 21:49",
-		"testUpdatingSettings" : "H. G. 8/4/2017 21:54" } }
+		"testUpdatingSettings" : "ms 5/30/2018 19:38" } }

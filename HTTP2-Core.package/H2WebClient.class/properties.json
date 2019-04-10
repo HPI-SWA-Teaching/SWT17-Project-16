@@ -1,0 +1,15 @@
+{
+	"category" : "HTTP2-Core",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "FCH 7/17/2018 09:24",
+	"instvars" : [
+		"h2Session",
+		"serverProtocolDictionary" ],
+	"name" : "H2WebClient",
+	"pools" : [
+		 ],
+	"super" : "WebClient",
+	"type" : "normal" }

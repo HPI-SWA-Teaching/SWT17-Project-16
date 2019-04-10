@@ -1,0 +1,3 @@
+constants
+exclusiveBitPosition
+	^ 32

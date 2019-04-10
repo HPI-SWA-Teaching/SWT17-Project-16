@@ -1,0 +1,14 @@
+{
+	"category" : "HTTP2-Core",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "MB 7/17/2018 16:38",
+	"instvars" : [
+		 ],
+	"name" : "H2TrailerContinuationFrameReceiver",
+	"pools" : [
+		 ],
+	"super" : "H2ReceivingState",
+	"type" : "normal" }

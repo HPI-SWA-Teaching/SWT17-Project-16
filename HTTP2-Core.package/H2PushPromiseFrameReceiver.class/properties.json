@@ -1,0 +1,15 @@
+{
+	"category" : "HTTP2-Core",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "MB 7/17/2018 16:34",
+	"instvars" : [
+		"reentryState",
+		"promisedStreamID" ],
+	"name" : "H2PushPromiseFrameReceiver",
+	"pools" : [
+		 ],
+	"super" : "H2ReceivingState",
+	"type" : "normal" }

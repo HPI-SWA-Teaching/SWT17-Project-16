@@ -1,0 +1,16 @@
+{
+	"category" : "HTTP2-Tests",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "",
+	"instvars" : [
+		"cache",
+		"request",
+		"promise" ],
+	"name" : "H2CacheTests",
+	"pools" : [
+		 ],
+	"super" : "TestCase",
+	"type" : "normal" }
